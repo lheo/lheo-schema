@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	NOTE: this DTD has attributes with default values.
+	The generated DTD from the GML definition has not.
+	The implementation of tools using GML definitions should
+	not assume that the DTD is present and then, those values
+	are just defined for convenience. The normative version of the
+	GML definition is 'gml.xml'.
+
+	TODO: add a flag in "date" content to specify whether the date
+	should be a real one or not.
+
+	TODO: add an attribute to each key: @namespace to identify the namespace
+	of the dictionary.
+
+	TODO: int is 64 bits (long long in C99, long in Java).
+
+	TODO: float is 64 bits (double in C99, double in Java).
+
+	TODO: for TEXT, NAME, ID, IDREF, max size is limited to
+	INT_MAX (32 bits). This should be used as a default value.
+-->
+<!ELEMENT definitions (namespace*, definition*, dict*, property*)>
+
+<!ATTLIST definitions 
+	  xmlns CDATA #FIXED "http://www.gelaba.org/gml/1.0"
+	  xmlns:pgml CDATA #FIXED "http://www.gelaba.org/pgml"
+	  language CDATA #REQUIRED
+	  prefix CDATA #REQUIRED
+	  version CDATA #IMPLIED 
+	  default_root CDATA #IMPLIED
+	  xml:lang CDATA "en">
+
+<!ELEMENT namespace (fullname*, doc*)>
+<!ATTLIST namespace
+	  prefix CDATA #REQUIRED
+	  href CDATA #REQUIRED>
+
+<!ELEMENT definition (fullname*, doc*, element_type, attribute*, property*)>
+
+<!ATTLIST definition 
+	  name NMTOKEN #REQUIRED
+	  namespace CDATA #IMPLIED>
+
+<!ELEMENT element_type (sequence | choice | empty | basic_int | basic_float | basic_date | basic_text | basic_name | basic_key | basic_data)>
+
+<!ELEMENT sequence (element+)>
+
+<!ELEMENT element (doc*)>
+
+<!ATTLIST element 
+	  name NMTOKEN #REQUIRED 
+	  min CDATA "1" 
+	  max CDATA "1"
+	  namespace CDATA #IMPLIED>
+
+<!ELEMENT choice (choice_element+)>
+
+<!ATTLIST choice
+	  min CDATA "1" 
+	  max CDATA "1">
+
+<!ELEMENT choice_element (doc*)>
+
+<!ATTLIST choice_element 
+	  name NMTOKEN #REQUIRED
+	  namespace CDATA #IMPLIED>
+
+<!ELEMENT empty EMPTY>
+
+<!ELEMENT basic_int (doc*)>
+
+<!ATTLIST basic_int 
+	  vmin CDATA #IMPLIED 
+	  vmax CDATA #IMPLIED>
+
+<!ELEMENT basic_float (doc*)>
+
+<!ATTLIST basic_float
+	  vmin CDATA #IMPLIED 
+	  vmax CDATA #IMPLIED>
+
+<!ELEMENT basic_date (doc*)>
+
+<!ATTLIST basic_date
+	  vmin CDATA #IMPLIED 
+	  vmax CDATA #IMPLIED>
+
+<!ELEMENT basic_text (doc*)>
+
+<!ATTLIST basic_text
+	  lgmin CDATA "0"
+	  lgmax CDATA "0" 
+	  regexp CDATA #IMPLIED>
+
+<!ELEMENT basic_name (doc*)>
+
+<!ATTLIST basic_name
+	  lgmin CDATA "0"
+	  lgmax CDATA "0">
+
+<!ELEMENT basic_key (doc*)>
+
+<!ATTLIST basic_key
+	  ref NMTOKEN #REQUIRED>
+
+<!ELEMENT basic_data (doc*)>
+
+<!ELEMENT attribute (fullname*,doc*,attribute_type,property*)>
+
+<!ATTLIST attribute 
+	  name NMTOKEN #REQUIRED
+	  type (default|fixed|optional|required) #REQUIRED
+	  value CDATA #IMPLIED>
+
+<!ELEMENT attribute_type (attribute_int | attribute_float | attribute_date | attribute_text | attribute_name | attribute_key | attribute_embedded_key | attribute_id | attribute_idref | attribute_data)>
+
+<!ELEMENT attribute_int (doc*)>
+
+<!ATTLIST attribute_int 
+	  vmin CDATA #IMPLIED 
+	  vmax CDATA #IMPLIED>
+
+<!ELEMENT attribute_float (doc*)>
+
+<!ATTLIST attribute_float
+	  vmin CDATA #IMPLIED 
+	  vmax CDATA #IMPLIED>
+
+<!ELEMENT attribute_date (doc*)>
+
+<!ATTLIST attribute_date
+	  vmin CDATA #IMPLIED 
+	  vmax CDATA #IMPLIED>
+
+<!ELEMENT attribute_text (doc*)>
+
+<!ATTLIST attribute_text
+	  lgmin CDATA "0"
+	  lgmax CDATA "0" 
+	  regexp CDATA #IMPLIED>
+
+<!ELEMENT attribute_name (doc*)>
+
+<!ATTLIST attribute_name
+	  lgmin CDATA "0"
+	  lgmax CDATA "0">
+
+<!ELEMENT attribute_key (doc*)>
+
+<!ATTLIST attribute_key
+	  ref NMTOKEN #REQUIRED>
+
+<!ELEMENT attribute_embedded_key (doc*)>
+
+<!ATTLIST attribute_embedded_key
+	  ref NMTOKEN #REQUIRED>
+
+<!ELEMENT attribute_id (doc*)>
+
+<!ATTLIST attribute_id
+	  lgmin CDATA "0"
+	  lgmax CDATA "0">
+
+<!ELEMENT attribute_idref (doc*)>
+
+<!ATTLIST attribute_idref
+	  lgmin CDATA "0"
+	  lgmax CDATA "0">
+
+<!ELEMENT attribute_data (doc*)>
+
+<!ELEMENT fullname (#PCDATA)>
+
+<!ATTLIST fullname 
+	  xml:lang CDATA #REQUIRED>
+
+<!ELEMENT doc (#PCDATA)>
+
+<!ATTLIST doc 
+	  xml:lang CDATA #REQUIRED>
+
+<!ELEMENT property (doc*,data?)>
+
+<!ATTLIST property 
+	  name CDATA #REQUIRED 
+	  value CDATA #IMPLIED>
+
+<!ELEMENT data (#PCDATA)>
+
+<!ELEMENT dict (fullname*, doc*, entry*, property*)>
+
+<!ATTLIST dict
+	  name NMTOKEN #REQUIRED
+	  namespace CDATA #IMPLIED>
+
+<!ELEMENT entry (key+, value*, doc*)>
+
+<!ELEMENT key EMPTY>
+
+<!ATTLIST key 
+	  val CDATA #REQUIRED>
+
+<!ELEMENT value (data?)>
+
+<!ATTLIST value 
+	  xml:lang CDATA #IMPLIED 
+	  val CDATA #REQUIRED>
+
+<!ELEMENT examples (example*)>
+<!ATTLIST examples
+	  xmlns CDATA #FIXED "http://www.gelaba.org/gml/1.0"
+	  xml:lang CDATA #REQUIRED>
+
+<!ELEMENT example (doc*,example_content?,example_attribute*)>
+<!ATTLIST example
+	  name NMTOKEN #REQUIRED
+	  valid (yes|no) #REQUIRED>
+
+<!ELEMENT example_content (#PCDATA)>
+
+<!ELEMENT example_attribute EMPTY>
+<!ATTLIST example_attribute
+	  name NMTOKEN #REQUIRED
+	  value CDATA #REQUIRED>

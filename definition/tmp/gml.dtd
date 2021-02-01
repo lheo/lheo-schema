@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!ELEMENT definitions (definition*, dict*, property*)>
+
+<!ATTLIST definitions 
+	  xmlns CDATA #FIXED "http://www.gelaba.org/gml/1.0"
+	  xmlns:pgml CDATA #FIXED "http://www.gelaba.org/pgml"
+	  language CDATA #REQUIRED
+	  namespace CDATA #REQUIRED 
+	  default_root CDATA #IMPLIED
+	  xml:lang CDATA #REQUIRED>
+
+<!ELEMENT definition (fullname*, doc*, element_type, attribute*, property*)>
+
+<!ATTLIST definition 
+	  name ID #REQUIRED>
+
+<!ELEMENT element_type (sequence | choice | empty | basic_int | basic_float | basic_date | basic_text | basic_name | basic_key | basic_data)>
+
+<!ELEMENT sequence (element+)>
+
+<!ELEMENT element (doc*)>
+
+<!ATTLIST element 
+	  name IDREF #REQUIRED 
+	  min CDATA "1" 
+	  max CDATA "1">
+
+<!ELEMENT choice (choice_element+)>
+
+<!ATTLIST choice
+	  min CDATA "1" 
+	  max CDATA "1">
+
+<!ELEMENT choice_element (doc*)>
+
+<!ATTLIST choice_element name IDREF #REQUIRED>
+
+<!ELEMENT empty EMPTY>
+
+<!ELEMENT basic_int (doc*, property*, example*)>
+
+<!ATTLIST basic_int 
+	  vmin CDATA #IMPLIED 
+	  vmax CDATA #IMPLIED>
+
+<!ELEMENT basic_float (doc*, property*, example*)>
+
+<!ATTLIST basic_float
+	  vmin CDATA #IMPLIED 
+	  vmax CDATA #IMPLIED>
+
+<!ELEMENT basic_date (doc*, property*, example*)>
+
+<!ATTLIST basic_date
+	  vmin CDATA #IMPLIED 
+	  vmax CDATA #IMPLIED>
+
+<!ELEMENT basic_text (doc*, property*)>
+
+<!ATTLIST basic_text
+	  lgmin CDATA "0"
+	  lgmax CDATA "0" 
+	  regexp CDATA #IMPLIED>
+
+<!ELEMENT basic_name (doc*, property*)>
+
+<!ATTLIST basic_name
+	  lgmin CDATA "0"
+	  lgmax CDATA "0">
+
+<!ELEMENT basic_key (doc*, property*)>
+
+<!ATTLIST basic_key
+	  ref IDREF #REQUIRED>
+
+<!ELEMENT basic_data (doc*, property*)>
+
+<!ELEMENT attribute (fullname*,doc*,attribute_type,property*)>
+
+<!ATTLIST attribute 
+	  name NMTOKEN #REQUIRED
+	  type (default|fixed|optional|required) #REQUIRED
+	  value CDATA #IMPLIED>
+
+<!ELEMENT attribute_type (attribute_int | attribute_float | attribute_date | attribute_text | attribute_name | attribute_key | attribute_embedded_key | attribute_id | attribute_idref)>
+
+<!ELEMENT attribute_int (doc*, property*)>
+
+<!ATTLIST attribute_int 
+	  vmin CDATA #IMPLIED 
+	  vmax CDATA #IMPLIED>
+
+<!ELEMENT attribute_float (doc*, property*)>
+
+<!ATTLIST attribute_float
+	  vmin CDATA #IMPLIED 
+	  vmax CDATA #IMPLIED>
+
+<!ELEMENT attribute_date (doc*, property*)>
+
+<!ATTLIST attribute_date
+	  vmin CDATA #IMPLIED 
+	  vmax CDATA #IMPLIED>
+
+<!ELEMENT attribute_text (doc*, property*)>
+
+<!ATTLIST attribute_text
+	  lgmin CDATA "0"
+	  lgmax CDATA "0" 
+	  regexp CDATA #IMPLIED>
+
+<!ELEMENT attribute_name (doc*, property*)>
+
+<!ATTLIST attribute_name
+	  lgmin CDATA "0"
+	  lgmax CDATA "0">
+
+<!ELEMENT attribute_key (doc*, property*)>
+
+<!ATTLIST attribute_key
+	  ref IDREF #REQUIRED>
+
+<!ELEMENT attribute_embedded_key (doc*, property*)>
+
+<!ATTLIST attribute_embedded_key
+	  ref IDREF #REQUIRED>
+
+<!ELEMENT attribute_id (doc*, property*)>
+
+<!ATTLIST attribute_id
+	  lgmin CDATA "0"
+	  lgmax CDATA "0">
+
+<!ELEMENT attribute_idref (doc*, property*)>
+
+<!ATTLIST attribute_idref
+	  lgmin CDATA "0"
+	  lgmax CDATA "0">
+
+<!ELEMENT fullname (#PCDATA)>
+
+<!ATTLIST fullname 
+	  xml:lang CDATA #REQUIRED>
+
+<!ELEMENT doc (#PCDATA)>
+
+<!ATTLIST doc 
+	  xml:lang CDATA #REQUIRED>
+
+<!ELEMENT property (doc*,data?)>
+
+<!ATTLIST property 
+	  name CDATA #REQUIRED 
+	  value CDATA #IMPLIED>
+
+<!ELEMENT data (#PCDATA)>
+
+<!ELEMENT dict (fullname*, doc*, entry*, property*)>
+
+<!ATTLIST dict
+	  name ID #REQUIRED>
+
+<!ELEMENT entry (key+, value*, doc*, property*)>
+
+<!ELEMENT key EMPTY>
+
+<!ATTLIST key 
+	  val CDATA #REQUIRED>
+
+<!ELEMENT value (data?)>
+
+<!ATTLIST value 
+	  xml:lang CDATA #IMPLIED 
+	  val CDATA #REQUIRED>
+
+<!ELEMENT dictionaries (dict*)>
+<!ATTLIST dictionaries 
+	  xmlns CDATA #FIXED "http://www.gelaba.org/gml/1.0"
+	  xml:lang CDATA #REQUIRED>
+
+<!ELEMENT properties (property*)>
+<!ATTLIST properties 
+	  xmlns CDATA #FIXED "http://www.gelaba.org/gml/1.0"
+	  xml:lang CDATA #REQUIRED>
+
+<!ELEMENT attributes (attribute*)>
+<!ATTLIST attributes
+	  xmlns CDATA #FIXED "http://www.gelaba.org/gml/1.0"
+	  xml:lang CDATA #REQUIRED>
+
+<!ELEMENT examples (example*)>
+<!ATTLIST examples
+	  xmlns CDATA #FIXED "http://www.gelaba.org/gml/1.0"
+	  xml:lang CDATA #REQUIRED>
+
+<!ELEMENT example (doc*,example_content?,example_attribute*,property*)>
+<!ATTLIST example
+	  name NMTOKEN #REQUIRED
+	  valid (yes|no) #REQUIRED>
+
+<!ELEMENT example_content (#PCDATA)>
+
+<!ELEMENT example_attribute EMPTY>
+<!ATTLIST example_attribute
+	  name NMTOKEN #REQUIRED
+	  value CDATA #REQUIRED>

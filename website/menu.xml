@@ -1,0 +1,38 @@
+<ul id="side-nav">
+  <li id="menu-index">
+    <a href="/">Introduction</a>
+  </li>
+  <li id="menu-langage">
+    <a href="/lheo.html">Description de LHÉO</a>
+  </li>
+  <li id="menu-glossaire">
+    <a href="/glossaire.html">Glossaire de LHÉO</a>
+  </li>
+  <li id="menu-tables">
+    <a href="/tables.html">Tables de LHÉO</a>
+  </li>
+  <li id="menu-services">
+    <a href="/services.html">Services WEB</a>
+  </li>
+  <li id="menu-download">
+    <a href="/download.html">Téléchargements</a>
+  </li>
+  <li id="menu-edition">
+    <a href="/edition.html">Édition d'offres</a>
+  </li>
+  <li id="menu-base">
+    <a href="/base.html">Base exemple</a>
+  </li>
+  <li id="menu-mail">
+    <a href="/mail.html">S'abonner à LHEO</a>
+  </li>
+  <li id="menu-faq">
+    <a href="/faq.html">Foire aux questions (FAQ)</a>
+  </li>
+  <li id="menu-apropos">
+    <a href="/apropos.html">L'équipe projet LHEO</a>
+  </li>
+  <li id="menu-plan">
+    <a href="/plan.html">Plan du site</a>
+  </li>
+</ul>

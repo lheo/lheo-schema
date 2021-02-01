@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "gml.dtd">
+<dict xmlns="http://www.gelaba.org/gml/1.1" name="dict-regions-france">
+<fullname xml:lang="fr">Régions françaises (2007)</fullname>
+<doc xml:lang="fr">Régions françaises version 2007 (source: INSEE).</doc>
+<entry>
+  <key val="01" />
+  <value xml:lang="fr" val="Guadeloupe" />
+  <property name="insee:cheflieu" value="97105" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="02" />
+  <value xml:lang="fr" val="Martinique" />
+  <property name="insee:cheflieu" value="97209" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="03" />
+  <value xml:lang="fr" val="Guyane" />
+  <property name="insee:cheflieu" value="97302" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="04" />
+  <value xml:lang="fr" val="La Réunion" />
+  <property name="insee:cheflieu" value="97411" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="11" />
+  <value xml:lang="fr" val="Île-de-France" />
+  <property name="insee:cheflieu" value="75056" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="21" />
+  <value xml:lang="fr" val="Champagne-Ardenne" />
+  <property name="insee:cheflieu" value="51108" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="22" />
+  <value xml:lang="fr" val="Picardie" />
+  <property name="insee:cheflieu" value="80021" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="23" />
+  <value xml:lang="fr" val="Haute-Normandie" />
+  <property name="insee:cheflieu" value="76540" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="24" />
+  <value xml:lang="fr" val="Centre" />
+  <property name="insee:cheflieu" value="45234" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="25" />
+  <value xml:lang="fr" val="Basse-Normandie" />
+  <property name="insee:cheflieu" value="14118" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="26" />
+  <value xml:lang="fr" val="Bourgogne" />
+  <property name="insee:cheflieu" value="21231" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="31" />
+  <value xml:lang="fr" val="Nord-Pas-de-Calais" />
+  <property name="insee:cheflieu" value="59350" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="41" />
+  <value xml:lang="fr" val="Lorraine" />
+  <property name="insee:cheflieu" value="57463" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="42" />
+  <value xml:lang="fr" val="Alsace" />
+  <property name="insee:cheflieu" value="67482" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="43" />
+  <value xml:lang="fr" val="Franche-Comté" />
+  <property name="insee:cheflieu" value="25056" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="52" />
+  <value xml:lang="fr" val="Pays de la Loire" />
+  <property name="insee:cheflieu" value="44109" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="53" />
+  <value xml:lang="fr" val="Bretagne" />
+  <property name="insee:cheflieu" value="35238" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="54" />
+  <value xml:lang="fr" val="Poitou-Charentes" />
+  <property name="insee:cheflieu" value="86194" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="72" />
+  <value xml:lang="fr" val="Aquitaine" />
+  <property name="insee:cheflieu" value="33063" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="73" />
+  <value xml:lang="fr" val="Midi-Pyrénées" />
+  <property name="insee:cheflieu" value="31555" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="74" />
+  <value xml:lang="fr" val="Limousin" />
+  <property name="insee:cheflieu" value="87085" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="82" />
+  <value xml:lang="fr" val="Rhône-Alpes" />
+  <property name="insee:cheflieu" value="69123" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="83" />
+  <value xml:lang="fr" val="Auvergne" />
+  <property name="insee:cheflieu" value="63113" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="91" />
+  <value xml:lang="fr" val="Languedoc-Roussillon" />
+  <property name="insee:cheflieu" value="34172" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="93" />
+  <value xml:lang="fr" val="Provence-Alpes-Côte d'Azur" />
+  <property name="insee:cheflieu" value="13055" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<entry>
+  <key val="94" />
+  <value xml:lang="fr" val="Corse" />
+  <property name="insee:cheflieu" value="2A004" />
+  <property name="iso:pays" value="FR" />
+</entry>
+<property name="version" value="2007" />
+<property name="wikipedia" value="http://fr.wikipedia.org/wiki/Région_française" />
+<property name="url" value="http://www.insee.fr/fr/nom_def_met/nomenclatures/cog/cog.telechargement.asp" />
+</dict>

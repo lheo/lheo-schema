@@ -1,0 +1,542 @@
+/*
+	Feuille de style pour lheo.org
+*/	
+
+html { 
+		min-width: 742px;
+	 }
+
+img	{
+	border: 0;
+	}
+
+body	{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border: 0;	
+	background: #ddb url(/s1/centre-fond.gif) top center repeat-y;
+	color: #774;
+	font: small/1.4 "Lucida Grande", "Trebuchet MS", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;
+	}
+
+div#messagecache { display: none; visibility: hidden; }
+
+div#wrapper	{
+	color: #774;
+	background: transparent url(/s1/fond-centre.gif) top left repeat-y;
+	width: 742px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	}
+
+div#maincontent 	{
+	float: left;
+	width: 440px;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	/* False margin value for all versions of IE Win, including 6.0 */	
+	margin-left: 6px;
+	}
+
+html>body div#maincontent {
+	/* Correct value for browsers that don't suffer from IE Win's bugs */
+	margin-left: 12px;
+	/*	min-height: 400px;*/
+	min-height: 800px;
+	}
+
+div#sidebar	{
+	margin: 0 0 0 472px;
+	padding: 0;
+	width: 230px;
+	border: 0;
+	}
+
+div#footer	{
+	clear: both;
+	border: 0;
+	border-top: 10px solid #eed;
+	background: #cc9;
+	color: #774;
+	width: 700px;
+	padding: 5px 0;
+	margin: 10px 0 10px 12px;
+	}
+
+	
+div#footer p	{
+	background: transparent url(/s1/logo-petit-brun.gif) center left no-repeat;	
+	font-size: 11px;
+	line-height: 18px;
+	margin: 0 0 0 10px;
+	padding: 0 0 0 100px;
+	}
+
+h1	{
+	text-indent: -9999px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+	
+h1 a:link, h1 a:visited	{
+	display: block;	
+	width: 700px;
+	height: 115px;
+	background: #cc9 url(/s1/bandeau.gif) top left no-repeat;
+	margin: 0 0 0 12px;
+	padding: 0;
+	border: 0;
+	}
+
+div#globalnav	{
+	height: 50px;
+	width: 700px;
+	margin: 0 0 0 12px;
+	padding: 0;
+	border: 0;
+	background: #eed;
+	}
+
+div#globalnav ul#menu	{
+	height: 40px;
+	width: 700px;
+	background: transparent url(/s1/navigation-noir-2.gif) top left no-repeat;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	}
+
+div#globalnav ul#menu li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top: 0;
+	}
+	
+ul#menu li, ul#menu a {
+	height: 40px;
+	display: block;
+	}
+	
+div#globalnav ul#menu li a {
+	text-indent: -9999px;
+	text-decoration: none;
+	}
+
+
+
+#apropos-menu	{left: 0; width: 108px;}
+#infos-menu	{left: 108px; width: 171px;}
+#langage-menu	{left: 279px; width: 134px;}
+#docs-menu {left: 413px; width: 124px;}
+#outils-menu	{left: 537px; width: 163px;}
+
+#apropos-menu a:hover	{background: transparent url(navigation-noir-2.gif) 0 -80px no-repeat;}
+#infos-menu a:hover {background: transparent url(navigation-noir-2.gif) -108px -80px no-repeat;}
+#langage-menu a:hover {background: transparent url(navigation-noir-2.gif) -279px -80px no-repeat;}
+#docs-menu a:hover {background: transparent url(navigation-noir-2.gif) -413px -80px no-repeat;}
+#outils-menu a:hover {background: transparent url(navigation-noir-2.gif) -537px -80px no-repeat;}
+
+body#apropos #apropos-menu {background: transparent url(navigation-noir-2.gif) 0 -40px no-repeat;}
+body#infos #infos-menu {background: transparent url(navigation-noir-2.gif) -108px -40px no-repeat;}
+body#langage #langage-menu {background: transparent url(navigation-noir-2.gif) -279px -40px no-repeat;}
+body#docs #docs-menu {background: transparent url(navigation-noir-2.gif) -413px -40px no-repeat;}
+body#outils #outils-menu {background: transparent url(navigation-noir-2.gif) -537px -40px no-repeat;}
+
+
+a:link, a:visited {
+	font-weight : bold; 
+	text-decoration : none;
+	color: #9a7;
+	background: transparent; 
+	}
+
+a:hover {
+	font-weight : bold; 
+	text-decoration : none;
+	color: #530;
+	background: transparent; 
+	}
+
+a:active {
+	font-weight : bold; 
+	text-decoration : none;
+	color: #9a7;
+	background: transparent;  
+	}
+
+div#maincontent p a:link, div#maincontent p a:visited {
+	text-decoration: underline;
+	} 
+
+div#maincontent p a:hover {
+	text-decoration: none;
+	} 
+
+
+	/* Typography 	*/
+	
+h2, h3, h4	{
+	font-weight: bold;
+	line-height: 1.2em;
+	margin: 15px 0 0 0;
+	}
+
+p	{
+	margin: 0 0 1em 0;
+	line-height: 140%;
+	}
+	
+div#maincontent h2	{
+	font-size: 18px;
+	}
+
+body#home div#maincontent h2	{
+	margin-top: 25px;
+	}
+
+body#home div#maincontent h2.follow	{
+	margin-top: 5px;
+	}
+
+div#maincontent h3	{
+	font-size: 14px;
+	}
+
+blockquote	{
+	padding: 0;
+	padding-left: 10px;
+	margin-left: 10px;
+	border: 0;
+	border-left: 1px dotted #9a7;
+	}
+
+blockquote p	{
+	font-weight: normal;
+	font-family: Georgia, "New Century Schoolbook", "Bitstream Vera Serif", Utopia, "Times New Roman", times, serif;
+	text-align: justify;
+	line-height: 150%;
+	font-size: small;
+	}
+
+h3.titreoffre {
+	font-weight: bold;
+	text-align: center;
+}
+h3.copyright {
+	font-weight: bold;
+	text-align: center;
+}
+h4.lien-lheo {
+	text-align: center;
+}
+
+code	{
+	font-family: monaco, "Bitstream Vera Sans Mono", "Courier New", courier, monospace;
+	font-weight: normal;
+	font-size: small;
+	}
+
+
+	/*   Sidebar navs and links 	*/
+	
+#sidebar dd, #sidebar dt {
+	margin-left: 0;
+	padding-left: 0;
+	line-height: 18px;
+	margin-bottom: 3px;
+	}
+
+body #sidebar dt 	{
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 25px;
+	background: transparent;
+	color: #ffe;
+	padding: 2px;
+	background: #9a7;
+	}
+
+#sidebar dd a:link, #sidebar dd a:visited {
+	font-weight : normal; 
+	}
+
+	/*  List frippery */
+
+/*
+div#cercle {
+	margin-left: 0;
+	padding-left: 0;
+}
+*/
+div#cercle ul {
+	margin: 0 0 0 8px;
+	padding: 0 0 5px 0;
+}
+div#cercle ul ul {
+	margin: 0 0 0 10px;
+	padding: 0 0 5px 0;
+}
+div#cercle ul ul {
+	margin: 0 0 0 15px;
+	padding: 0 0 5px 0;
+}
+
+div#cercle ul li	{
+	list-style: none outside;
+	}
+
+div#cercle ul ul li {
+	list-style: square outside;
+	}
+div#cercle ul ul ul li {
+	list-style: circle outside;
+	}
+
+div#maincontent ul 	{
+	margin: 3px 0;
+	padding: 0 0 5px 0;
+	}
+	
+div#maincontent ol li		{
+	list-style: decimal outside;
+	line-height: 140%;
+	margin: 0 5px 5px 0;
+	padding: 0 0 0 5px;
+	}
+
+div#maincontent ul li	{
+	line-height: 140%;
+	margin-bottom: 5px;
+	padding-bottom: 0;
+	padding-left: 5px;
+	margin-left: 5px;
+	list-style:square inside;
+	}
+	
+div#maincontent ul ul li {
+	margin-top: 10px;
+	list-style: square inside;
+	}
+
+div#maincontent ul.inlinelist	{
+	padding: 0;
+	margin: 0;
+	}
+
+div#maincontent .inlinelist li	{
+	display: inline;
+	padding: 0 5px 0 0;
+	margin: 0;
+	border: 0;
+	}	
+
+div#maincontent dl	{
+	margin-top: 5px;
+	padding-top: 0;
+	}
+	
+div#maincontent dl dt {
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border: 0;
+	border-bottom: 1px solid #cca;
+	line-height: 140%;
+	}
+	
+div#maincontent dl dd {
+	margin: 0 10px 15px 10px;
+	padding: 0;
+	text-align: justify;
+	}
+	
+div#maincontent dl#sockdrawer dd	{
+	font-size: x-small;
+	text-align: left;
+	padding: 0;
+	margin: 0 0 5px 0;
+	}
+
+/* Haxies */
+
+.floattenr	{
+	float: left; 
+	margin: 0 10px 0 0;
+	}
+	
+
+div.table table {
+	width: 95%;	
+	border-spacing: 0;
+	color: #000;
+	background: #eec;
+	margin: 1em 0 0 0;
+	}
+
+div.table table th {
+	border: 1px solid #ccb;	
+	background-color: #eec;
+	color: #000000;
+}
+
+div.table table td {
+	border: 1px solid #ccb; 
+	background-color: #eec;
+	color: #000000;
+/*	padding: 0.5em;
+	margin-bottom: 0.5em; 
+	margin-top: 2px;*/
+}
+
+
+
+
+div.description-element table.table-element {
+	width: 95%;	
+	border-spacing: 0;
+	color: #000;
+	background: #eec;
+	margin: 1em 0 0 0;
+	}
+
+div.description-element table.table-element tr.titre td{
+	/*	border: 1px solid #ccb;	*/
+	color: #ffe;
+	background: #9a7;
+}
+
+div.description-element table.table-element td {
+	/*	border: 1px solid #ccb; */
+	background-color: #eec;
+	color: #000000;
+/*	padding: 0.5em;
+	margin-bottom: 0.5em; 
+	margin-top: 2px;*/
+}
+
+div.table-niveaux table {
+	width: 95%;	
+	border-spacing: 0;
+	color: #000;
+	background: #eec;
+	margin: 1em 0 0 0;
+	border: 1px solid #000;	
+	}
+
+div.table-niveaux table tr {
+	border: 1px solid #000;	
+}
+
+div.table-niveaux table tr td.niveau {
+	/*	border: 1px solid #ccb;	*/
+	font-weight: bold;
+	color: #ffe;
+	background: #9a7;
+	text-align: center;
+	padding: 0 10px; 
+}
+
+div.table-niveaux table tr td {
+	/*	border: 1px solid #ccb; */
+	background-color: #eec;
+	color: #000000;
+	padding: 10px 10px; 
+/*	padding: 0.5em;
+	margin-bottom: 0.5em; 
+	margin-top: 2px;*/
+	border: 1px solid #000;	
+}
+
+
+
+div.toutpanel	{
+	background: #eec; 
+	border: 1px dotted #ccb; 
+	margin: 10px 0 10px 0;
+	padding: 0 10px; 
+	}
+
+pre	{
+	font-family: monaco, "Bitstream Vera Sans Mono", "Courier New", courier, monospace;
+	font-weight: normal;	
+	font-size: small;
+	background: #eec; 
+	border: 1px dotted #ccb; 
+	margin: 10px 0 10px 0;
+	padding: 0 10px; 
+	}
+
+div.offre {
+        border: 1px dotted #000;
+        margin: 10px 0 10px 0;
+        padding: 0 10px; 
+	}
+
+div.offre dl dd p.valeur {
+	background: #eec; 
+	border: 1px dotted #ccb; 
+	margin: 10px 0 10px 0;
+	padding: 0 10px; 
+	}
+
+div.offre dl dd p {
+	margin: 10px 0 10px 0;
+	padding: 0 10px; 
+	}
+
+
+div#cercle	{
+	background: #eec; 
+	border: 1px dotted #ccb;
+	/*margin: 0 0 10px 0;
+	padding: 0 10px; */
+	}
+	
+div.toutpanel p	{
+	margin-top: 5px;
+	background: transparent;
+	color: #663;
+	}
+
+
+
+body.langage-bugs dd#langage-bugs a,
+body.langage-style dd#langage-style a,
+body.langage-validation dd#langage-validation a,
+body.langage-exemples dd#langage-exemples a,
+body.langage-glossaire dd#langage-glossaire a,
+body.langage-tables dd#langage-tables a,
+body.langage-leger dd#langage-leger a,
+body.langage-faq dd#langage-faq a,
+body.langage-download dd#langage-download a,
+body.infos-home dd#infos-home a,
+body.langage-home dd#langage-home a,
+body.outils-home dd#outils-home a,
+body.outils-form dd#outils-form a,
+body.outils-recherche dd#outils-recherche a,
+body.outils-bd dd#outils-bd a,
+body.outils-style dd#outils-style a,
+body.outils-xml dd#outils-xml a,
+body.docs-home dd#docs-home a,
+body.docs-guide dd#docs-guide a,
+body.docs-reference dd#docs-reference a,
+body.apropos-home dd#apropos-home a,
+body.apropos-exemple dd#apropos-exemple a,
+body.infos-faq dd#infos-faq a,
+body.infos-mail dd#infos-mail a,
+body.infos-contacts dd#infos-contacts a,
+body.apropos-equipe dd#apropos-equipe a,
+body.apropos-elements dd#apropos-elements a,
+body.apropos-glossaire dd#apropos-glossaire a,
+body.apropos-tables dd#apropos-tables a,
+body.apropos-scenarii dd#apropos-scenarii a {
+	color: #530;
+	background: transparent;
+	}
+
+

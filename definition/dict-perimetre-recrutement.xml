@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "gml.dtd">
+<dict xmlns="http://www.gelaba.org/gml/1.1" name="dict-perimetre-recrutement">
+  <fullname xml:lang="fr">Périmètre de recrutement</fullname>
+  <doc xml:lang="fr">
+  </doc>
+    <entry>
+      <key val="0"/>
+      <value xml:lang="fr" val="Autres"/>
+    </entry>
+    <entry>
+      <key val="1"/>
+      <value xml:lang="fr" val="Commune"/>
+    </entry>
+    <entry>
+      <key val="2"/>
+      <value xml:lang="fr" val="Département"/>
+    </entry>
+    <entry>
+      <key val="3"/>
+      <value xml:lang="fr" val="Région"/>
+    </entry>
+    <entry>
+      <key val="4"/>
+      <value xml:lang="fr" val="Interrégion"/>
+    </entry>
+    <entry>
+      <key val="5"/>
+      <value xml:lang="fr" val="Pays"/>
+    </entry>
+    <entry>
+      <key val="6"/>
+      <value xml:lang="fr" val="International"/>
+    </entry>
+  <property name="version" value="V1" />
+  <property name="url" value="" />
+</dict>

@@ -1,0 +1,253 @@
+<dict name="dict-public-vise-formacode">
+  <fullname xml:lang="fr">Public visé (FORMACODE V9)</fullname>
+  <!-- ARTISAN -->
+  <entry>
+    <key val="80004" />
+    <value xml:lang="fr" val="artisan" />
+  </entry>
+  <!-- CADRE DEMANDEUR D'EMPLOI -->
+  <entry>
+    <key val="80007" />
+    <value xml:lang="fr" val="cadre demandeur d'emploi" />
+  </entry>
+  <!-- COMMERCANT -->
+  <entry>
+    <key val="80009" />
+    <value xml:lang="fr" val="commerçant" />
+  </entry>
+  <!-- AGENT DE LA FONCTION PUBLIQUE -->
+  <entry>
+    <key val="80055" />
+    <value xml:lang="fr" val="agent de la fonction publique" />
+  </entry>
+  <!-- AUTRE PUBLIC -->
+  <entry>
+    <key val="80099" />
+    <value xml:lang="fr" val="autre public" />
+  </entry>
+  <!-- BENEFICIAIRE ALLOCATION PARENT ISOLE -->
+  <entry>
+    <key val="80064" />
+    <value xml:lang="fr" val="bénéficiaire allocation parent isolé" />
+  </entry>
+  <!-- BENEFICIAIRE ALLOCATION SOLIDARITE SPECIFIQUE -->
+  <entry>
+    <key val="80063" />
+    <value xml:lang="fr" val="bénéficiaire allocation spécifique solidarité" />
+  </entry>
+  <!-- BENEVOLE -->
+  <entry>
+    <key val="80069" />
+    <value xml:lang="fr" val="bénévole" />
+  </entry>
+  <!-- CONJOINT COLLABORATEUR D'ARTISAN -->
+  <entry>
+    <key val="80060" />
+    <value xml:lang="fr" val="conjoint collaborateur d'artisan" />
+  </entry>
+  <!-- CONJOINT COLLABORATEUR D'EXPLOITANT AGRICOLE -->
+  <entry>
+    <key val="80062" />
+    <value xml:lang="fr" val="conjoint collaborateur d'exploitant agricole" />
+  </entry>
+  <!-- DEMANDEUR D'EMPLOI -->
+  <entry>
+    <key val="80011" />
+    <value xml:lang="fr" val="demandeur d'emploi" />
+  </entry>
+  <!-- DEMANDEUR D'EMPLOI LONGUE DUREE -->
+  <entry>
+    <key val="80012" />
+    <value xml:lang="fr" val="demandeur d'emploi longue durée" />
+  </entry>
+  <!-- DEMANDEUR D'EMPLOI MOINS DE 26 ANS -->
+  <entry>
+    <key val="80025" />
+    <value xml:lang="fr" val="demandeur d'emploi moins de 26 ans" />
+  </entry>
+  <!-- DEMANDEUR D'EMPLOI PLUS DE 26 ANS -->
+  <entry>
+    <key val="80053" />
+    <value xml:lang="fr" val="demandeur d'emploi plus de 26 ans" />
+  </entry>
+  <!-- ELU -->
+  <entry>
+    <key val="80014" />
+    <value xml:lang="fr" val="élu" />
+  </entry>
+  <!-- EXPLOITANT AGRICOLE, SALARIE AGRICOLE -->
+  <entry>
+    <key val="80017" />
+    <value xml:lang="fr" val="exploitant agricole, salarié agricole" />
+  </entry>
+  <!-- FEMME -->
+  <entry>
+    <key val="80018" />
+    <value xml:lang="fr" val="femme" />
+  </entry>
+  <!-- FORMATEUR, ENSEIGNANT -->
+  <entry>
+    <key val="80016" />
+    <value xml:lang="fr" val="formateur, enseignant" />
+  </entry>
+  <!-- HANDICAPE -->
+  <entry>
+    <key val="80020" />
+    <value xml:lang="fr" val="handicapé" />
+  </entry>
+  <!-- IMMIGRE -->
+  <entry>
+    <key val="80022" />
+    <value xml:lang="fr" val="immigré" />
+  </entry>
+  <!-- JEUNE -->
+  <entry>
+    <key val="80024" />
+    <value xml:lang="fr" val="jeune" />
+  </entry>
+  <!-- MEMBRE DU CE -->
+  <entry>
+    <key val="80068" />
+    <value xml:lang="fr" val="membre du CE" />
+  </entry>
+  <!-- MEMBRE DU CHSCT -->
+  <entry>
+    <key val="80067" />
+    <value xml:lang="fr" val="membre du CHSCT" />
+  </entry>
+  <!-- MILITAIRE EN RECONVERSION -->
+  <entry>
+    <key val="80034" />
+    <value xml:lang="fr" val="militaire en reconversion" />
+  </entry>
+  <!-- PARTICULIER, INDIVIDUEL -->
+  <entry>
+    <key val="80050" />
+    <value xml:lang="fr" val="particulier, individuel" />
+  </entry>
+  <!-- PROFESSION LIBERALE -->
+  <entry>
+    <key val="80038" />
+    <value xml:lang="fr" val="profession libérale" />
+  </entry>
+  <!-- PUBLIC ANALPHABETE -->
+  <entry>
+    <key val="80021" />
+    <value xml:lang="fr" val="public analphabète" />
+  </entry>
+  <!-- PUBLIC DANS LE CADRE DU CIF -->
+  <entry>
+    <key val="80066" />
+    <value xml:lang="fr" val="public dans le cadre du CIF" />
+  </entry>
+  <!-- PUBLIC DANS LE CADRE DU CONTRAT D'APPRENTISSAGE -->
+  <entry>
+    <key val="80027" />
+    <value xml:lang="fr" val="public dans le cadre du contrat d'apprentissage" />
+  </entry>
+  <!-- PUBLIC DANS LE CADRE DU CONTRAT DE PROFESSIONNALISATION -->
+  <entry>
+    <key val="80029" />
+    <value xml:lang="fr" val="public dans le cadre du contrat de professionnalisation" />
+  </entry>
+  <!-- PUBLIC DE LA FORMATION INITIALE -->
+  <entry>
+    <key val="80061" />
+    <value xml:lang="fr" val="public de la formation initiale" />
+  </entry>
+  <!-- PUBLIC EN EMPLOI -->
+  <entry>
+    <key val="80058" />
+    <value xml:lang="fr" val="public en emploi" />
+  </entry>
+  <!-- PUBLIC SANS EMPLOI -->
+  <entry>
+    <key val="80059" />
+    <value xml:lang="fr" val="public sans emploi" />
+  </entry>
+  <!-- PUBLIC SOUS MAIN DE JUSTICE -->
+  <entry>
+    <key val="80013" />
+    <value xml:lang="fr" val="public sous main de justice" />
+  </entry>
+  <!-- REFUGIE -->
+  <entry>
+    <key val="80042" />
+    <value xml:lang="fr" val="réfugié" />
+  </entry>
+  <!-- REPRESENTANT DU PERSONNEL -->
+  <entry>
+    <key val="80043" />
+    <value xml:lang="fr" val="représentant du personnel" />
+  </entry>
+  <!-- SALARIE -->
+  <entry>
+    <key val="80044" />
+    <value xml:lang="fr" val="salarié" />
+  </entry>
+  <!-- SALARIE DANS LE CADRE DU DIF -->
+  <entry>
+    <key val="80072" />
+    <value xml:lang="fr" val="salarié dans le cadre du DIF" />
+  </entry>
+  <!-- SALARIE DANS LE CADRE DU PLAN DE FORMATION -->
+  <entry>
+    <key val="80065" />
+    <value xml:lang="fr" val="salarié dans le cadre du plan de formation" />
+  </entry>
+  <!-- SALARIE DE L'ARTISANAT -->
+  <entry>
+    <key val="80046" />
+    <value xml:lang="fr" val="salarié de l'artisanat" />
+  </entry>
+  <!-- SALARIE EN CONTRAT AIDE -->
+  <entry>
+    <key val="80047" />
+    <value xml:lang="fr" val="salarié en contrat aidé" />
+  </entry>
+  <!-- SALARIE EN PERIODE DE PROFESSIONNALISATION -->
+  <entry>
+    <key val="80073" />
+    <value xml:lang="fr" val="salarié en période de professionnalisation" />
+  </entry>
+  <!-- SALARIE EN RECONVERSION -->
+  <entry>
+    <key val="80045" />
+    <value xml:lang="fr" val="salarié en reconversion" />
+  </entry>
+  <!-- TOUT PUBLIC -->
+  <entry>
+    <key val="80056" />
+    <value xml:lang="fr" val="tout public" />
+  </entry>
+  <!-- AGENT DE LA FONCTION PUBLIQUE D'ETAT -->
+  <entry>
+    <key val="80070" />
+    <value xml:lang="fr" val="agent de la fonction publique d'Etat" />
+  </entry>
+  <!-- AGENT DE LA FONCTION PUBLIQUE HOSPITALIERE -->
+  <entry>
+    <key val="80071" />
+    <value xml:lang="fr" val="agent de la fonction publique hospitalière" />
+  </entry>
+  <!-- AGENT DE LA FONCTION PUBLIQUE TERRITORIALE -->
+  <entry>
+    <key val="80074" />
+    <value xml:lang="fr" val="agent de la fonction publique territoriale" />
+  </entry>
+  <!-- BENEFICIAIRE ALLOCATION RETOUR A L'EMPLOI -->
+  <entry>
+    <key val="80075" />
+    <value xml:lang="fr" val="bénéficiaire allocation retour à l'emploi" />
+  </entry>
+  <!-- LICENCIE MOTIF ECONOMIQUE -->
+  <entry>
+    <key val="80076" />
+    <value xml:lang="fr" val="licencié motif économique" />
+  </entry>
+  <!-- BENEFICIAIRE DU RMI -->
+  <entry>
+    <key val="80077" />
+    <value xml:lang="fr" val="bénéficiaire du RMI" />
+  </entry>
+</dict>

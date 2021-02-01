@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "gml.dtd">
+<dict xmlns="http://www.gelaba.org/gml/1.0" name="dict-pays">
+  <fullname xml:lang="fr">Les noms de pays de l'ISO 3166-1 (ISO 3166-1993)</fullname>
+  <entry>
+    <key val="AF"/>
+    <value xml:lang="fr" val="AFGHANISTAN"/>
+  </entry>
+  <entry>
+    <key val="ZA"/>
+    <value xml:lang="fr" val="AFRIQUE DU SUD"/>
+  </entry>
+  <entry>
+    <key val="AL"/>
+    <value xml:lang="fr" val="ALBANIE"/>
+  </entry>
+  <entry>
+    <key val="DZ"/>
+    <value xml:lang="fr" val="ALGÉRIE"/>
+  </entry>
+  <entry>
+    <key val="DE"/>
+    <value xml:lang="fr" val="ALLEMAGNE"/>
+  </entry>
+  <entry>
+    <key val="AD"/>
+    <value xml:lang="fr" val="ANDORRE"/>
+  </entry>
+  <entry>
+    <key val="AO"/>
+    <value xml:lang="fr" val="ANGOLA"/>
+  </entry>
+  <entry>
+    <key val="AI"/>
+    <value xml:lang="fr" val="ANGUILLA"/>
+  </entry>
+  <entry>
+    <key val="AQ"/>
+    <value xml:lang="fr" val="ANTARCTIQUE"/>
+  </entry>
+  <entry>
+    <key val="AG"/>
+    <value xml:lang="fr" val="ANTIGUA-ET-BARBUDA"/>
+  </entry>
+  <entry>
+    <key val="AN"/>
+    <value xml:lang="fr" val="ANTILLES NÉERLANDAISES"/>
+  </entry>
+  <entry>
+    <key val="SA"/>
+    <value xml:lang="fr" val="ARABIE SAOUDITE"/>
+  </entry>
+  <entry>
+    <key val="AR"/>
+    <value xml:lang="fr" val="ARGENTINE"/>
+  </entry>
+  <entry>
+    <key val="AM"/>
+    <value xml:lang="fr" val="ARMÉNIE"/>
+  </entry>
+  <entry>
+    <key val="AW"/>
+    <value xml:lang="fr" val="ARUBA"/>
+  </entry>
+  <entry>
+    <key val="AU"/>
+    <value xml:lang="fr" val="AUSTRALIE"/>
+  </entry>
+  <entry>
+    <key val="AT"/>
+    <value xml:lang="fr" val="AUTRICHE"/>
+  </entry>
+  <entry>
+    <key val="AZ"/>
+    <value xml:lang="fr" val="AZERBAÏDJAN"/>
+  </entry>
+  <entry>
+    <key val="BS"/>
+    <value xml:lang="fr" val="BAHAMAS"/>
+  </entry>
+  <entry>
+    <key val="BH"/>
+    <value xml:lang="fr" val="BAHREÏN"/>
+  </entry>
+  <entry>
+    <key val="BD"/>
+    <value xml:lang="fr" val="BANGLADESH"/>
+  </entry>
+  <entry>
+    <key val="BB"/>
+    <value xml:lang="fr" val="BARBADE"/>
+  </entry>
+  <entry>
+    <key val="BY"/>
+    <value xml:lang="fr" val="BÉLARUS"/>
+  </entry>
+  <entry>
+    <key val="BE"/>
+    <value xml:lang="fr" val="BELGIQUE"/>
+  </entry>
+  <entry>
+    <key val="BZ"/>
+    <value xml:lang="fr" val="BELIZE"/>
+  </entry>
+  <entry>
+    <key val="BJ"/>
+    <value xml:lang="fr" val="BÉNIN"/>
+  </entry>
+  <entry>
+    <key val="BM"/>
+    <value xml:lang="fr" val="BERMUDES"/>
+  </entry>
+  <entry>
+    <key val="BT"/>
+    <value xml:lang="fr" val="BHOUTAN"/>
+  </entry>
+  <entry>
+    <key val="BO"/>
+    <value xml:lang="fr" val="BOLIVIE"/>
+  </entry>
+  <entry>
+    <key val="BA"/>
+    <value xml:lang="fr" val="BOSNIE-HERZÉGOVINE"/>
+  </entry>
+  <entry>
+    <key val="BW"/>
+    <value xml:lang="fr" val="BOTSWANA"/>
+  </entry>
+  <entry>
+    <key val="BV"/>
+    <value xml:lang="fr" val="BOUVET, ÎLE"/>
+  </entry>
+  <entry>
+    <key val="BR"/>
+    <value xml:lang="fr" val="BRÉSIL"/>
+  </entry>
+  <entry>
+    <key val="BN"/>
+    <value xml:lang="fr" val="BRUNÉI DARUSSALAM"/>
+  </entry>
+  <entry>
+    <key val="BG"/>
+    <value xml:lang="fr" val="BULGARIE"/>
+  </entry>
+  <entry>
+    <key val="BF"/>
+    <value xml:lang="fr" val="BURKINA FASO"/>
+  </entry>
+  <entry>
+    <key val="BI"/>
+    <value xml:lang="fr" val="BURUNDI"/>
+  </entry>
+  <entry>
+    <key val="KY"/>
+    <value xml:lang="fr" val="CAÏMANES, ÎLES"/>
+  </entry>
+  <entry>
+    <key val="KH"/>
+    <value xml:lang="fr" val="CAMBODGE"/>
+  </entry>
+  <entry>
+    <key val="CM"/>
+    <value xml:lang="fr" val="CAMEROUN"/>
+  </entry>
+  <entry>
+    <key val="CA"/>
+    <value xml:lang="fr" val="CANADA"/>
+  </entry>
+  <entry>
+    <key val="CV"/>
+    <value xml:lang="fr" val="CAP-VERT"/>
+  </entry>
+  <entry>
+    <key val="CF"/>
+    <value xml:lang="fr" val="CENTRAFRICAINE, RÉPUBLIQUE"/>
+  </entry>
+  <entry>
+    <key val="CL"/>
+    <value xml:lang="fr" val="CHILI"/>
+  </entry>
+  <entry>
+    <key val="CN"/>
+    <value xml:lang="fr" val="CHINE"/>
+  </entry>
+  <entry>
+    <key val="CX"/>
+    <value xml:lang="fr" val="CHRISTMAS, ÎLE"/>
+  </entry>
+  <entry>
+    <key val="CY"/>
+    <value xml:lang="fr" val="CHYPRE"/>
+  </entry>
+  <entry>
+    <key val="CC"/>
+    <value xml:lang="fr" val="COCOS (KEELING), ÎLES"/>
+  </entry>
+  <entry>
+    <key val="CO"/>
+    <value xml:lang="fr" val="COLOMBIE"/>
+  </entry>
+  <entry>
+    <key val="KM"/>
+    <value xml:lang="fr" val="COMORES"/>
+  </entry>
+  <entry>
+    <key val="CG"/>
+    <value xml:lang="fr" val="CONGO"/>
+  </entry>
+  <entry>
+    <key val="CD"/>
+    <value xml:lang="fr" val="CONGO, LA RÉPUBLIQUE DÉMOCRATIQUE DU"/>
+  </entry>
+  <entry>
+    <key val="CK"/>
+    <value xml:lang="fr" val="COOK, ÎLES"/>
+  </entry>
+  <entry>
+    <key val="KR"/>
+    <value xml:lang="fr" val="CORÉE, RÉPUBLIQUE DE"/>
+  </entry>
+  <entry>
+    <key val="KP"/>
+    <value xml:lang="fr" val="CORÉE, RÉPUBLIQUE POPULAIRE DÉMOCRATIQUE DE"/>
+  </entry>
+  <entry>
+    <key val="CR"/>
+    <value xml:lang="fr" val="COSTA RICA"/>
+  </entry>
+  <entry>
+    <key val="CI"/>
+    <value xml:lang="fr" val="CÔTE D'IVOIRE"/>
+  </entry>
+  <entry>
+    <key val="HR"/>
+    <value xml:lang="fr" val="CROATIE"/>
+  </entry>
+  <entry>
+    <key val="CU"/>
+    <value xml:lang="fr" val="CUBA"/>
+  </entry>
+  <entry>
+    <key val="DK"/>
+    <value xml:lang="fr" val="DANEMARK"/>
+  </entry>
+  <entry>
+    <key val="DJ"/>
+    <value xml:lang="fr" val="DJIBOUTI"/>
+  </entry>
+  <entry>
+    <key val="DO"/>
+    <value xml:lang="fr" val="DOMINICAINE, RÉPUBLIQUE"/>
+  </entry>
+  <entry>
+    <key val="DM"/>
+    <value xml:lang="fr" val="DOMINIQUE"/>
+  </entry>
+  <entry>
+    <key val="EG"/>
+    <value xml:lang="fr" val="ÉGYPTE"/>
+  </entry>
+  <entry>
+    <key val="SV"/>
+    <value xml:lang="fr" val="EL SALVADOR"/>
+  </entry>
+  <entry>
+    <key val="AE"/>
+    <value xml:lang="fr" val="ÉMIRATS ARABES UNIS"/>
+  </entry>
+  <entry>
+    <key val="EC"/>
+    <value xml:lang="fr" val="ÉQUATEUR"/>
+  </entry>
+  <entry>
+    <key val="ER"/>
+    <value xml:lang="fr" val="ÉRYTHRÉE"/>
+  </entry>
+  <entry>
+    <key val="ES"/>
+    <value xml:lang="fr" val="ESPAGNE"/>
+  </entry>
+  <entry>
+    <key val="EE"/>
+    <value xml:lang="fr" val="ESTONIE"/>
+  </entry>
+  <entry>
+    <key val="US"/>
+    <value xml:lang="fr" val="ÉTATS-UNIS"/>
+  </entry>
+  <entry>
+    <key val="ET"/>
+    <value xml:lang="fr" val="ÉTHIOPIE"/>
+  </entry>
+  <entry>
+    <key val="FK"/>
+    <value xml:lang="fr" val="FALKLAND, ÎLES (MALVINAS)"/>
+  </entry>
+  <entry>
+    <key val="FO"/>
+    <value xml:lang="fr" val="FÉROÉ, ÎLES"/>
+  </entry>
+  <entry>
+    <key val="FJ"/>
+    <value xml:lang="fr" val="FIDJI"/>
+  </entry>
+  <entry>
+    <key val="FI"/>
+    <value xml:lang="fr" val="FINLANDE"/>
+  </entry>
+  <entry>
+    <key val="FR"/>
+    <value xml:lang="fr" val="FRANCE"/>
+  </entry>
+  <entry>
+    <key val="GA"/>
+    <value xml:lang="fr" val="GABON"/>
+  </entry>
+  <entry>
+    <key val="GM"/>
+    <value xml:lang="fr" val="GAMBIE"/>
+  </entry>
+  <entry>
+    <key val="GE"/>
+    <value xml:lang="fr" val="GÉORGIE"/>
+  </entry>
+  <entry>
+    <key val="GS"/>
+    <value xml:lang="fr" val="GÉORGIE DU SUD ET LES ÎLES SANDWICH DU SUD"/>
+  </entry>
+  <entry>
+    <key val="GH"/>
+    <value xml:lang="fr" val="GHANA"/>
+  </entry>
+  <entry>
+    <key val="GI"/>
+    <value xml:lang="fr" val="GIBRALTAR"/>
+  </entry>
+  <entry>
+    <key val="GR"/>
+    <value xml:lang="fr" val="GRÈCE"/>
+  </entry>
+  <entry>
+    <key val="GD"/>
+    <value xml:lang="fr" val="GRENADE"/>
+  </entry>
+  <entry>
+    <key val="GL"/>
+    <value xml:lang="fr" val="GROENLAND"/>
+  </entry>
+  <entry>
+    <key val="GP"/>
+    <value xml:lang="fr" val="GUADELOUPE"/>
+  </entry>
+  <entry>
+    <key val="GU"/>
+    <value xml:lang="fr" val="GUAM"/>
+  </entry>
+  <entry>
+    <key val="GT"/>
+    <value xml:lang="fr" val="GUATEMALA"/>
+  </entry>
+  <entry>
+    <key val="GN"/>
+    <value xml:lang="fr" val="GUINÉE"/>
+  </entry>
+  <entry>
+    <key val="GW"/>
+    <value xml:lang="fr" val="GUINÉE-BISSAU"/>
+  </entry>
+  <entry>
+    <key val="GQ"/>
+    <value xml:lang="fr" val="GUINÉE ÉQUATORIALE"/>
+  </entry>
+  <entry>
+    <key val="GY"/>
+    <value xml:lang="fr" val="GUYANA"/>
+  </entry>
+  <entry>
+    <key val="GF"/>
+    <value xml:lang="fr" val="GUYANE FRANÇAISE"/>
+  </entry>
+  <entry>
+    <key val="HT"/>
+    <value xml:lang="fr" val="HAÏTI"/>
+  </entry>
+  <entry>
+    <key val="HM"/>
+    <value xml:lang="fr" val="HEARD, ÎLE ET MCDONALD, ÎLES"/>
+  </entry>
+  <entry>
+    <key val="HN"/>
+    <value xml:lang="fr" val="HONDURAS"/>
+  </entry>
+  <entry>
+    <key val="HK"/>
+    <value xml:lang="fr" val="HONG-KONG"/>
+  </entry>
+  <entry>
+    <key val="HU"/>
+    <value xml:lang="fr" val="HONGRIE"/>
+  </entry>
+  <entry>
+    <key val="UM"/>
+    <value xml:lang="fr" val="ÎLES MINEURES ÉLOIGNÉES DES ÉTATS-UNIS"/>
+  </entry>
+  <entry>
+    <key val="VG"/>
+    <value xml:lang="fr" val="ÎLES VIERGES BRITANNIQUES"/>
+  </entry>
+  <entry>
+    <key val="VI"/>
+    <value xml:lang="fr" val="ÎLES VIERGES DES ÉTATS-UNIS"/>
+  </entry>
+  <entry>
+    <key val="IN"/>
+    <value xml:lang="fr" val="INDE"/>
+  </entry>
+  <entry>
+    <key val="ID"/>
+    <value xml:lang="fr" val="INDONÉSIE"/>
+  </entry>
+  <entry>
+    <key val="IR"/>
+    <value xml:lang="fr" val="IRAN, RÉPUBLIQUE ISLAMIQUE D'"/>
+  </entry>
+  <entry>
+    <key val="IQ"/>
+    <value xml:lang="fr" val="IRAQ"/>
+  </entry>
+  <entry>
+    <key val="IE"/>
+    <value xml:lang="fr" val="IRLANDE"/>
+  </entry>
+  <entry>
+    <key val="IS"/>
+    <value xml:lang="fr" val="ISLANDE"/>
+  </entry>
+  <entry>
+    <key val="IL"/>
+    <value xml:lang="fr" val="ISRAËL"/>
+  </entry>
+  <entry>
+    <key val="IT"/>
+    <value xml:lang="fr" val="ITALIE"/>
+  </entry>
+  <entry>
+    <key val="JM"/>
+    <value xml:lang="fr" val="JAMAÏQUE"/>
+  </entry>
+  <entry>
+    <key val="JP"/>
+    <value xml:lang="fr" val="JAPON"/>
+  </entry>
+  <entry>
+    <key val="JO"/>
+    <value xml:lang="fr" val="JORDANIE"/>
+  </entry>
+  <entry>
+    <key val="KZ"/>
+    <value xml:lang="fr" val="KAZAKHSTAN"/>
+  </entry>
+  <entry>
+    <key val="KE"/>
+    <value xml:lang="fr" val="KENYA"/>
+  </entry>
+  <entry>
+    <key val="KG"/>
+    <value xml:lang="fr" val="KIRGHIZISTAN"/>
+  </entry>
+  <entry>
+    <key val="KI"/>
+    <value xml:lang="fr" val="KIRIBATI"/>
+  </entry>
+  <entry>
+    <key val="KW"/>
+    <value xml:lang="fr" val="KOWEÏT"/>
+  </entry>
+  <entry>
+    <key val="LA"/>
+    <value xml:lang="fr" val="LAO, RÉPUBLIQUE DÉMOCRATIQUE POPULAIRE"/>
+  </entry>
+  <entry>
+    <key val="LS"/>
+    <value xml:lang="fr" val="LESOTHO"/>
+  </entry>
+  <entry>
+    <key val="LV"/>
+    <value xml:lang="fr" val="LETTONIE"/>
+  </entry>
+  <entry>
+    <key val="LB"/>
+    <value xml:lang="fr" val="LIBAN"/>
+  </entry>
+  <entry>
+    <key val="LR"/>
+    <value xml:lang="fr" val="LIBÉRIA"/>
+  </entry>
+  <entry>
+    <key val="LY"/>
+    <value xml:lang="fr" val="LIBYENNE, JAMAHIRIYA ARABE"/>
+  </entry>
+  <entry>
+    <key val="LI"/>
+    <value xml:lang="fr" val="LIECHTENSTEIN"/>
+  </entry>
+  <entry>
+    <key val="LT"/>
+    <value xml:lang="fr" val="LITUANIE"/>
+  </entry>
+  <entry>
+    <key val="LU"/>
+    <value xml:lang="fr" val="LUXEMBOURG"/>
+  </entry>
+  <entry>
+    <key val="MO"/>
+    <value xml:lang="fr" val="MACAO"/>
+  </entry>
+  <entry>
+    <key val="MK"/>
+    <value xml:lang="fr" val="MACÉDOINE, L'EX-RÉPUBLIQUE YOUGOSLAVE DE"/>
+  </entry>
+  <entry>
+    <key val="MG"/>
+    <value xml:lang="fr" val="MADAGASCAR"/>
+  </entry>
+  <entry>
+    <key val="MY"/>
+    <value xml:lang="fr" val="MALAISIE"/>
+  </entry>
+  <entry>
+    <key val="MW"/>
+    <value xml:lang="fr" val="MALAWI"/>
+  </entry>
+  <entry>
+    <key val="MV"/>
+    <value xml:lang="fr" val="MALDIVES"/>
+  </entry>
+  <entry>
+    <key val="ML"/>
+    <value xml:lang="fr" val="MALI"/>
+  </entry>
+  <entry>
+    <key val="MT"/>
+    <value xml:lang="fr" val="MALTE"/>
+  </entry>
+  <entry>
+    <key val="MP"/>
+    <value xml:lang="fr" val="MARIANNES DU NORD, ÎLES"/>
+  </entry>
+  <entry>
+    <key val="MA"/>
+    <value xml:lang="fr" val="MAROC"/>
+  </entry>
+  <entry>
+    <key val="MH"/>
+    <value xml:lang="fr" val="MARSHALL, ÎLES"/>
+  </entry>
+  <entry>
+    <key val="MQ"/>
+    <value xml:lang="fr" val="MARTINIQUE"/>
+  </entry>
+  <entry>
+    <key val="MU"/>
+    <value xml:lang="fr" val="MAURICE"/>
+  </entry>
+  <entry>
+    <key val="MR"/>
+    <value xml:lang="fr" val="MAURITANIE"/>
+  </entry>
+  <entry>
+    <key val="YT"/>
+    <value xml:lang="fr" val="MAYOTTE"/>
+  </entry>
+  <entry>
+    <key val="MX"/>
+    <value xml:lang="fr" val="MEXIQUE"/>
+  </entry>
+  <entry>
+    <key val="FM"/>
+    <value xml:lang="fr" val="MICRONÉSIE, ÉTATS FÉDÉRÉS DE"/>
+  </entry>
+  <entry>
+    <key val="MD"/>
+    <value xml:lang="fr" val="MOLDOVA, RÉPUBLIQUE DE"/>
+  </entry>
+  <entry>
+    <key val="MC"/>
+    <value xml:lang="fr" val="MONACO"/>
+  </entry>
+  <entry>
+    <key val="MN"/>
+    <value xml:lang="fr" val="MONGOLIE"/>
+  </entry>
+  <entry>
+    <key val="MS"/>
+    <value xml:lang="fr" val="MONTSERRAT"/>
+  </entry>
+  <entry>
+    <key val="MZ"/>
+    <value xml:lang="fr" val="MOZAMBIQUE"/>
+  </entry>
+  <entry>
+    <key val="MM"/>
+    <value xml:lang="fr" val="MYANMAR"/>
+  </entry>
+  <entry>
+    <key val="NA"/>
+    <value xml:lang="fr" val="NAMIBIE"/>
+  </entry>
+  <entry>
+    <key val="NR"/>
+    <value xml:lang="fr" val="NAURU"/>
+  </entry>
+  <entry>
+    <key val="NP"/>
+    <value xml:lang="fr" val="NÉPAL"/>
+  </entry>
+  <entry>
+    <key val="NI"/>
+    <value xml:lang="fr" val="NICARAGUA"/>
+  </entry>
+  <entry>
+    <key val="NE"/>
+    <value xml:lang="fr" val="NIGER"/>
+  </entry>
+  <entry>
+    <key val="NG"/>
+    <value xml:lang="fr" val="NIGÉRIA"/>
+  </entry>
+  <entry>
+    <key val="NU"/>
+    <value xml:lang="fr" val="NIUÉ"/>
+  </entry>
+  <entry>
+    <key val="NF"/>
+    <value xml:lang="fr" val="NORFOLK, ÎLE"/>
+  </entry>
+  <entry>
+    <key val="NO"/>
+    <value xml:lang="fr" val="NORVÈGE"/>
+  </entry>
+  <entry>
+    <key val="NC"/>
+    <value xml:lang="fr" val="NOUVELLE-CALÉDONIE"/>
+  </entry>
+  <entry>
+    <key val="NZ"/>
+    <value xml:lang="fr" val="NOUVELLE-ZÉLANDE"/>
+  </entry>
+  <entry>
+    <key val="IO"/>
+    <value xml:lang="fr" val="OCÉAN INDIEN, TERRITOIRE BRITANNIQUE DE L'"/>
+  </entry>
+  <entry>
+    <key val="OM"/>
+    <value xml:lang="fr" val="OMAN"/>
+  </entry>
+  <entry>
+    <key val="UG"/>
+    <value xml:lang="fr" val="OUGANDA"/>
+  </entry>
+  <entry>
+    <key val="UZ"/>
+    <value xml:lang="fr" val="OUZBÉKISTAN"/>
+  </entry>
+  <entry>
+    <key val="PK"/>
+    <value xml:lang="fr" val="PAKISTAN"/>
+  </entry>
+  <entry>
+    <key val="PW"/>
+    <value xml:lang="fr" val="PALAOS"/>
+  </entry>
+  <entry>
+    <key val="PS"/>
+    <value xml:lang="fr" val="PALESTINIEN OCCUPÉ, TERRITOIRE"/>
+  </entry>
+  <entry>
+    <key val="PA"/>
+    <value xml:lang="fr" val="PANAMA"/>
+  </entry>
+  <entry>
+    <key val="PG"/>
+    <value xml:lang="fr" val="PAPOUASIE-NOUVELLE-GUINÉE"/>
+  </entry>
+  <entry>
+    <key val="PY"/>
+    <value xml:lang="fr" val="PARAGUAY"/>
+  </entry>
+  <entry>
+    <key val="NL"/>
+    <value xml:lang="fr" val="PAYS-BAS"/>
+  </entry>
+  <entry>
+    <key val="PE"/>
+    <value xml:lang="fr" val="PÉROU"/>
+  </entry>
+  <entry>
+    <key val="PH"/>
+    <value xml:lang="fr" val="PHILIPPINES"/>
+  </entry>
+  <entry>
+    <key val="PN"/>
+    <value xml:lang="fr" val="PITCAIRN"/>
+  </entry>
+  <entry>
+    <key val="PL"/>
+    <value xml:lang="fr" val="POLOGNE"/>
+  </entry>
+  <entry>
+    <key val="PF"/>
+    <value xml:lang="fr" val="POLYNÉSIE FRANÇAISE"/>
+  </entry>
+  <entry>
+    <key val="PR"/>
+    <value xml:lang="fr" val="PORTO RICO"/>
+  </entry>
+  <entry>
+    <key val="PT"/>
+    <value xml:lang="fr" val="PORTUGAL"/>
+  </entry>
+  <entry>
+    <key val="QA"/>
+    <value xml:lang="fr" val="QATAR"/>
+  </entry>
+  <entry>
+    <key val="RE"/>
+    <value xml:lang="fr" val="RÉUNION"/>
+  </entry>
+  <entry>
+    <key val="RO"/>
+    <value xml:lang="fr" val="ROUMANIE"/>
+  </entry>
+  <entry>
+    <key val="GB"/>
+    <value xml:lang="fr" val="ROYAUME-UNI"/>
+  </entry>
+  <entry>
+    <key val="RU"/>
+    <value xml:lang="fr" val="RUSSIE, FÉDÉRATION DE"/>
+  </entry>
+  <entry>
+    <key val="RW"/>
+    <value xml:lang="fr" val="RWANDA"/>
+  </entry>
+  <entry>
+    <key val="EH"/>
+    <value xml:lang="fr" val="SAHARA OCCIDENTAL"/>
+  </entry>
+  <entry>
+    <key val="SH"/>
+    <value xml:lang="fr" val="SAINTE-HÉLÈNE"/>
+  </entry>
+  <entry>
+    <key val="LC"/>
+    <value xml:lang="fr" val="SAINTE-LUCIE"/>
+  </entry>
+  <entry>
+    <key val="KN"/>
+    <value xml:lang="fr" val="SAINT-KITTS-ET-NEVIS"/>
+  </entry>
+  <entry>
+    <key val="SM"/>
+    <value xml:lang="fr" val="SAINT-MARIN"/>
+  </entry>
+  <entry>
+    <key val="PM"/>
+    <value xml:lang="fr" val="SAINT-PIERRE-ET-MIQUELON"/>
+  </entry>
+  <entry>
+    <key val="VA"/>
+    <value xml:lang="fr" val="SAINT-SIÈGE (ÉTAT DE LA CITÉ DU VATICAN)"/>
+  </entry>
+  <entry>
+    <key val="VC"/>
+    <value xml:lang="fr" val="SAINT-VINCENT-ET-LES GRENADINES"/>
+  </entry>
+  <entry>
+    <key val="SB"/>
+    <value xml:lang="fr" val="SALOMON, ÎLES"/>
+  </entry>
+  <entry>
+    <key val="WS"/>
+    <value xml:lang="fr" val="SAMOA"/>
+  </entry>
+  <entry>
+    <key val="AS"/>
+    <value xml:lang="fr" val="SAMOA AMÉRICAINES"/>
+  </entry>
+  <entry>
+    <key val="ST"/>
+    <value xml:lang="fr" val="SAO TOMÉ-ET-PRINCIPE"/>
+  </entry>
+  <entry>
+    <key val="SN"/>
+    <value xml:lang="fr" val="SÉNÉGAL"/>
+  </entry>
+  <entry>
+    <key val="SC"/>
+    <value xml:lang="fr" val="SEYCHELLES"/>
+  </entry>
+  <entry>
+    <key val="SL"/>
+    <value xml:lang="fr" val="SIERRA LEONE"/>
+  </entry>
+  <entry>
+    <key val="SG"/>
+    <value xml:lang="fr" val="SINGAPOUR"/>
+  </entry>
+  <entry>
+    <key val="SK"/>
+    <value xml:lang="fr" val="SLOVAQUIE"/>
+  </entry>
+  <entry>
+    <key val="SI"/>
+    <value xml:lang="fr" val="SLOVÉNIE"/>
+  </entry>
+  <entry>
+    <key val="SO"/>
+    <value xml:lang="fr" val="SOMALIE"/>
+  </entry>
+  <entry>
+    <key val="SD"/>
+    <value xml:lang="fr" val="SOUDAN"/>
+  </entry>
+  <entry>
+    <key val="LK"/>
+    <value xml:lang="fr" val="SRI LANKA"/>
+  </entry>
+  <entry>
+    <key val="SE"/>
+    <value xml:lang="fr" val="SUÈDE"/>
+  </entry>
+  <entry>
+    <key val="CH"/>
+    <value xml:lang="fr" val="SUISSE"/>
+  </entry>
+  <entry>
+    <key val="SR"/>
+    <value xml:lang="fr" val="SURINAME"/>
+  </entry>
+  <entry>
+    <key val="SJ"/>
+    <value xml:lang="fr" val="SVALBARD ET ÎLE JAN MAYEN"/>
+  </entry>
+  <entry>
+    <key val="SZ"/>
+    <value xml:lang="fr" val="SWAZILAND"/>
+  </entry>
+  <entry>
+    <key val="SY"/>
+    <value xml:lang="fr" val="SYRIENNE, RÉPUBLIQUE ARABE"/>
+  </entry>
+  <entry>
+    <key val="TJ"/>
+    <value xml:lang="fr" val="TADJIKISTAN"/>
+  </entry>
+  <entry>
+    <key val="TW"/>
+    <value xml:lang="fr" val="TAÏWAN, PROVINCE DE CHINE"/>
+  </entry>
+  <entry>
+    <key val="TZ"/>
+    <value xml:lang="fr" val="TANZANIE, RÉPUBLIQUE-UNIE DE"/>
+  </entry>
+  <entry>
+    <key val="TD"/>
+    <value xml:lang="fr" val="TCHAD"/>
+  </entry>
+  <entry>
+    <key val="CZ"/>
+    <value xml:lang="fr" val="TCHÈQUE, RÉPUBLIQUE"/>
+  </entry>
+  <entry>
+    <key val="TF"/>
+    <value xml:lang="fr" val="TERRES AUSTRALES FRANÇAISES"/>
+  </entry>
+  <entry>
+    <key val="TH"/>
+    <value xml:lang="fr" val="THAÏLANDE"/>
+  </entry>
+  <entry>
+    <key val="TL"/>
+    <value xml:lang="fr" val="TIMOR-LESTE"/>
+  </entry>
+  <entry>
+    <key val="TG"/>
+    <value xml:lang="fr" val="TOGO"/>
+  </entry>
+  <entry>
+    <key val="TK"/>
+    <value xml:lang="fr" val="TOKELAU"/>
+  </entry>
+  <entry>
+    <key val="TO"/>
+    <value xml:lang="fr" val="TONGA"/>
+  </entry>
+  <entry>
+    <key val="TT"/>
+    <value xml:lang="fr" val="TRINITÉ-ET-TOBAGO"/>
+  </entry>
+  <entry>
+    <key val="TN"/>
+    <value xml:lang="fr" val="TUNISIE"/>
+  </entry>
+  <entry>
+    <key val="TM"/>
+    <value xml:lang="fr" val="TURKMÉNISTAN"/>
+  </entry>
+  <entry>
+    <key val="TC"/>
+    <value xml:lang="fr" val="TURKS ET CAÏQUES, ÎLES"/>
+  </entry>
+  <entry>
+    <key val="TR"/>
+    <value xml:lang="fr" val="TURQUIE"/>
+  </entry>
+  <entry>
+    <key val="TV"/>
+    <value xml:lang="fr" val="TUVALU"/>
+  </entry>
+  <entry>
+    <key val="UA"/>
+    <value xml:lang="fr" val="UKRAINE"/>
+  </entry>
+  <entry>
+    <key val="UY"/>
+    <value xml:lang="fr" val="URUGUAY"/>
+  </entry>
+  <entry>
+    <key val="VU"/>
+    <value xml:lang="fr" val="VANUATU"/>
+  </entry>
+  <entry>
+    <key val="VE"/>
+    <value xml:lang="fr" val="VENEZUELA"/>
+  </entry>
+  <entry>
+    <key val="VN"/>
+    <value xml:lang="fr" val="VIET NAM"/>
+  </entry>
+  <entry>
+    <key val="WF"/>
+    <value xml:lang="fr" val="WALLIS ET FUTUNA"/>
+  </entry>
+  <entry>
+    <key val="YE"/>
+    <value xml:lang="fr" val="YÉMEN"/>
+  </entry>
+  <entry>
+    <key val="YU"/>
+    <value xml:lang="fr" val="YOUGOSLAVIE"/>
+  </entry>
+  <entry>
+    <key val="ZM"/>
+    <value xml:lang="fr" val="ZAMBIE"/>
+  </entry>
+  <entry>
+    <key val="ZW"/>
+    <value xml:lang="fr" val="ZIMBABWE"/>
+  </entry>
+</dict>

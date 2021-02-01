@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "gml.dtd">
+<dict xmlns="http://www.gelaba.org/gml/1.1" name="dict-financeurs-formacodes-V10">
+  <fullname xml:lang="fr">Financeurs formacodes V10</fullname>
+  <doc xml:lang="fr">
+  </doc>
+    <entry>
+      <key val="98012" />
+      <value xml:lang="fr" val="ACSE" />
+    </entry>
+    <entry>
+      <key val="98014" />
+      <value xml:lang="fr" val="AFPA" />
+    </entry>
+    <entry>
+      <key val="98011" />
+      <value xml:lang="fr" val="AGEFIPH" />
+    </entry>
+    <entry>
+      <key val="98019" />
+      <value xml:lang="fr" val="Bénéficiaire action" />
+    </entry>
+    <entry>
+      <key val="98006" />
+      <value xml:lang="fr" val="Collectivité territoriale-autre" />
+    </entry>
+    <entry>
+      <key val="98008" />
+      <value xml:lang="fr" val="Collectivité territoriale-commune" />
+    </entry>
+    <entry>
+      <key val="98009" />
+      <value xml:lang="fr" val="Collectivité territoriale-conseil général" />
+    </entry>
+    <entry>
+      <key val="98005" />
+      <value xml:lang="fr" val="Collectivité territoriale-conseil régional" />
+    </entry>
+    <entry>
+      <key val="98020" />
+      <value xml:lang="fr" val="Entreprise" />
+    </entry>
+    <entry>
+      <key val="98004" />
+      <value xml:lang="fr" val="Etat-autre" />
+    </entry>
+    <entry>
+      <key val="98040" />
+      <value xml:lang="fr" val="Etat-ministère autre" />
+    </entry>
+    <entry>
+      <key val="98015" />
+      <value xml:lang="fr" val="Etat-ministère chargé de l'emploi" />
+    </entry>
+    <entry>
+      <key val="98010" />
+      <value xml:lang="fr" val="Financement européen-autre" />
+    </entry>
+    <entry>
+      <key val="98037" />
+      <value xml:lang="fr" val="Financement européen-FSE" />
+    </entry>
+    <entry>
+      <key val="98017" />
+      <value xml:lang="fr" val="OPACIF" />
+    </entry>
+    <entry>
+      <key val="98018" />
+      <value xml:lang="fr" val="OPCA" />
+    </entry>
+    <entry>
+      <key val="98013" />
+      <value xml:lang="fr" val="Pôle emploi" />
+    </entry>
+    <entry>
+      <key val="98007" />
+      <value xml:lang="fr" val="UNEDIC" />
+    </entry>
+  <property name="version" value="V10" />
+  <property name="url" value="" />
+</dict>

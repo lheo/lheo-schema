@@ -1,0 +1,83 @@
+<div>
+  <h2>Devenir partenaire de la démarche LHÉO</h2>
+
+  <p>
+    Pour utiliser le référentiel LHÉO, il est nécessaire d'accepter la
+    charte d'utilisation suivante :
+  </p>
+
+  <ul>
+    <li>respecter le mode d'expression commun en ne modifiant pas le référentiel ;</li>
+    <li>ne pas détourner de son usage gratuit le référentiel (schéma, glossaire, tables) ;</li>
+    <li>pour toute utilisation du référentiel et de ses outils, mentionner la marque LHÉO.</li>
+  </ul>
+  <p>
+    Afin d'avoir un suivi des utilisateurs de LHÉO et d'être inscrit
+    automatiquement à la liste de diffusion des LHÉO, nous vous
+    remercions de remplir les champs suivants (* = obligatoire).
+  </p>
+  <div class="inscription-demarche">
+    <fieldset class="front"><legend>Devenir partenaire de LHÉO</legend>
+    <form method="post" enctype="multipart/form-data" action="/cgi-bin/partenaire">
+      <table>
+	<tr>
+	  <td align="left">Courriel (*)</td>
+	  <td align="left">
+	    <input type="text" id="courriel" name="courriel" size="30"></input>
+	  </td>
+	  </tr>
+	  <tr>
+	    <td>Nom (*)</td>
+	    <td><input type="text" id="nom" name="nom" size="30"></input></td>
+	  </tr>
+	  <tr>
+	    <td>Société/Organisme (*)</td>
+	    <td><input type="text" id="organisme" name="organisme" size="30"></input></td>
+	  </tr>
+	  <tr>
+	    <td>Type de société/organisme</td>
+	    <td>
+	      <select class="typeorganisme" name="typeorganisme">
+		<option value="organismeformation">Organisme de formation</option>
+		<option value="ssii">SSII</option>
+		<option value="informaticien">Informaticien</option>
+		<option value="financeurpublic">Financeur public</option>
+		<option value="financeurprive">Financeur privé</option>
+		<option value="mediateur">Médiateur</option>
+		<option value="autre">Autre</option>
+	      </select>
+	    </td>
+	    </tr>
+	    <tr>
+	      <td>URL </td>
+	      <td><input type="text" id="url" name="url" size="30"></input>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td>Téléphone </td>
+	      <td><input type="text" id="tel" name="tel" size="30"></input></td>
+	      </tr>
+	      <tr>
+		<td>
+		   
+		</td>
+		<td>
+		   
+		</td>
+	      </tr>
+	      <tr>
+		<td align="center">
+		  <input type="submit" value="J'accepte"></input>
+		</td>
+		<td align="left">
+		  la charte LHÉO et je deviens partenaire de la démarche.
+		</td>
+	      </tr>
+	      </table>
+    </form>
+    </fieldset>
+    </div>
+    <p>
+      Pour plus de renseignements, envoyez un mail à <a href="mailto:lheo.dgefp@travail.gouv.fr">lheo.dgefp@travail.gouv.fr</a>.
+    </p>
+</div>

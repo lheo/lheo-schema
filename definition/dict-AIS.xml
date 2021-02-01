@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "gml.dtd">
+<dict xmlns="http://www.gelaba.org/gml/1.1" name="dict-AIS">
+  <fullname xml:lang="fr">Objectif général de formation</fullname>
+  <doc xml:lang="fr">
+  </doc>
+    <entry>
+      <key val="1"/>
+      <value xml:lang="fr" val="Code(s) obsolète(s)"/>
+    </entry>
+    <entry>
+      <key val="6"/>
+      <value xml:lang="fr" val="Certification"/>
+    </entry>
+    <entry>
+      <key val="7"/>
+      <value xml:lang="fr" val="Professionnalisation"/>
+    </entry>
+    <entry>
+      <key val="8"/>
+      <value xml:lang="fr" val="Préparation à la qualification"/>
+    </entry>
+    <entry>
+      <key val="5"/>
+      <value xml:lang="fr" val="Remise à niveau, maîtrise des savoirs de base, initiation"/>
+    </entry>
+    <entry>
+      <key val="9"/>
+      <value xml:lang="fr" val="(Re)mobilisation, aide à l'élaboration de projet professionnel"/>
+    </entry>
+    <entry>
+      <key val="2"/>
+      <value xml:lang="fr" val="Perfectionnement, élargissement des compétences"/>
+    </entry>
+    <entry>
+      <key val="4"/>
+      <value xml:lang="fr" val="Création d'entreprise"/>
+    </entry>
+  <property name="version" value="V1" />
+  <property name="url" value="" />
+</dict>

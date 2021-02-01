@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lheo xmlns="http://www.lheo.org/2.2">
+<offres>
+<formation numero="9436_18706">
+<domaine-formation>
+<code-FORMACODE ref="V11" tag="principal">34582</code-FORMACODE>
+<code-FORMACODE ref="V11">34076</code-FORMACODE>
+<code-NSF>312</code-NSF>
+<code-ROME>D1402</code-ROME>
+<code-ROME>D1403</code-ROME>
+<code-ROME>D1408</code-ROME>
+</domaine-formation>
+<intitule-formation>BTS négociation et relation client</intitule-formation>
+<objectif-formation>&lt;p&gt;A la fois vendeur, manager et commercial, le technicien supérieur en négociation et relation client participe à la mise en oeuvre de la politique commerciale de l'entreprise qui l'emploie et contribue à la croissance de son chiffre d'affaires. Son activité est fondée sur la mise en place d'une démarche commerciale active en direction de la clientèle.&lt;/p&gt;</objectif-formation>
+<resultats-attendus>&lt;p&gt;&lt;b&gt;Les objectifs :&lt;/b&gt;&lt;br /&gt;&lt;p&gt;Ce BTS forme des managers de la vente, des commerciaux capable de gérer la relation client dans sa globalité, de la prospection jusqu'à la fidélisation. L'élève apprend à créer et développer une clientèle par la mise en oeuvre de plan de prospection. Il est formé à la communication et à la négociation afin d'être capable par la collecte, l'analyse des informations d'élaborer et de proposer une solution commerciale permettant d'accroitre le chiffre d'affaires dans une optique de développement durable. Il est initié à la recherche d'information sur le marché et sur la clientèle afin de constituer une documentation professionnelle nécessaire à la gestion de la relation client. Formé à l'organisation et au management de l'activité commerciale, il apprend à planifier et piloter l'activité commerciale, à évaluer la performance commerciale (analyse et suivi des résultats, évaluation des compétences, mise en place d'indicateurs de mesure de la performance, bilan d'activité), et à participer à la constitution et à l'organisation de l'équipe commerciale (définition des profils, modalités de recrutement, suivi des carrières etc.). A l'issue de la formation, il est capable de prendre des décisions commerciales en tenant compte des usages du marché, de la politique de l'entreprise et des offres et pratiques de la concurrence.&lt;/p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Les débouchés :&lt;/b&gt;&lt;br /&gt;&lt;p&gt;Le titulaire du BTS négociation relation client est un vendeur-manageur commercial qui travaille dans des entreprises ou organisations de toute taille proposant des biens et/ou des services à une clientèle de particuliers ou de professionnels (utilisateurs, prescripteurs, vendeurs). Il exerce ses activités seul ou en équipe, en autonomie totale ou partielle, ou en responsabilté d'une équipe. En fonction de son expérience et de ses qualités, il peut devenir responsable d'une équipe commerciale.&lt;/p&gt;&lt;/p&gt;</resultats-attendus>
+<contenu-formation>&lt;p&gt;En plus des enseignements généraux (français, langue vivante étrangère, économie, droit, management), la formation comporte des enseignements professionnels :&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gestion de clientèles ( 5 heures hebdomadaire en 1re et 2e années) : la mercatique, une démarche centrée sur le client, l'analyse de la clientèle, la détermination et la gestion de l'offre produits/services, la fixation du prix, la communication médias, les règlements et le financement, la gestion de la rentabilité et du risque client, l'estimation de l'effort commercial, recherche des informations commerciales, utilisation de base de données clients/prospects, organisation de la prospection.&lt;/li&gt;&lt;li&gt;Relation client (5 heures hebdomadaire en 1re et 2e années) : la demande, les prix, les marges, la communication dans la relation professionnelle, les fondamentaux de la relation commerciale, la négociation, la communication commerciale.&lt;/li&gt;&lt;li&gt;Management de l'équipe commerciale (3 heures hebdomadaires en 1re et 2e années) : l'organisation de la distribution, l'évaluation de l'efficacité de l'action commerciale, la planification et le suivi de l'action, le cadre managérial, installation de la relation managériale, constitution de l'équipe commerciale, management opérationnel, le diagnostic de la relation managériale, les spécificités de la communication managériales, le travail collaboratif, la formation commerciale.&lt;/li&gt;&lt;li&gt;Gestion de projet (6 heures hebdomadaires en 1re et 2e années) : environnement de l'action, les marchés, la concurrence, la veille commerciale, les orientations stratégiques, les opérations de communication hors médias, la prise de décision, définition des procédures managériales, communication et management de projets, environnement technologique du commercial, gestion de temps.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Sous statut scolaire, l'élève est en stage pendant seize semaines. Le stage permet d'appréhender la réalité des situations professionnelles commerciales de référence et d'acquérir les compétences liées au diplôme. Il se déroule obligatoirement au sein d'entreprises ou d'organisations dont l'activité principale est la commercialisation de biens et de services auprès d'une clientèle de particuliers ou de professionnels.&lt;/p&gt;</contenu-formation>
+<certifiante>1</certifiante>
+<contact-formation>
+<coordonnees>
+</coordonnees>
+</contact-formation>
+<parcours-de-formation>4</parcours-de-formation>
+<code-niveau-entree>0</code-niveau-entree>
+<certification>
+<code-RNCP>474</code-RNCP>
+<code-CERTIFINFO>19004</code-CERTIFINFO>
+</certification>
+<code-niveau-sortie>6</code-niveau-sortie>
+<url-formation>
+<urlweb>www2.cndp.fr/archivage/valid/brochadmin/bouton/c052.htm</urlweb>
+</url-formation>
+<action numero="9436_18706">
+<rythme-formation>Temps plein</rythme-formation>
+<code-public-vise ref="V11">81061</code-public-vise>
+<niveau-entree-obligatoire>1</niveau-entree-obligatoire>
+<modalites-alternance>-</modalites-alternance>
+<modalites-enseignement>0</modalites-enseignement>
+<conditions-specifiques>-</conditions-specifiques>
+<prise-en-charge-frais-possible>1</prise-en-charge-frais-possible>
+<lieu-de-formation>
+<coordonnees numero="16">
+<ligne>Lycée Kerneuzec</ligne>
+<adresse numero="16">
+<ligne>Kerneuzec</ligne>
+<codepostal>29391</codepostal>
+<ville>QUIMPERLÉ</ville>
+<departement>29</departement>
+<code-INSEE-commune>29233</code-INSEE-commune>
+<region>53</region>
+<pays>FR</pays>
+<geolocalisation>
+<latitude>47.882108</latitude>
+<longitude>-3.5526545</longitude>
+</geolocalisation>
+</adresse>
+</coordonnees>
+<extras info="ETAB ONISEP">
+<extra info="ETA_ID LIEU ONISEP">16</extra>
+</extras>
+</lieu-de-formation>
+<modalites-entrees-sorties>0</modalites-entrees-sorties>
+<url-action>
+<urlweb>lyceedekerneuzec.fr</urlweb>
+</url-action>
+<session numero="9436_18706">
+<periode>
+<debut>20150901</debut>
+<fin>20170831</fin>
+</periode>
+<adresse-inscription>
+<adresse numero="16">
+<ligne>Lycée Kerneuzec</ligne>
+<ligne>Kerneuzec</ligne>
+<codepostal>29391</codepostal>
+<ville>QUIMPERLÉ</ville>
+<departement>29</departement>
+<code-INSEE-commune>29233</code-INSEE-commune>
+<region>53</region>
+<pays>FR</pays>
+<geolocalisation>
+<latitude>47.882108</latitude>
+<longitude>-3.5526545</longitude>
+</geolocalisation>
+</adresse>
+</adresse-inscription>
+</session>
+<hebergement>Internat garçons-filles</hebergement>
+<duree-indicative>2 ans</duree-indicative>
+<extras info="type-formation">
+<extra info="formation-initiale">1</extra>
+</extras>
+<extras info="ACTION ONISEP">
+<extra info="ACT_ID ONISEP">18706</extra>
+</extras>
+</action>
+<organisme-formation-responsable numero="16">
+<numero-activite>99999999999</numero-activite>
+<SIRET-organisme-formation>
+<SIRET>19290076900014</SIRET>
+</SIRET-organisme-formation>
+<nom-organisme>Lycée Kerneuzec</nom-organisme>
+<raison-sociale>-</raison-sociale>
+<coordonnees-organisme>
+<coordonnees numero="16">
+<adresse numero="16">
+<ligne>Kerneuzec</ligne>
+<codepostal>29391</codepostal>
+<ville>QUIMPERLÉ</ville>
+<departement>29</departement>
+<code-INSEE-commune>29233</code-INSEE-commune>
+<region>53</region>
+<pays>FR</pays>
+<geolocalisation>
+<latitude>47.882108</latitude>
+<longitude>-3.5526545</longitude>
+</geolocalisation>
+</adresse>
+<telfixe>
+<numtel>02 98 96 48 00</numtel>
+</telfixe>
+<courriel>ce.0290076a@ac-rennes.fr</courriel>
+<web>
+<urlweb>lyceedekerneuzec.fr</urlweb>
+</web>
+</coordonnees>
+</coordonnees-organisme>
+<contact-organisme>
+<coordonnees numero="16">
+<adresse numero="16">
+<ligne>Kerneuzec</ligne>
+<codepostal>29391</codepostal>
+<ville>QUIMPERLÉ</ville>
+<departement>29</departement>
+<code-INSEE-commune>29233</code-INSEE-commune>
+<region>53</region>
+<pays>FR</pays>
+<geolocalisation>
+<latitude>47.882108</latitude>
+<longitude>-3.5526545</longitude>
+</geolocalisation>
+</adresse>
+<telfixe>
+<numtel>02 98 96 48 00</numtel>
+</telfixe>
+<courriel>ce.0290076a@ac-rennes.fr</courriel>
+<web>
+<urlweb>lyceedekerneuzec.fr</urlweb>
+</web>
+</coordonnees>
+</contact-organisme>
+<renseignements-specifiques>-</renseignements-specifiques>
+<potentiel>
+<code-FORMACODE  ref="V11">11054</code-FORMACODE>
+<code-FORMACODE  ref="V11">11454</code-FORMACODE>
+<code-FORMACODE  ref="V11">11554</code-FORMACODE>
+<code-FORMACODE  ref="V11">12054</code-FORMACODE>
+<code-FORMACODE  ref="V11">13154</code-FORMACODE>
+</potentiel>
+<extras info="ETAB ONISEP">
+<extra info="ETA_ID ORG ONISEP">16</extra>
+</extras>
+</organisme-formation-responsable>
+<extras info="FORMATION ONISEP">
+<extra info="DATE EXPORT ONISEP">20151203</extra>
+<extra info="FOR_ID ONISEP">9436</extra>
+</extras>
+</formation>
+</offres>
+</lheo>
+

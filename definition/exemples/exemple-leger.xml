@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lheo-leger>
+<resumes-offres>
+<resume-offre file="http://formation.prao.org/echanges/lheo2008/7075.xml">
+<domaine-formation>
+<codes-NSF>
+<code-NSF>332</code-NSF>
+</codes-NSF>
+<codes-FORMACODE>
+<code-FORMACODE numero="G3AAIA">44569</code-FORMACODE>
+</codes-FORMACODE>
+<codes-ROME>
+<code-ROME>23221</code-ROME>
+</codes-ROME>
+</domaine-formation>
+<intitule-action info="TITRE PROFESSIONNEL CONSEILLER(ERE) EN INSERTION PROFESSIONNELLE">Titre professionnel conseiller(ère) en insertion professionnelle</intitule-action>
+<nom-organisme info="AFPA RILLIEUX">AFPA Rillieux</nom-organisme>
+<SIRET>30059912300183</SIRET>
+<codepostal>69144</codepostal>
+<ville info="RILLIEUX-LA-PAPE">Rillieux-la-Pape</ville>
+<departement>69</departement>
+<code-INSEE-commune>69286</code-INSEE-commune>
+<region>82</region>
+<diplomante>1</diplomante>
+<code-niveau-entree>5</code-niveau-entree>
+<FOAD>1</FOAD>
+<prise-en-charge-frais-possible>1</prise-en-charge-frais-possible>
+<remuneration-possible>1</remuneration-possible>
+<codes-public-vise>
+<code-public-vise>80011</code-public-vise>
+<code-public-vise>80024</code-public-vise>
+</codes-public-vise>
+<certification>
+<code-RNCP>403</code-RNCP>
+<code-CERTIFINFO numero="361">25051</code-CERTIFINFO>
+</certification>
+<extras info="geolocalisation">
+<extra info="latitude">45.804363</extra>
+<extra info="longitude">4.887452</extra>
+</extras>
+<nombre-heures-total>1260</nombre-heures-total>
+<sessions>
+<session>
+<periode>
+<debut>20080414</debut>
+<fin>20080801</fin>
+</periode>
+</session>
+</sessions>
+</resume-offre>
+</resumes-offres>
+</lheo-leger>

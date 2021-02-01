@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "gml.dtd">
+<dict xmlns="http://www.gelaba.org/gml/1.1" name="dict-FOAD">
+  <fullname xml:lang="fr">FOAD</fullname>
+  <doc xml:lang="fr">
+  </doc>
+    <entry>
+      <key val="0" />
+      <value xml:lang="fr" val="formation entièrement présentielle" />
+    </entry>
+    <entry>
+      <key val="1" />
+      <value xml:lang="fr" val="formation mixte" />
+    </entry>
+    <entry>
+      <key val="2" />
+      <value xml:lang="fr" val="formation entièrement à distance" />
+    </entry>
+  <property name="version" value="V1" />
+  <property name="url" value="" />
+</dict>

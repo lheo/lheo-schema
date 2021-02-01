@@ -1,0 +1,73 @@
+<div>
+  <h2>Les tables de LHÉO</h2>
+  <p>
+    Dans la représentation électronique d'une offre au format LHÉO,
+    différentes informations (public visé, domaine de formation,
+    niveau à l'entrée en formation, etc...) sont représentées par une
+    <b>clé</b> tirée d'une table. Ces tables font partie intégrante de
+    LHÉO et sont disponibles dans une représentation XML.
+  </p>
+
+  <p>
+    Chaque table a un nom et un identifiant associé permettant de la
+    désigner facilement dans une application informatique. Cet
+    identifiant est entre parenthèses à côté de chaque nom de table
+    dans l'index des tables ci-dessous.
+  </p>
+
+	<p>Depuis la version 1.3.1 de LHÉO, certaines tables ont été
+"dénormalisées" et retirées de la norme LHÉO. Les éléments contenant des codes
+issus de ces tables ne changent pas, mais les tables en questions ne sont plus
+diffusées sur ce site.</p>
+
+	<p>
+ Les éléments concernés par ce changement sont:</p>
+
+<table>
+	<tr>
+		<th>Nom de l'élément</th><th>Version par défaut (LHÉO 2.0.0)</th><th>Autres versions</th>
+	</tr>
+	<tr>
+	  <td><code>&lt;code-FORMACODE&gt;</code></td><td>V9</td><td>V8, V9.1</td>
+  </tr>
+	<tr>
+	  <td><code>&lt;code-ROME&gt;</code></td><td>V3</td><td>V2</td>
+  </tr>
+	<tr>
+	<td><code>&lt;code-NSF&gt;</code></td><td>V1</td><td></td>
+  </tr>
+	<tr>
+  <td><code>&lt;code-INSEE-commune&gt;</code></td><td>2009</td><td>2007</td>
+  </tr>
+	<tr>
+  <td><code>&lt;code-INSEE-canton&gt;</code></td><td>2009</td><td>2007</td>
+  </tr>
+	<tr>
+  <td><code>&lt;departement&gt;</code></td><td>2009</td><td>2007</td>
+  </tr>
+	<tr>
+  <td><code>&lt;region&gt;</code></td><td>2009</td><td>2007</td>
+  </tr>
+	<tr>
+  <td><code>&lt;pays&gt;</code></td><td>2009</td><td>2007</td>
+  </tr>
+	<tr>
+  <td><code>&lt;code-public-vise&gt;</code> (FORMACODE)</td><td>V9</td><td>V9.1</td>
+  </tr>
+	<tr>
+  <td><code>&lt;code-modalite-pedagogique&gt;</code> (FORMACODE)</td><td>V9</td><td>V9.1</td>
+  </tr>
+
+</table>
+
+	<p>
+		Une règle d'usage depuis la version 1.3.1 de LHÉO est de préciser, pour les éléments cités ci-dessus, la version du référentiel utilisée. Cette version devrait être précisée dans l'attribut <code>ref</code> des éléments ci-dessus. Par exemple, pour préciser qu'un code FORMACODE est issu du FORMACODE en version 9, il convient d'utiliser la notation suivante:
+	</p>
+
+    <p><code>&lt;code-FORMACODE ref="V9"&gt;46268&lt;/code-FORMACODE&gt;</code></p>
+
+	<p>Lorsque l'attribut <code>ref</code> n'est pas utilisé, les applications devraient considérer que le code fait partie du référentiel par défaut (V8 pour le FORMACODE en LHEO 1.3.1, V9 pour le FORMACODE en LHEO 2.0.0).</p>
+
+  <p><b>Depuis la version 2.2.0 de LHÉO, il est obligatoire de préciser la version utilisée pour le FORMACODE. Il n'y a donc plus de version par défaut implicite.</b></p>
+
+</div>

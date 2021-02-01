@@ -1,0 +1,18 @@
+GML TODO List
+
+-- Remove all comments from 'gml.dtd'
+
+-- Find a way to compare DTD derived from 'gml.xml' and 'gml.dtd'
+
+-- Nothing with a default value?
+
+-- Synchronise the examples in the examples/ directory with the
+   current version of GML.
+
+For a future release:
+
+-- Use min and max attributes for 'authorized_element' and
+   'choice_element', thus removing those last two elements in favor of
+   an unique 'element' stuff ?
+
+-- Add authorized mime_types for 'basic_data' ?

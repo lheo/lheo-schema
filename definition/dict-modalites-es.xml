@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "gml.dtd">
+<dict xmlns="http://www.gelaba.org/gml/1.1" name="dict-modalites-es">
+  <fullname xml:lang="fr">Modalités d'entrées/sorties</fullname>
+  <doc xml:lang="fr">
+  </doc>
+    <entry>
+      <key val="0"/>
+      <value xml:lang="fr" val="entrées/sorties à dates fixes"/>
+    </entry>
+    <entry>
+      <key val="1"/>
+      <value xml:lang="fr" val="entrées/sorties permanentes"/>
+    </entry>
+  <property name="version" value="V1" />
+  <property name="url" value="" />
+</dict>

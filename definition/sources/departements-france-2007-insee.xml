@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "gml.dtd">
+<dict xmlns="http://www.gelaba.org/gml/1.1" name="dict-regions-france">
+<fullname xml:lang="fr">Départements français (2007)</fullname>
+<doc xml:lang="fr">Départements français version 2007 (source : INSEE)</doc>
+<entry>
+  <key val="01" />
+  <value xml:lang="fr" val="Ain" />
+  <property name="insee:cheflieu" value="01053" />
+  <property name="insee:region" value="82" />
+  <property name="insee:NCC" value="AIN" />
+</entry>
+<entry>
+  <key val="02" />
+  <value xml:lang="fr" val="Aisne" />
+  <property name="insee:cheflieu" value="02408" />
+  <property name="insee:region" value="22" />
+  <property name="insee:NCC" value="AISNE" />
+</entry>
+<entry>
+  <key val="03" />
+  <value xml:lang="fr" val="Allier" />
+  <property name="insee:cheflieu" value="03190" />
+  <property name="insee:region" value="83" />
+  <property name="insee:NCC" value="ALLIER" />
+</entry>
+<entry>
+  <key val="04" />
+  <value xml:lang="fr" val="Alpes-de-Haute-Provence" />
+  <property name="insee:cheflieu" value="04070" />
+  <property name="insee:region" value="93" />
+  <property name="insee:NCC" value="ALPES-DE-HAUTE-PROVENCE" />
+</entry>
+<entry>
+  <key val="05" />
+  <value xml:lang="fr" val="Hautes-Alpes" />
+  <property name="insee:cheflieu" value="05061" />
+  <property name="insee:region" value="93" />
+  <property name="insee:NCC" value="HAUTES-ALPES" />
+</entry>
+<entry>
+  <key val="06" />
+  <value xml:lang="fr" val="Alpes-Maritimes" />
+  <property name="insee:cheflieu" value="06088" />
+  <property name="insee:region" value="93" />
+  <property name="insee:NCC" value="ALPES-MARITIMES" />
+</entry>
+<entry>
+  <key val="07" />
+  <value xml:lang="fr" val="Ardèche" />
+  <property name="insee:cheflieu" value="07186" />
+  <property name="insee:region" value="82" />
+  <property name="insee:NCC" value="ARDECHE" />
+</entry>
+<entry>
+  <key val="08" />
+  <value xml:lang="fr" val="Ardennes" />
+  <property name="insee:cheflieu" value="08105" />
+  <property name="insee:region" value="21" />
+  <property name="insee:NCC" value="ARDENNES" />
+</entry>
+<entry>
+  <key val="09" />
+  <value xml:lang="fr" val="Ariège" />
+  <property name="insee:cheflieu" value="09122" />
+  <property name="insee:region" value="73" />
+  <property name="insee:NCC" value="ARIEGE" />
+</entry>
+<entry>
+  <key val="10" />
+  <value xml:lang="fr" val="Aube" />
+  <property name="insee:cheflieu" value="10387" />
+  <property name="insee:region" value="21" />
+  <property name="insee:NCC" value="AUBE" />
+</entry>
+<entry>
+  <key val="11" />
+  <value xml:lang="fr" val="Aude" />
+  <property name="insee:cheflieu" value="11069" />
+  <property name="insee:region" value="91" />
+  <property name="insee:NCC" value="AUDE" />
+</entry>
+<entry>
+  <key val="12" />
+  <value xml:lang="fr" val="Aveyron" />
+  <property name="insee:cheflieu" value="12202" />
+  <property name="insee:region" value="73" />
+  <property name="insee:NCC" value="AVEYRON" />
+</entry>
+<entry>
+  <key val="13" />
+  <value xml:lang="fr" val="Bouches-du-Rhône" />
+  <property name="insee:cheflieu" value="13055" />
+  <property name="insee:region" value="93" />
+  <property name="insee:NCC" value="BOUCHES-DU-RHONE" />
+</entry>
+<entry>
+  <key val="14" />
+  <value xml:lang="fr" val="Calvados" />
+  <property name="insee:cheflieu" value="14118" />
+  <property name="insee:region" value="25" />
+  <property name="insee:NCC" value="CALVADOS" />
+</entry>
+<entry>
+  <key val="15" />
+  <value xml:lang="fr" val="Cantal" />
+  <property name="insee:cheflieu" value="15014" />
+  <property name="insee:region" value="83" />
+  <property name="insee:NCC" value="CANTAL" />
+</entry>
+<entry>
+  <key val="16" />
+  <value xml:lang="fr" val="Charente" />
+  <property name="insee:cheflieu" value="16015" />
+  <property name="insee:region" value="54" />
+  <property name="insee:NCC" value="CHARENTE" />
+</entry>
+<entry>
+  <key val="17" />
+  <value xml:lang="fr" val="Charente-Maritime" />
+  <property name="insee:cheflieu" value="17300" />
+  <property name="insee:region" value="54" />
+  <property name="insee:NCC" value="CHARENTE-MARITIME" />
+</entry>
+<entry>
+  <key val="18" />
+  <value xml:lang="fr" val="Cher" />
+  <property name="insee:cheflieu" value="18033" />
+  <property name="insee:region" value="24" />
+  <property name="insee:NCC" value="CHER" />
+</entry>
+<entry>
+  <key val="19" />
+  <value xml:lang="fr" val="Corrèze" />
+  <property name="insee:cheflieu" value="19272" />
+  <property name="insee:region" value="74" />
+  <property name="insee:NCC" value="CORREZE" />
+</entry>
+<entry>
+  <key val="2A" />
+  <value xml:lang="fr" val="Corse-du-Sud" />
+  <property name="insee:cheflieu" value="2A004" />
+  <property name="insee:region" value="94" />
+  <property name="insee:NCC" value="CORSE-DU-SUD" />
+</entry>
+<entry>
+  <key val="2B" />
+  <value xml:lang="fr" val="Haute-Corse" />
+  <property name="insee:cheflieu" value="2B033" />
+  <property name="insee:region" value="94" />
+  <property name="insee:NCC" value="HAUTE-CORSE" />
+</entry>
+<entry>
+  <key val="21" />
+  <value xml:lang="fr" val="Côte-d'Or" />
+  <property name="insee:cheflieu" value="21231" />
+  <property name="insee:region" value="26" />
+  <property name="insee:NCC" value="COTE-D'OR" />
+</entry>
+<entry>
+  <key val="22" />
+  <value xml:lang="fr" val="Côtes-d'Armor" />
+  <property name="insee:cheflieu" value="22278" />
+  <property name="insee:region" value="53" />
+  <property name="insee:NCC" value="COTES-D'ARMOR" />
+</entry>
+<entry>
+  <key val="23" />
+  <value xml:lang="fr" val="Creuse" />
+  <property name="insee:cheflieu" value="23096" />
+  <property name="insee:region" value="74" />
+  <property name="insee:NCC" value="CREUSE" />
+</entry>
+<entry>
+  <key val="24" />
+  <value xml:lang="fr" val="Dordogne" />
+  <property name="insee:cheflieu" value="24322" />
+  <property name="insee:region" value="72" />
+  <property name="insee:NCC" value="DORDOGNE" />
+</entry>
+<entry>
+  <key val="25" />
+  <value xml:lang="fr" val="Doubs" />
+  <property name="insee:cheflieu" value="25056" />
+  <property name="insee:region" value="43" />
+  <property name="insee:NCC" value="DOUBS" />
+</entry>
+<entry>
+  <key val="26" />
+  <value xml:lang="fr" val="Drôme" />
+  <property name="insee:cheflieu" value="26362" />
+  <property name="insee:region" value="82" />
+  <property name="insee:NCC" value="DROME" />
+</entry>
+<entry>
+  <key val="27" />
+  <value xml:lang="fr" val="Eure" />
+  <property name="insee:cheflieu" value="27229" />
+  <property name="insee:region" value="23" />
+  <property name="insee:NCC" value="EURE" />
+</entry>
+<entry>
+  <key val="28" />
+  <value xml:lang="fr" val="Eure-et-Loir" />
+  <property name="insee:cheflieu" value="28085" />
+  <property name="insee:region" value="24" />
+  <property name="insee:NCC" value="EURE-ET-LOIR" />
+</entry>
+<entry>
+  <key val="29" />
+  <value xml:lang="fr" val="Finistère" />
+  <property name="insee:cheflieu" value="29232" />
+  <property name="insee:region" value="53" />
+  <property name="insee:NCC" value="FINISTERE" />
+</entry>
+<entry>
+  <key val="30" />
+  <value xml:lang="fr" val="Gard" />
+  <property name="insee:cheflieu" value="30189" />
+  <property name="insee:region" value="91" />
+  <property name="insee:NCC" value="GARD" />
+</entry>
+<entry>
+  <key val="31" />
+  <value xml:lang="fr" val="Haute-Garonne" />
+  <property name="insee:cheflieu" value="31555" />
+  <property name="insee:region" value="73" />
+  <property name="insee:NCC" value="HAUTE-GARONNE" />
+</entry>
+<entry>
+  <key val="32" />
+  <value xml:lang="fr" val="Gers" />
+  <property name="insee:cheflieu" value="32013" />
+  <property name="insee:region" value="73" />
+  <property name="insee:NCC" value="GERS" />
+</entry>
+<entry>
+  <key val="33" />
+  <value xml:lang="fr" val="Gironde" />
+  <property name="insee:cheflieu" value="33063" />
+  <property name="insee:region" value="72" />
+  <property name="insee:NCC" value="GIRONDE" />
+</entry>
+<entry>
+  <key val="34" />
+  <value xml:lang="fr" val="Hérault" />
+  <property name="insee:cheflieu" value="34172" />
+  <property name="insee:region" value="91" />
+  <property name="insee:NCC" value="HERAULT" />
+</entry>
+<entry>
+  <key val="35" />
+  <value xml:lang="fr" val="Ille-et-Vilaine" />
+  <property name="insee:cheflieu" value="35238" />
+  <property name="insee:region" value="53" />
+  <property name="insee:NCC" value="ILLE-ET-VILAINE" />
+</entry>
+<entry>
+  <key val="36" />
+  <value xml:lang="fr" val="Indre" />
+  <property name="insee:cheflieu" value="36044" />
+  <property name="insee:region" value="24" />
+  <property name="insee:NCC" value="INDRE" />
+</entry>
+<entry>
+  <key val="37" />
+  <value xml:lang="fr" val="Indre-et-Loire" />
+  <property name="insee:cheflieu" value="37261" />
+  <property name="insee:region" value="24" />
+  <property name="insee:NCC" value="INDRE-ET-LOIRE" />
+</entry>
+<entry>
+  <key val="38" />
+  <value xml:lang="fr" val="Isère" />
+  <property name="insee:cheflieu" value="38185" />
+  <property name="insee:region" value="82" />
+  <property name="insee:NCC" value="ISERE" />
+</entry>
+<entry>
+  <key val="39" />
+  <value xml:lang="fr" val="Jura" />
+  <property name="insee:cheflieu" value="39300" />
+  <property name="insee:region" value="43" />
+  <property name="insee:NCC" value="JURA" />
+</entry>
+<entry>
+  <key val="40" />
+  <value xml:lang="fr" val="Landes" />
+  <property name="insee:cheflieu" value="40192" />
+  <property name="insee:region" value="72" />
+  <property name="insee:NCC" value="LANDES" />
+</entry>
+<entry>
+  <key val="41" />
+  <value xml:lang="fr" val="Loir-et-Cher" />
+  <property name="insee:cheflieu" value="41018" />
+  <property name="insee:region" value="24" />
+  <property name="insee:NCC" value="LOIR-ET-CHER" />
+</entry>
+<entry>
+  <key val="42" />
+  <value xml:lang="fr" val="Loire" />
+  <property name="insee:cheflieu" value="42218" />
+  <property name="insee:region" value="82" />
+  <property name="insee:NCC" value="LOIRE" />
+</entry>
+<entry>
+  <key val="43" />
+  <value xml:lang="fr" val="Haute-Loire" />
+  <property name="insee:cheflieu" value="43157" />
+  <property name="insee:region" value="83" />
+  <property name="insee:NCC" value="HAUTE-LOIRE" />
+</entry>
+<entry>
+  <key val="44" />
+  <value xml:lang="fr" val="Loire-Atlantique" />
+  <property name="insee:cheflieu" value="44109" />
+  <property name="insee:region" value="52" />
+  <property name="insee:NCC" value="LOIRE-ATLANTIQUE" />
+</entry>
+<entry>
+  <key val="45" />
+  <value xml:lang="fr" val="Loiret" />
+  <property name="insee:cheflieu" value="45234" />
+  <property name="insee:region" value="24" />
+  <property name="insee:NCC" value="LOIRET" />
+</entry>
+<entry>
+  <key val="46" />
+  <value xml:lang="fr" val="Lot" />
+  <property name="insee:cheflieu" value="46042" />
+  <property name="insee:region" value="73" />
+  <property name="insee:NCC" value="LOT" />
+</entry>
+<entry>
+  <key val="47" />
+  <value xml:lang="fr" val="Lot-et-Garonne" />
+  <property name="insee:cheflieu" value="47001" />
+  <property name="insee:region" value="72" />
+  <property name="insee:NCC" value="LOT-ET-GARONNE" />
+</entry>
+<entry>
+  <key val="48" />
+  <value xml:lang="fr" val="Lozère" />
+  <property name="insee:cheflieu" value="48095" />
+  <property name="insee:region" value="91" />
+  <property name="insee:NCC" value="LOZERE" />
+</entry>
+<entry>
+  <key val="49" />
+  <value xml:lang="fr" val="Maine-et-Loire" />
+  <property name="insee:cheflieu" value="49007" />
+  <property name="insee:region" value="52" />
+  <property name="insee:NCC" value="MAINE-ET-LOIRE" />
+</entry>
+<entry>
+  <key val="50" />
+  <value xml:lang="fr" val="Manche" />
+  <property name="insee:cheflieu" value="50502" />
+  <property name="insee:region" value="25" />
+  <property name="insee:NCC" value="MANCHE" />
+</entry>
+<entry>
+  <key val="51" />
+  <value xml:lang="fr" val="Marne" />
+  <property name="insee:cheflieu" value="51108" />
+  <property name="insee:region" value="21" />
+  <property name="insee:NCC" value="MARNE" />
+</entry>
+<entry>
+  <key val="52" />
+  <value xml:lang="fr" val="Haute-Marne" />
+  <property name="insee:cheflieu" value="52121" />
+  <property name="insee:region" value="21" />
+  <property name="insee:NCC" value="HAUTE-MARNE" />
+</entry>
+<entry>
+  <key val="53" />
+  <value xml:lang="fr" val="Mayenne" />
+  <property name="insee:cheflieu" value="53130" />
+  <property name="insee:region" value="52" />
+  <property name="insee:NCC" value="MAYENNE" />
+</entry>
+<entry>
+  <key val="54" />
+  <value xml:lang="fr" val="Meurthe-et-Moselle" />
+  <property name="insee:cheflieu" value="54395" />
+  <property name="insee:region" value="41" />
+  <property name="insee:NCC" value="MEURTHE-ET-MOSELLE" />
+</entry>
+<entry>
+  <key val="55" />
+  <value xml:lang="fr" val="Meuse" />
+  <property name="insee:cheflieu" value="55029" />
+  <property name="insee:region" value="41" />
+  <property name="insee:NCC" value="MEUSE" />
+</entry>
+<entry>
+  <key val="56" />
+  <value xml:lang="fr" val="Morbihan" />
+  <property name="insee:cheflieu" value="56260" />
+  <property name="insee:region" value="53" />
+  <property name="insee:NCC" value="MORBIHAN" />
+</entry>
+<entry>
+  <key val="57" />
+  <value xml:lang="fr" val="Moselle" />
+  <property name="insee:cheflieu" value="57463" />
+  <property name="insee:region" value="41" />
+  <property name="insee:NCC" value="MOSELLE" />
+</entry>
+<entry>
+  <key val="58" />
+  <value xml:lang="fr" val="Nièvre" />
+  <property name="insee:cheflieu" value="58194" />
+  <property name="insee:region" value="26" />
+  <property name="insee:NCC" value="NIEVRE" />
+</entry>
+<entry>
+  <key val="59" />
+  <value xml:lang="fr" val="Nord" />
+  <property name="insee:cheflieu" value="59350" />
+  <property name="insee:region" value="31" />
+  <property name="insee:NCC" value="NORD" />
+</entry>
+<entry>
+  <key val="60" />
+  <value xml:lang="fr" val="Oise" />
+  <property name="insee:cheflieu" value="60057" />
+  <property name="insee:region" value="22" />
+  <property name="insee:NCC" value="OISE" />
+</entry>
+<entry>
+  <key val="61" />
+  <value xml:lang="fr" val="Orne" />
+  <property name="insee:cheflieu" value="61001" />
+  <property name="insee:region" value="25" />
+  <property name="insee:NCC" value="ORNE" />
+</entry>
+<entry>
+  <key val="62" />
+  <value xml:lang="fr" val="Pas-de-Calais" />
+  <property name="insee:cheflieu" value="62041" />
+  <property name="insee:region" value="31" />
+  <property name="insee:NCC" value="PAS-DE-CALAIS" />
+</entry>
+<entry>
+  <key val="63" />
+  <value xml:lang="fr" val="Puy-de-Dôme" />
+  <property name="insee:cheflieu" value="63113" />
+  <property name="insee:region" value="83" />
+  <property name="insee:NCC" value="PUY-DE-DOME" />
+</entry>
+<entry>
+  <key val="64" />
+  <value xml:lang="fr" val="Pyrénées-Atlantiques" />
+  <property name="insee:cheflieu" value="64445" />
+  <property name="insee:region" value="72" />
+  <property name="insee:NCC" value="PYRENEES-ATLANTIQUES" />
+</entry>
+<entry>
+  <key val="65" />
+  <value xml:lang="fr" val="Hautes-Pyrénées" />
+  <property name="insee:cheflieu" value="65440" />
+  <property name="insee:region" value="73" />
+  <property name="insee:NCC" value="HAUTES-PYRENEES" />
+</entry>
+<entry>
+  <key val="66" />
+  <value xml:lang="fr" val="Pyrénées-Orientales" />
+  <property name="insee:cheflieu" value="66136" />
+  <property name="insee:region" value="91" />
+  <property name="insee:NCC" value="PYRENEES-ORIENTALES" />
+</entry>
+<entry>
+  <key val="67" />
+  <value xml:lang="fr" val="Bas-Rhin" />
+  <property name="insee:cheflieu" value="67482" />
+  <property name="insee:region" value="42" />
+  <property name="insee:NCC" value="BAS-RHIN" />
+</entry>
+<entry>
+  <key val="68" />
+  <value xml:lang="fr" val="Haut-Rhin" />
+  <property name="insee:cheflieu" value="68066" />
+  <property name="insee:region" value="42" />
+  <property name="insee:NCC" value="HAUT-RHIN" />
+</entry>
+<entry>
+  <key val="69" />
+  <value xml:lang="fr" val="Rhône" />
+  <property name="insee:cheflieu" value="69123" />
+  <property name="insee:region" value="82" />
+  <property name="insee:NCC" value="RHONE" />
+</entry>
+<entry>
+  <key val="70" />
+  <value xml:lang="fr" val="Haute-Saône" />
+  <property name="insee:cheflieu" value="70550" />
+  <property name="insee:region" value="43" />
+  <property name="insee:NCC" value="HAUTE-SAONE" />
+</entry>
+<entry>
+  <key val="71" />
+  <value xml:lang="fr" val="Saône-et-Loire" />
+  <property name="insee:cheflieu" value="71270" />
+  <property name="insee:region" value="26" />
+  <property name="insee:NCC" value="SAONE-ET-LOIRE" />
+</entry>
+<entry>
+  <key val="72" />
+  <value xml:lang="fr" val="Sarthe" />
+  <property name="insee:cheflieu" value="72181" />
+  <property name="insee:region" value="52" />
+  <property name="insee:NCC" value="SARTHE" />
+</entry>
+<entry>
+  <key val="73" />
+  <value xml:lang="fr" val="Savoie" />
+  <property name="insee:cheflieu" value="73065" />
+  <property name="insee:region" value="82" />
+  <property name="insee:NCC" value="SAVOIE" />
+</entry>
+<entry>
+  <key val="74" />
+  <value xml:lang="fr" val="Haute-Savoie" />
+  <property name="insee:cheflieu" value="74010" />
+  <property name="insee:region" value="82" />
+  <property name="insee:NCC" value="HAUTE-SAVOIE" />
+</entry>
+<entry>
+  <key val="75" />
+  <value xml:lang="fr" val="Paris" />
+  <property name="insee:cheflieu" value="75056" />
+  <property name="insee:region" value="11" />
+  <property name="insee:NCC" value="PARIS" />
+</entry>
+<entry>
+  <key val="76" />
+  <value xml:lang="fr" val="Seine-Maritime" />
+  <property name="insee:cheflieu" value="76540" />
+  <property name="insee:region" value="23" />
+  <property name="insee:NCC" value="SEINE-MARITIME" />
+</entry>
+<entry>
+  <key val="77" />
+  <value xml:lang="fr" val="Seine-et-Marne" />
+  <property name="insee:cheflieu" value="77288" />
+  <property name="insee:region" value="11" />
+  <property name="insee:NCC" value="SEINE-ET-MARNE" />
+</entry>
+<entry>
+  <key val="78" />
+  <value xml:lang="fr" val="Yvelines" />
+  <property name="insee:cheflieu" value="78646" />
+  <property name="insee:region" value="11" />
+  <property name="insee:NCC" value="YVELINES" />
+</entry>
+<entry>
+  <key val="79" />
+  <value xml:lang="fr" val="Deux-Sèvres" />
+  <property name="insee:cheflieu" value="79191" />
+  <property name="insee:region" value="54" />
+  <property name="insee:NCC" value="DEUX-SEVRES" />
+</entry>
+<entry>
+  <key val="80" />
+  <value xml:lang="fr" val="Somme" />
+  <property name="insee:cheflieu" value="80021" />
+  <property name="insee:region" value="22" />
+  <property name="insee:NCC" value="SOMME" />
+</entry>
+<entry>
+  <key val="81" />
+  <value xml:lang="fr" val="Tarn" />
+  <property name="insee:cheflieu" value="81004" />
+  <property name="insee:region" value="73" />
+  <property name="insee:NCC" value="TARN" />
+</entry>
+<entry>
+  <key val="82" />
+  <value xml:lang="fr" val="Tarn-et-Garonne" />
+  <property name="insee:cheflieu" value="82121" />
+  <property name="insee:region" value="73" />
+  <property name="insee:NCC" value="TARN-ET-GARONNE" />
+</entry>
+<entry>
+  <key val="83" />
+  <value xml:lang="fr" val="Var" />
+  <property name="insee:cheflieu" value="83137" />
+  <property name="insee:region" value="93" />
+  <property name="insee:NCC" value="VAR" />
+</entry>
+<entry>
+  <key val="84" />
+  <value xml:lang="fr" val="Vaucluse" />
+  <property name="insee:cheflieu" value="84007" />
+  <property name="insee:region" value="93" />
+  <property name="insee:NCC" value="VAUCLUSE" />
+</entry>
+<entry>
+  <key val="85" />
+  <value xml:lang="fr" val="Vendée" />
+  <property name="insee:cheflieu" value="85191" />
+  <property name="insee:region" value="52" />
+  <property name="insee:NCC" value="VENDEE" />
+</entry>
+<entry>
+  <key val="86" />
+  <value xml:lang="fr" val="Vienne" />
+  <property name="insee:cheflieu" value="86194" />
+  <property name="insee:region" value="54" />
+  <property name="insee:NCC" value="VIENNE" />
+</entry>
+<entry>
+  <key val="87" />
+  <value xml:lang="fr" val="Haute-Vienne" />
+  <property name="insee:cheflieu" value="87085" />
+  <property name="insee:region" value="74" />
+  <property name="insee:NCC" value="HAUTE-VIENNE" />
+</entry>
+<entry>
+  <key val="88" />
+  <value xml:lang="fr" val="Vosges" />
+  <property name="insee:cheflieu" value="88160" />
+  <property name="insee:region" value="41" />
+  <property name="insee:NCC" value="VOSGES" />
+</entry>
+<entry>
+  <key val="89" />
+  <value xml:lang="fr" val="Yonne" />
+  <property name="insee:cheflieu" value="89024" />
+  <property name="insee:region" value="26" />
+  <property name="insee:NCC" value="YONNE" />
+</entry>
+<entry>
+  <key val="90" />
+  <value xml:lang="fr" val="Territoire de Belfort" />
+  <property name="insee:cheflieu" value="90010" />
+  <property name="insee:region" value="43" />
+  <property name="insee:NCC" value="TERRITOIRE DE BELFORT" />
+</entry>
+<entry>
+  <key val="91" />
+  <value xml:lang="fr" val="Essonne" />
+  <property name="insee:cheflieu" value="91228" />
+  <property name="insee:region" value="11" />
+  <property name="insee:NCC" value="ESSONNE" />
+</entry>
+<entry>
+  <key val="92" />
+  <value xml:lang="fr" val="Hauts-de-Seine" />
+  <property name="insee:cheflieu" value="92050" />
+  <property name="insee:region" value="11" />
+  <property name="insee:NCC" value="HAUTS-DE-SEINE" />
+</entry>
+<entry>
+  <key val="93" />
+  <value xml:lang="fr" val="Seine-Saint-Denis" />
+  <property name="insee:cheflieu" value="93008" />
+  <property name="insee:region" value="11" />
+  <property name="insee:NCC" value="SEINE-SAINT-DENIS" />
+</entry>
+<entry>
+  <key val="94" />
+  <value xml:lang="fr" val="Val-de-Marne" />
+  <property name="insee:cheflieu" value="94028" />
+  <property name="insee:region" value="11" />
+  <property name="insee:NCC" value="VAL-DE-MARNE" />
+</entry>
+<entry>
+  <key val="95" />
+  <value xml:lang="fr" val="Val-d'Oise" />
+  <property name="insee:cheflieu" value="95500" />
+  <property name="insee:region" value="11" />
+  <property name="insee:NCC" value="VAL-D'OISE" />
+</entry>
+<entry>
+  <key val="971" />
+  <value xml:lang="fr" val="Guadeloupe" />
+  <property name="insee:cheflieu" value="97105" />
+  <property name="insee:region" value="01" />
+  <property name="insee:NCC" value="GUADELOUPE" />
+</entry>
+<entry>
+  <key val="972" />
+  <value xml:lang="fr" val="Martinique" />
+  <property name="insee:cheflieu" value="97209" />
+  <property name="insee:region" value="02" />
+  <property name="insee:NCC" value="MARTINIQUE" />
+</entry>
+<entry>
+  <key val="973" />
+  <value xml:lang="fr" val="Guyane" />
+  <property name="insee:cheflieu" value="97302" />
+  <property name="insee:region" value="03" />
+  <property name="insee:NCC" value="GUYANE" />
+</entry>
+<entry>
+  <key val="974" />
+  <value xml:lang="fr" val="La Réunion" />
+  <property name="insee:cheflieu" value="97411" />
+  <property name="insee:region" value="04" />
+  <property name="insee:NCC" value="LA REUNION" />
+</entry>
+<property name="version" value="2007" />
+</dict>

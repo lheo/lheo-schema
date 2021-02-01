@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "gml.dtd">
+<dict xmlns="http://www.gelaba.org/gml/1.1" name="dict-NSF">
+  <fullname xml:lang="fr">Nomenclature des Spécialités de Formation (NSF)</fullname>
+  <doc xml:lang="fr">
+    La Nomenclature des spécialités de formation est définie par le
+    décret 94-522 du 21 juin 1994 publié au Journal Officiel de la
+    République Française du 26 juin 1994.
+  </doc>
+  <entry>
+    <key val="100"/>
+    <value xml:lang="fr" val="Formations générales"/>
+  </entry>
+  <entry>
+    <key val="110"/>
+    <value xml:lang="fr" val="Spécialités pluriscientifiques"/>
+  </entry>
+  <entry>
+    <key val="111"/>
+    <value xml:lang="fr" val="Physique-chimie"/>
+  </entry>
+  <entry>
+    <key val="112"/>
+    <value xml:lang="fr" val="Chimie-biologie, biochimie"/>
+  </entry>
+  <entry>
+    <key val="113"/>
+    <value xml:lang="fr" val="Sciences naturelles (biologie-géologie)"/>
+  </entry>
+  <entry>
+    <key val="114"/>
+    <value xml:lang="fr" val="Mathématiques"/>
+  </entry>
+  <entry>
+    <key val="115"/>
+    <value xml:lang="fr" val="Physique"/>
+  </entry>
+  <entry>
+    <key val="116"/>
+    <value xml:lang="fr" val="Chimie"/>
+  </entry>
+  <entry>
+    <key val="117"/>
+    <value xml:lang="fr" val="Sciences de la terre"/>
+  </entry>
+  <entry>
+    <key val="118"/>
+    <value xml:lang="fr" val="Sciences de la vie"/>
+  </entry>
+  <entry>
+    <key val="120"/>
+    <value xml:lang="fr" val="Spécialités pluridisciplinaires Sciences humaines et droit"/>
+  </entry>
+  <entry>
+    <key val="121"/>
+    <value xml:lang="fr" val="Géographie"/>
+  </entry>
+  <entry>
+    <key val="122"/>
+    <value xml:lang="fr" val="Economie"/>
+  </entry>
+  <entry>
+    <key val="123"/>
+    <value xml:lang="fr" val="Sciences sociales (y compris démographie, anthropologie)"/>
+  </entry>
+  <entry>
+    <key val="124"/>
+    <value xml:lang="fr" val="Psychologie"/>
+  </entry>
+  <entry>
+    <key val="125"/>
+    <value xml:lang="fr" val="Linguistique"/>
+  </entry>
+  <entry>
+    <key val="126"/>
+    <value xml:lang="fr" val="Histoire"/>
+  </entry>
+  <entry>
+    <key val="127"/>
+    <value xml:lang="fr" val="Philosophie, éthique et théologie"/>
+  </entry>
+  <entry>
+    <key val="128"/>
+    <value xml:lang="fr" val="Droit, sciences politiques"/>
+  </entry>
+  <entry>
+    <key val="130"/>
+    <value xml:lang="fr" val="Spécialités littéraires et artistiques plurivalentes"/>
+  </entry>
+  <entry>
+    <key val="131"/>
+    <value xml:lang="fr" val="Français, littérature et civilisation française"/>
+  </entry>
+  <entry>
+    <key val="132"/>
+    <value xml:lang="fr" val="Arts plastiques"/>
+  </entry>
+  <entry>
+    <key val="133"/>
+    <value xml:lang="fr" val="Musique, arts du spectacle"/>
+  </entry>
+  <entry>
+    <key val="134"/>
+    <value xml:lang="fr" val="Autres disciplines artistiques et spécialités artistiques plurivalentes"/>
+  </entry>
+  <entry>
+    <key val="135"/>
+    <value xml:lang="fr" val="Langues et civilisations anciennes"/>
+  </entry>
+  <entry>
+    <key val="136"/>
+    <value xml:lang="fr" val="Langues vivantes, civilisations étrangères et régionales"/>
+  </entry>
+  <entry>
+    <key val="200"/>
+    <value xml:lang="fr" val="Technologies industrielles fondamentales (génie industriel et procédés de transformation, spécialités à dominante fonctionnelle)" />
+  </entry>
+  <entry>
+    <key val="201"/>
+    <value xml:lang="fr" val="Technologies de commandes des transformations industrielles (automatismes et robotique industriels, informatique industrielle)" />
+  </entry>
+  <entry>
+    <key val="210"/>
+    <value xml:lang="fr" val="Spécialités plurivalentes de l'agronomie et de l'agriculture"/>
+  </entry>
+  <entry>
+    <key val="211"/>
+    <value xml:lang="fr" val="Productions végétales, cultures spécialisées et protection des cultures (horticulture, viticulture,arboriculture fruitière...)"/>
+  </entry>
+  <entry>
+    <key val="212"/>
+    <value xml:lang="fr" val="Productions animales, élevage spécialisé, aquaculture, soins aux animaux (y compris vétérinaire)"/>
+  </entry>
+  <entry>
+    <key val="213"/>
+    <value xml:lang="fr" val="Forêts, espaces naturels, faune sauvage, pêche"/>
+  </entry>
+  <entry>
+    <key val="214"/>
+    <value xml:lang="fr" val="Aménagement paysager (parcs, jardins, espaces verts, terrains de sport)"/>
+  </entry>
+  <entry>
+    <key val="220"/>
+    <value xml:lang="fr" val="Spécialités pluritechnologiques des transformations"/>
+  </entry>
+  <entry>
+    <key val="221"/>
+    <value xml:lang="fr" val="Agro-alimentaire, alimentation, cuisine"/>
+  </entry>
+  <entry>
+    <key val="222"/>
+    <value xml:lang="fr" val="Transformations chimiques et apparentées (y compris industrie pharmaceutique)"/>
+  </entry>
+  <entry>
+    <key val="223"/>
+    <value xml:lang="fr" val="Métallurgie (y compris sidérurgie, fonderie, non-ferreux)"/>
+  </entry>
+  <entry>
+    <key val="224"/>
+    <value xml:lang="fr" val="Matériaux de construction, verre, céramique"/>
+  </entry>
+  <entry>
+    <key val="225"/>
+    <value xml:lang="fr" val="Plasturgie, matériaux composites"/>
+  </entry>
+  <entry>
+    <key val="226"/>
+    <value xml:lang="fr" val="Papier, carton"/>
+  </entry>
+  <entry>
+    <key val="227"/>
+    <value xml:lang="fr" val="Energie, génie climatique (y compris énergie nucléaire, thermique, hydraulique; utilités; froid, climatisation, chauffage)"/>
+  </entry>
+  <entry>
+    <key val="230"/>
+    <value xml:lang="fr" val="Spécialités pluritechnologiques Génie civil, construction, bois"/>
+  </entry>
+  <entry>
+    <key val="231"/>
+    <value xml:lang="fr" val="Mines et carrières, génie civil, topographie"/>
+  </entry>
+  <entry>
+    <key val="232"/>
+    <value xml:lang="fr" val="Bâtiment: construction et couverture"/>
+  </entry>
+  <entry>
+    <key val="233"/>
+    <value xml:lang="fr" val="Bâtiment: finitions"/>
+  </entry>
+  <entry>
+    <key val="234"/>
+    <value xml:lang="fr" val="Travail du bois et de l'ameublement"/>
+  </entry>
+  <entry>
+    <key val="240"/>
+    <value xml:lang="fr" val="Spécialités pluritechnologiques Matériaux souples"/>
+  </entry>
+  <entry>
+    <key val="241"/>
+    <value xml:lang="fr" val="Textile"/>
+  </entry>
+  <entry>
+    <key val="242"/>
+    <value xml:lang="fr" val="Habillement (y compris mode, couture)"/>
+  </entry>
+  <entry>
+    <key val="243"/>
+    <value xml:lang="fr" val="Cuirs et peaux"/>
+  </entry>
+  <entry>
+    <key val="250"/>
+    <value xml:lang="fr" val="Spécialités pluritechnologiques Mécanique-électricité (y compris maintenance mécano-électrique)" />
+  </entry>
+  <entry>
+    <key val="251"/>
+    <value xml:lang="fr" val="Mécanique générale et de précision, usinage"/>
+  </entry>
+  <entry>
+    <key val="252"/>
+    <value xml:lang="fr" val="Moteurs et mécanique auto"/>
+  </entry>
+  <entry>
+    <key val="253"/>
+    <value xml:lang="fr" val="Mécanique aéronautique et spatiale"/>
+  </entry>
+  <entry>
+    <key val="254"/>
+    <value xml:lang="fr" val="Structures métalliques (y compris soudure, carrosserie, coque de bateau, cellule d'avion)"/>
+  </entry>
+  <entry>
+    <key val="255"/>
+    <value xml:lang="fr" val="Electricité, électronique (non compris automatismes, productique)"/>
+  </entry>
+  <entry>
+    <key val="300"/>
+    <value xml:lang="fr" val="Spécialités plurivalentes des services"/>
+  </entry>
+  <entry>
+    <key val="310"/>
+    <value xml:lang="fr" val="Spécialités plurivalentes des échanges et de la gestion (y compris administration générale des entreprises et des collectivités)"/>
+  </entry>
+  <entry>
+    <key val="311"/>
+    <value xml:lang="fr" val="Transports, manutention, magasinage"/>
+  </entry>
+  <entry>
+    <key val="312"/>
+    <value xml:lang="fr" val="Commerce, vente"/>
+  </entry>
+  <entry>
+    <key val="313"/>
+    <value xml:lang="fr" val="Finances, banque, assurances, immobilier"/>
+  </entry>
+  <entry>
+    <key val="314"/>
+    <value xml:lang="fr" val="Comptabilité, gestion"/>
+  </entry>
+  <entry>
+    <key val="315"/>
+    <value xml:lang="fr" val="Ressources humaines, gestion du personnel, gestion de l'emploi"/>
+  </entry>
+  <entry>
+    <key val="320"/>
+    <value xml:lang="fr" val="Spécialités plurivalentes de la communication et de l'information"/>
+  </entry>
+  <entry>
+    <key val="321"/>
+    <value xml:lang="fr" val="Journalisme et communication (y compris communication graphique et publicité)"/>
+  </entry>
+  <entry>
+    <key val="322"/>
+    <value xml:lang="fr" val="Techniques de l'imprimerie et de l'édition"/>
+  </entry>
+  <entry>
+    <key val="323"/>
+    <value xml:lang="fr" val="Techniques de l'image et du son, métiers connexes du spectacle"/>
+  </entry>
+  <entry>
+    <key val="324"/>
+    <value xml:lang="fr" val="Secrétariat, bureautique"/>
+  </entry>
+  <entry>
+    <key val="325"/>
+    <value xml:lang="fr" val="Documentation, bibliothèque, administration des données"/>
+  </entry>
+  <entry>
+    <key val="326"/>
+    <value xml:lang="fr" val="Informatique, traitement de l'information, réseaux de transmission"/>
+  </entry>
+  <entry>
+    <key val="330"/>
+    <value xml:lang="fr" val="Spécialités plurivalentes des services aux personnes"/>
+  </entry>
+  <entry>
+    <key val="331"/>
+    <value xml:lang="fr" val="Santé"/>
+  </entry>
+  <entry>
+    <key val="332"/>
+    <value xml:lang="fr" val="Travail social"/>
+  </entry>
+  <entry>
+    <key val="333"/>
+    <value xml:lang="fr" val="Enseignement, formation"/>
+  </entry>
+  <entry>
+    <key val="334"/>
+    <value xml:lang="fr" val="Accueil, hôtellerie, tourisme"/>
+  </entry>
+  <entry>
+    <key val="335"/>
+    <value xml:lang="fr" val="Animation sportive, culturelle et de loisirs"/>
+  </entry>
+  <entry>
+    <key val="336"/>
+    <value xml:lang="fr" val="Coiffure, esthétique et autres spécialités de services aux personnes"/>
+  </entry>
+  <entry>
+    <key val="340"/>
+    <value xml:lang="fr" val="Spécialités plurivalentes des services à la collectivité"/>
+  </entry>
+  <entry>
+    <key val="341"/>
+    <value xml:lang="fr" val="Aménagement du territoire, urbanisme"/>
+  </entry>
+  <entry>
+    <key val="342"/>
+    <value xml:lang="fr" val="Développement et protection du patrimoine culturel"/>
+  </entry>
+  <entry>
+    <key val="343"/>
+    <value xml:lang="fr" val="Nettoyage, assainissement, protection de l'environnement"/>
+  </entry>
+  <entry>
+    <key val="344"/>
+    <value xml:lang="fr" val="Sécurité des biens et des personnes, police, surveillance"/>
+  </entry>
+  <entry>
+    <key val="345"/>
+    <value xml:lang="fr" val="Application des droits et statuts des personnes"/>
+  </entry>
+  <entry>
+    <key val="346"/>
+    <value xml:lang="fr" val="Spécialités militaires"/>
+  </entry>
+  <entry>
+    <key val="410"/>
+    <value xml:lang="fr" val="Spécialités concernant plusieurs capacités"/>
+  </entry>
+  <entry>
+    <key val="411"/>
+    <value xml:lang="fr" val="Pratiques sportives (y compris arts martiaux)"/>
+  </entry>
+  <entry>
+    <key val="412"/>
+    <value xml:lang="fr" val="Développement des capacités mentales, apprentissage de base"/>
+  </entry>
+  <entry>
+    <key val="413"/>
+    <value xml:lang="fr" val="Développement des capacités comportementales et relationnelles"/>
+  </entry>
+  <entry>
+    <key val="414"/>
+    <value xml:lang="fr" val="Développement des capacités individuelles d'organisation"/>
+  </entry>
+  <entry>
+    <key val="415"/>
+    <value xml:lang="fr" val="Développement des capacités d'orientation, d'insertion ou de réinsertion sociales et professionnelles"/>
+  </entry>
+  <entry>
+    <key val="421"/>
+    <value xml:lang="fr" val="Jeux et activités spécifiques de loisirs"/>
+  </entry>
+  <entry>
+    <key val="422"/>
+    <value xml:lang="fr" val="Economie et activités domestiques"/>
+  </entry>
+  <entry>
+    <key val="423"/>
+    <value xml:lang="fr" val="Vie familiale, vie sociale et autres formations au développement personnel"/>
+  </entry>
+  <property name="version" value="V1" />
+  <property name="url" value="http://admi.net/jo/19940626/ECOS9350030D.html" />
+</dict>

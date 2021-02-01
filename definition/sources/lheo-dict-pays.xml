@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "gml.dtd">
+<dict xmlns="http://www.gelaba.org/gml/1.1" name="dict-pays">
+  <fullname xml:lang="fr">Les noms de pays ISO 3166-1 (source : ISO 2007)</fullname>
+  <entry>
+    <key val="AF"/>
+    <value xml:lang="fr" val="AFGHANISTAN"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#AF"/>
+  </entry>
+  <entry>
+    <key val="ZA"/>
+    <value xml:lang="fr" val="AFRIQUE DU SUD"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#ZA"/>
+  </entry>
+  <entry>
+    <key val="AX"/>
+    <value xml:lang="fr" val="ÅLAND, ÎLES"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#AX"/>
+  </entry>
+  <entry>
+    <key val="AL"/>
+    <value xml:lang="fr" val="ALBANIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#AL"/>
+  </entry>
+  <entry>
+    <key val="DZ"/>
+    <value xml:lang="fr" val="ALGÉRIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#DZ"/>
+  </entry>
+  <entry>
+    <key val="DE"/>
+    <value xml:lang="fr" val="ALLEMAGNE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#DE"/>
+  </entry>
+  <entry>
+    <key val="AD"/>
+    <value xml:lang="fr" val="ANDORRE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#AD"/>
+  </entry>
+  <entry>
+    <key val="AO"/>
+    <value xml:lang="fr" val="ANGOLA"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#AO"/>
+  </entry>
+  <entry>
+    <key val="AI"/>
+    <value xml:lang="fr" val="ANGUILLA"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#AI"/>
+  </entry>
+  <entry>
+    <key val="AQ"/>
+    <value xml:lang="fr" val="ANTARCTIQUE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#AQ"/>
+  </entry>
+  <entry>
+    <key val="AG"/>
+    <value xml:lang="fr" val="ANTIGUA-ET-BARBUDA"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#AG"/>
+  </entry>
+  <entry>
+    <key val="AN"/>
+    <value xml:lang="fr" val="ANTILLES NÉERLANDAISES"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#AN"/>
+  </entry>
+  <entry>
+    <key val="SA"/>
+    <value xml:lang="fr" val="ARABIE SAOUDITE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#SA"/>
+  </entry>
+  <entry>
+    <key val="AR"/>
+    <value xml:lang="fr" val="ARGENTINE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#AR"/>
+  </entry>
+  <entry>
+    <key val="AM"/>
+    <value xml:lang="fr" val="ARMÉNIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#AM"/>
+  </entry>
+  <entry>
+    <key val="AW"/>
+    <value xml:lang="fr" val="ARUBA"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#AW"/>
+  </entry>
+  <entry>
+    <key val="AU"/>
+    <value xml:lang="fr" val="AUSTRALIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#AU"/>
+  </entry>
+  <entry>
+    <key val="AT"/>
+    <value xml:lang="fr" val="AUTRICHE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#AT"/>
+  </entry>
+  <entry>
+    <key val="AZ"/>
+    <value xml:lang="fr" val="AZERBAÏDJAN"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#AZ"/>
+  </entry>
+  <entry>
+    <key val="BS"/>
+    <value xml:lang="fr" val="BAHAMAS"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#BS"/>
+  </entry>
+  <entry>
+    <key val="BH"/>
+    <value xml:lang="fr" val="BAHREÏN"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#BH"/>
+  </entry>
+  <entry>
+    <key val="BD"/>
+    <value xml:lang="fr" val="BANGLADESH"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#BD"/>
+  </entry>
+  <entry>
+    <key val="BB"/>
+    <value xml:lang="fr" val="BARBADE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#BB"/>
+  </entry>
+  <entry>
+    <key val="BY"/>
+    <value xml:lang="fr" val="BÉLARUS"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#BY"/>
+  </entry>
+  <entry>
+    <key val="BE"/>
+    <value xml:lang="fr" val="BELGIQUE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#BE"/>
+  </entry>
+  <entry>
+    <key val="BZ"/>
+    <value xml:lang="fr" val="BELIZE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#BZ"/>
+  </entry>
+  <entry>
+    <key val="BJ"/>
+    <value xml:lang="fr" val="BÉNIN"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#BJ"/>
+  </entry>
+  <entry>
+    <key val="BM"/>
+    <value xml:lang="fr" val="BERMUDES"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#BM"/>
+  </entry>
+  <entry>
+    <key val="BT"/>
+    <value xml:lang="fr" val="BHOUTAN"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#BT"/>
+  </entry>
+  <entry>
+    <key val="BO"/>
+    <value xml:lang="fr" val="BOLIVIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#BO"/>
+  </entry>
+  <entry>
+    <key val="BA"/>
+    <value xml:lang="fr" val="BOSNIE-HERZÉGOVINE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#BA"/>
+  </entry>
+  <entry>
+    <key val="BW"/>
+    <value xml:lang="fr" val="BOTSWANA"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#BW"/>
+  </entry>
+  <entry>
+    <key val="BV"/>
+    <value xml:lang="fr" val="BOUVET, ÎLE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#BV"/>
+  </entry>
+  <entry>
+    <key val="BR"/>
+    <value xml:lang="fr" val="BRÉSIL"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#BR"/>
+  </entry>
+  <entry>
+    <key val="BN"/>
+    <value xml:lang="fr" val="BRUNÉI DARUSSALAM"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#BN"/>
+  </entry>
+  <entry>
+    <key val="BG"/>
+    <value xml:lang="fr" val="BULGARIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#BG"/>
+  </entry>
+  <entry>
+    <key val="BF"/>
+    <value xml:lang="fr" val="BURKINA FASO"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#BF"/>
+  </entry>
+  <entry>
+    <key val="BI"/>
+    <value xml:lang="fr" val="BURUNDI"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#BI"/>
+  </entry>
+  <entry>
+    <key val="KY"/>
+    <value xml:lang="fr" val="CAÏMANES, ÎLES"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#KY"/>
+  </entry>
+  <entry>
+    <key val="KH"/>
+    <value xml:lang="fr" val="CAMBODGE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#KH"/>
+  </entry>
+  <entry>
+    <key val="CM"/>
+    <value xml:lang="fr" val="CAMEROUN"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#CM"/>
+  </entry>
+  <entry>
+    <key val="CA"/>
+    <value xml:lang="fr" val="CANADA"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#CA"/>
+  </entry>
+  <entry>
+    <key val="CV"/>
+    <value xml:lang="fr" val="CAP-VERT"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#CV"/>
+  </entry>
+  <entry>
+    <key val="CF"/>
+    <value xml:lang="fr" val="CENTRAFRICAINE, RÉPUBLIQUE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#CF"/>
+  </entry>
+  <entry>
+    <key val="CL"/>
+    <value xml:lang="fr" val="CHILI"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#CL"/>
+  </entry>
+  <entry>
+    <key val="CN"/>
+    <value xml:lang="fr" val="CHINE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#CN"/>
+  </entry>
+  <entry>
+    <key val="CX"/>
+    <value xml:lang="fr" val="CHRISTMAS, ÎLE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#CX"/>
+  </entry>
+  <entry>
+    <key val="CY"/>
+    <value xml:lang="fr" val="CHYPRE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#CY"/>
+  </entry>
+  <entry>
+    <key val="CC"/>
+    <value xml:lang="fr" val="COCOS (KEELING), ÎLES"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#CC"/>
+  </entry>
+  <entry>
+    <key val="CO"/>
+    <value xml:lang="fr" val="COLOMBIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#CO"/>
+  </entry>
+  <entry>
+    <key val="KM"/>
+    <value xml:lang="fr" val="COMORES"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#KM"/>
+  </entry>
+  <entry>
+    <key val="CG"/>
+    <value xml:lang="fr" val="CONGO"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#CG"/>
+  </entry>
+  <entry>
+    <key val="CD"/>
+    <value xml:lang="fr" val="CONGO, LA RÉPUBLIQUE DÉMOCRATIQUE DU"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#CD"/>
+  </entry>
+  <entry>
+    <key val="CK"/>
+    <value xml:lang="fr" val="COOK, ÎLES"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#CK"/>
+  </entry>
+  <entry>
+    <key val="KR"/>
+    <value xml:lang="fr" val="CORÉE, RÉPUBLIQUE DE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#KR"/>
+  </entry>
+  <entry>
+    <key val="KP"/>
+    <value xml:lang="fr" val="CORÉE, RÉPUBLIQUE POPULAIRE DÉMOCRATIQUE DE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#KP"/>
+  </entry>
+  <entry>
+    <key val="CR"/>
+    <value xml:lang="fr" val="COSTA RICA"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#CR"/>
+  </entry>
+  <entry>
+    <key val="CI"/>
+    <value xml:lang="fr" val="CÔTE D'IVOIRE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#CI"/>
+  </entry>
+  <entry>
+    <key val="HR"/>
+    <value xml:lang="fr" val="CROATIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#HR"/>
+  </entry>
+  <entry>
+    <key val="CU"/>
+    <value xml:lang="fr" val="CUBA"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#CU"/>
+  </entry>
+  <entry>
+    <key val="DK"/>
+    <value xml:lang="fr" val="DANEMARK"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#DK"/>
+  </entry>
+  <entry>
+    <key val="DJ"/>
+    <value xml:lang="fr" val="DJIBOUTI"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#DJ"/>
+  </entry>
+  <entry>
+    <key val="DO"/>
+    <value xml:lang="fr" val="DOMINICAINE, RÉPUBLIQUE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#DO"/>
+  </entry>
+  <entry>
+    <key val="DM"/>
+    <value xml:lang="fr" val="DOMINIQUE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#DM"/>
+  </entry>
+  <entry>
+    <key val="EG"/>
+    <value xml:lang="fr" val="ÉGYPTE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#EG"/>
+  </entry>
+  <entry>
+    <key val="SV"/>
+    <value xml:lang="fr" val="EL SALVADOR"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#SV"/>
+  </entry>
+  <entry>
+    <key val="AE"/>
+    <value xml:lang="fr" val="ÉMIRATS ARABES UNIS"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#AE"/>
+  </entry>
+  <entry>
+    <key val="EC"/>
+    <value xml:lang="fr" val="ÉQUATEUR"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#EC"/>
+  </entry>
+  <entry>
+    <key val="ER"/>
+    <value xml:lang="fr" val="ÉRYTHRÉE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#ER"/>
+  </entry>
+  <entry>
+    <key val="ES"/>
+    <value xml:lang="fr" val="ESPAGNE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#ES"/>
+  </entry>
+  <entry>
+    <key val="EE"/>
+    <value xml:lang="fr" val="ESTONIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#EE"/>
+  </entry>
+  <entry>
+    <key val="US"/>
+    <value xml:lang="fr" val="ÉTATS-UNIS"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#US"/>
+  </entry>
+  <entry>
+    <key val="ET"/>
+    <value xml:lang="fr" val="ÉTHIOPIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#ET"/>
+  </entry>
+  <entry>
+    <key val="FK"/>
+    <value xml:lang="fr" val="FALKLAND, ÎLES (MALVINAS)"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#FK"/>
+  </entry>
+  <entry>
+    <key val="FO"/>
+    <value xml:lang="fr" val="FÉROÉ, ÎLES"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#FO"/>
+  </entry>
+  <entry>
+    <key val="FJ"/>
+    <value xml:lang="fr" val="FIDJI"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#FJ"/>
+  </entry>
+  <entry>
+    <key val="FI"/>
+    <value xml:lang="fr" val="FINLANDE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#FI"/>
+  </entry>
+  <entry>
+    <key val="FR"/>
+    <value xml:lang="fr" val="FRANCE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#FR"/>
+  </entry>
+  <entry>
+    <key val="GA"/>
+    <value xml:lang="fr" val="GABON"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#GA"/>
+  </entry>
+  <entry>
+    <key val="GM"/>
+    <value xml:lang="fr" val="GAMBIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#GM"/>
+  </entry>
+  <entry>
+    <key val="GE"/>
+    <value xml:lang="fr" val="GÉORGIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#GE"/>
+  </entry>
+  <entry>
+    <key val="GS"/>
+    <value xml:lang="fr" val="GÉORGIE DU SUD ET LES ÎLES SANDWICH DU SUD"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#GS"/>
+  </entry>
+  <entry>
+    <key val="GH"/>
+    <value xml:lang="fr" val="GHANA"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#GH"/>
+  </entry>
+  <entry>
+    <key val="GI"/>
+    <value xml:lang="fr" val="GIBRALTAR"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#GI"/>
+  </entry>
+  <entry>
+    <key val="GR"/>
+    <value xml:lang="fr" val="GRÈCE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#GR"/>
+  </entry>
+  <entry>
+    <key val="GD"/>
+    <value xml:lang="fr" val="GRENADE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#GD"/>
+  </entry>
+  <entry>
+    <key val="GL"/>
+    <value xml:lang="fr" val="GROENLAND"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#GL"/>
+  </entry>
+  <entry>
+    <key val="GP"/>
+    <value xml:lang="fr" val="GUADELOUPE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#GP"/>
+  </entry>
+  <entry>
+    <key val="GU"/>
+    <value xml:lang="fr" val="GUAM"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#GU"/>
+  </entry>
+  <entry>
+    <key val="GT"/>
+    <value xml:lang="fr" val="GUATEMALA"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#GT"/>
+  </entry>
+  <entry>
+    <key val="GG"/>
+    <value xml:lang="fr" val="GUERNESEY"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#GG"/>
+  </entry>
+  <entry>
+    <key val="GN"/>
+    <value xml:lang="fr" val="GUINÉE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#GN"/>
+  </entry>
+  <entry>
+    <key val="GW"/>
+    <value xml:lang="fr" val="GUINÉE-BISSAU"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#GW"/>
+  </entry>
+  <entry>
+    <key val="GQ"/>
+    <value xml:lang="fr" val="GUINÉE ÉQUATORIALE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#GQ"/>
+  </entry>
+  <entry>
+    <key val="GY"/>
+    <value xml:lang="fr" val="GUYANA"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#GY"/>
+  </entry>
+  <entry>
+    <key val="GF"/>
+    <value xml:lang="fr" val="GUYANE FRANÇAISE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#GF"/>
+  </entry>
+  <entry>
+    <key val="HT"/>
+    <value xml:lang="fr" val="HAÏTI"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#HT"/>
+  </entry>
+  <entry>
+    <key val="HM"/>
+    <value xml:lang="fr" val="HEARD, ÎLE ET MCDONALD, ÎLES"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#HM"/>
+  </entry>
+  <entry>
+    <key val="HN"/>
+    <value xml:lang="fr" val="HONDURAS"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#HN"/>
+  </entry>
+  <entry>
+    <key val="HK"/>
+    <value xml:lang="fr" val="HONG-KONG"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#HK"/>
+  </entry>
+  <entry>
+    <key val="HU"/>
+    <value xml:lang="fr" val="HONGRIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#HU"/>
+  </entry>
+  <entry>
+    <key val="IM"/>
+    <value xml:lang="fr" val="ÎLE DE MAN"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#IM"/>
+  </entry>
+  <entry>
+    <key val="UM"/>
+    <value xml:lang="fr" val="ÎLES MINEURES ÉLOIGNÉES DES ÉTATS-UNIS"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#UM"/>
+  </entry>
+  <entry>
+    <key val="VG"/>
+    <value xml:lang="fr" val="ÎLES VIERGES BRITANNIQUES"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#VG"/>
+  </entry>
+  <entry>
+    <key val="VI"/>
+    <value xml:lang="fr" val="ÎLES VIERGES DES ÉTATS-UNIS"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#VI"/>
+  </entry>
+  <entry>
+    <key val="IN"/>
+    <value xml:lang="fr" val="INDE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#IN"/>
+  </entry>
+  <entry>
+    <key val="ID"/>
+    <value xml:lang="fr" val="INDONÉSIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#ID"/>
+  </entry>
+  <entry>
+    <key val="IR"/>
+    <value xml:lang="fr" val="IRAN, RÉPUBLIQUE ISLAMIQUE D'"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#IR"/>
+  </entry>
+  <entry>
+    <key val="IQ"/>
+    <value xml:lang="fr" val="IRAQ"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#IQ"/>
+  </entry>
+  <entry>
+    <key val="IE"/>
+    <value xml:lang="fr" val="IRLANDE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#IE"/>
+  </entry>
+  <entry>
+    <key val="IS"/>
+    <value xml:lang="fr" val="ISLANDE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#IS"/>
+  </entry>
+  <entry>
+    <key val="IL"/>
+    <value xml:lang="fr" val="ISRAËL"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#IL"/>
+  </entry>
+  <entry>
+    <key val="IT"/>
+    <value xml:lang="fr" val="ITALIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#IT"/>
+  </entry>
+  <entry>
+    <key val="JM"/>
+    <value xml:lang="fr" val="JAMAÏQUE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#JM"/>
+  </entry>
+  <entry>
+    <key val="JP"/>
+    <value xml:lang="fr" val="JAPON"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#JP"/>
+  </entry>
+  <entry>
+    <key val="JE"/>
+    <value xml:lang="fr" val="JERSEY"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#JE"/>
+  </entry>
+  <entry>
+    <key val="JO"/>
+    <value xml:lang="fr" val="JORDANIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#JO"/>
+  </entry>
+  <entry>
+    <key val="KZ"/>
+    <value xml:lang="fr" val="KAZAKHSTAN"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#KZ"/>
+  </entry>
+  <entry>
+    <key val="KE"/>
+    <value xml:lang="fr" val="KENYA"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#KE"/>
+  </entry>
+  <entry>
+    <key val="KG"/>
+    <value xml:lang="fr" val="KIRGHIZISTAN"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#KG"/>
+  </entry>
+  <entry>
+    <key val="KI"/>
+    <value xml:lang="fr" val="KIRIBATI"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#KI"/>
+  </entry>
+  <entry>
+    <key val="KW"/>
+    <value xml:lang="fr" val="KOWEÏT"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#KW"/>
+  </entry>
+  <entry>
+    <key val="LA"/>
+    <value xml:lang="fr" val="LAO, RÉPUBLIQUE DÉMOCRATIQUE POPULAIRE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#LA"/>
+  </entry>
+  <entry>
+    <key val="LS"/>
+    <value xml:lang="fr" val="LESOTHO"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#LS"/>
+  </entry>
+  <entry>
+    <key val="LV"/>
+    <value xml:lang="fr" val="LETTONIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#LV"/>
+  </entry>
+  <entry>
+    <key val="LB"/>
+    <value xml:lang="fr" val="LIBAN"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#LB"/>
+  </entry>
+  <entry>
+    <key val="LR"/>
+    <value xml:lang="fr" val="LIBÉRIA"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#LR"/>
+  </entry>
+  <entry>
+    <key val="LY"/>
+    <value xml:lang="fr" val="LIBYENNE, JAMAHIRIYA ARABE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#LY"/>
+  </entry>
+  <entry>
+    <key val="LI"/>
+    <value xml:lang="fr" val="LIECHTENSTEIN"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#LI"/>
+  </entry>
+  <entry>
+    <key val="LT"/>
+    <value xml:lang="fr" val="LITUANIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#LT"/>
+  </entry>
+  <entry>
+    <key val="LU"/>
+    <value xml:lang="fr" val="LUXEMBOURG"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#LU"/>
+  </entry>
+  <entry>
+    <key val="MO"/>
+    <value xml:lang="fr" val="MACAO"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#MO"/>
+  </entry>
+  <entry>
+    <key val="MK"/>
+    <value xml:lang="fr" val="MACÉDOINE, L'EX-RÉPUBLIQUE YOUGOSLAVE DE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#MK"/>
+  </entry>
+  <entry>
+    <key val="MG"/>
+    <value xml:lang="fr" val="MADAGASCAR"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#MG"/>
+  </entry>
+  <entry>
+    <key val="MY"/>
+    <value xml:lang="fr" val="MALAISIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#MY"/>
+  </entry>
+  <entry>
+    <key val="MW"/>
+    <value xml:lang="fr" val="MALAWI"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#MW"/>
+  </entry>
+  <entry>
+    <key val="MV"/>
+    <value xml:lang="fr" val="MALDIVES"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#MV"/>
+  </entry>
+  <entry>
+    <key val="ML"/>
+    <value xml:lang="fr" val="MALI"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#ML"/>
+  </entry>
+  <entry>
+    <key val="MT"/>
+    <value xml:lang="fr" val="MALTE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#MT"/>
+  </entry>
+  <entry>
+    <key val="MP"/>
+    <value xml:lang="fr" val="MARIANNES DU NORD, ÎLES"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#MP"/>
+  </entry>
+  <entry>
+    <key val="MA"/>
+    <value xml:lang="fr" val="MAROC"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#MA"/>
+  </entry>
+  <entry>
+    <key val="MH"/>
+    <value xml:lang="fr" val="MARSHALL, ÎLES"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#MH"/>
+  </entry>
+  <entry>
+    <key val="MQ"/>
+    <value xml:lang="fr" val="MARTINIQUE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#MQ"/>
+  </entry>
+  <entry>
+    <key val="MU"/>
+    <value xml:lang="fr" val="MAURICE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#MU"/>
+  </entry>
+  <entry>
+    <key val="MR"/>
+    <value xml:lang="fr" val="MAURITANIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#MR"/>
+  </entry>
+  <entry>
+    <key val="YT"/>
+    <value xml:lang="fr" val="MAYOTTE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#YT"/>
+  </entry>
+  <entry>
+    <key val="MX"/>
+    <value xml:lang="fr" val="MEXIQUE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#MX"/>
+  </entry>
+  <entry>
+    <key val="FM"/>
+    <value xml:lang="fr" val="MICRONÉSIE, ÉTATS FÉDÉRÉS DE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#FM"/>
+  </entry>
+  <entry>
+    <key val="MD"/>
+    <value xml:lang="fr" val="MOLDOVA, RÉPUBLIQUE DE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#MD"/>
+  </entry>
+  <entry>
+    <key val="MC"/>
+    <value xml:lang="fr" val="MONACO"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#MC"/>
+  </entry>
+  <entry>
+    <key val="MN"/>
+    <value xml:lang="fr" val="MONGOLIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#MN"/>
+  </entry>
+  <entry>
+    <key val="MS"/>
+    <value xml:lang="fr" val="MONTSERRAT"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#MS"/>
+  </entry>
+  <entry>
+    <key val="MZ"/>
+    <value xml:lang="fr" val="MOZAMBIQUE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#MZ"/>
+  </entry>
+  <entry>
+    <key val="MM"/>
+    <value xml:lang="fr" val="MYANMAR"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#MM"/>
+  </entry>
+  <entry>
+    <key val="NA"/>
+    <value xml:lang="fr" val="NAMIBIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#NA"/>
+  </entry>
+  <entry>
+    <key val="NR"/>
+    <value xml:lang="fr" val="NAURU"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#NR"/>
+  </entry>
+  <entry>
+    <key val="NP"/>
+    <value xml:lang="fr" val="NÉPAL"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#NP"/>
+  </entry>
+  <entry>
+    <key val="NI"/>
+    <value xml:lang="fr" val="NICARAGUA"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#NI"/>
+  </entry>
+  <entry>
+    <key val="NE"/>
+    <value xml:lang="fr" val="NIGER"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#NE"/>
+  </entry>
+  <entry>
+    <key val="NG"/>
+    <value xml:lang="fr" val="NIGÉRIA"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#NG"/>
+  </entry>
+  <entry>
+    <key val="NU"/>
+    <value xml:lang="fr" val="NIUÉ"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#NU"/>
+  </entry>
+  <entry>
+    <key val="NF"/>
+    <value xml:lang="fr" val="NORFOLK, ÎLE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#NF"/>
+  </entry>
+  <entry>
+    <key val="NO"/>
+    <value xml:lang="fr" val="NORVÈGE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#NO"/>
+  </entry>
+  <entry>
+    <key val="NC"/>
+    <value xml:lang="fr" val="NOUVELLE-CALÉDONIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#NC"/>
+  </entry>
+  <entry>
+    <key val="NZ"/>
+    <value xml:lang="fr" val="NOUVELLE-ZÉLANDE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#NZ"/>
+  </entry>
+  <entry>
+    <key val="IO"/>
+    <value xml:lang="fr" val="OCÉAN INDIEN, TERRITOIRE BRITANNIQUE DE L'"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#IO"/>
+  </entry>
+  <entry>
+    <key val="OM"/>
+    <value xml:lang="fr" val="OMAN"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#OM"/>
+  </entry>
+  <entry>
+    <key val="UG"/>
+    <value xml:lang="fr" val="OUGANDA"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#UG"/>
+  </entry>
+  <entry>
+    <key val="UZ"/>
+    <value xml:lang="fr" val="OUZBÉKISTAN"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#UZ"/>
+  </entry>
+  <entry>
+    <key val="PK"/>
+    <value xml:lang="fr" val="PAKISTAN"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#PK"/>
+  </entry>
+  <entry>
+    <key val="PW"/>
+    <value xml:lang="fr" val="PALAOS"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#PW"/>
+  </entry>
+  <entry>
+    <key val="PS"/>
+    <value xml:lang="fr" val="PALESTINIEN OCCUPÉ, TERRITOIRE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#PS"/>
+  </entry>
+  <entry>
+    <key val="PA"/>
+    <value xml:lang="fr" val="PANAMA"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#PA"/>
+  </entry>
+  <entry>
+    <key val="PG"/>
+    <value xml:lang="fr" val="PAPOUASIE-NOUVELLE-GUINÉE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#PG"/>
+  </entry>
+  <entry>
+    <key val="PY"/>
+    <value xml:lang="fr" val="PARAGUAY"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#PY"/>
+  </entry>
+  <entry>
+    <key val="NL"/>
+    <value xml:lang="fr" val="PAYS-BAS"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#NL"/>
+  </entry>
+  <entry>
+    <key val="PE"/>
+    <value xml:lang="fr" val="PÉROU"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#PE"/>
+  </entry>
+  <entry>
+    <key val="PH"/>
+    <value xml:lang="fr" val="PHILIPPINES"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#PH"/>
+  </entry>
+  <entry>
+    <key val="PN"/>
+    <value xml:lang="fr" val="PITCAIRN"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#PN"/>
+  </entry>
+  <entry>
+    <key val="PL"/>
+    <value xml:lang="fr" val="POLOGNE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#PL"/>
+  </entry>
+  <entry>
+    <key val="PF"/>
+    <value xml:lang="fr" val="POLYNÉSIE FRANÇAISE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#PF"/>
+  </entry>
+  <entry>
+    <key val="PR"/>
+    <value xml:lang="fr" val="PORTO RICO"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#PR"/>
+  </entry>
+  <entry>
+    <key val="PT"/>
+    <value xml:lang="fr" val="PORTUGAL"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#PT"/>
+  </entry>
+  <entry>
+    <key val="QA"/>
+    <value xml:lang="fr" val="QATAR"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#QA"/>
+  </entry>
+  <entry>
+    <key val="RE"/>
+    <value xml:lang="fr" val="RÉUNION"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#RE"/>
+  </entry>
+  <entry>
+    <key val="RO"/>
+    <value xml:lang="fr" val="ROUMANIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#RO"/>
+  </entry>
+  <entry>
+    <key val="GB"/>
+    <value xml:lang="fr" val="ROYAUME-UNI"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#GB"/>
+  </entry>
+  <entry>
+    <key val="RU"/>
+    <value xml:lang="fr" val="RUSSIE, FÉDÉRATION DE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#RU"/>
+  </entry>
+  <entry>
+    <key val="RW"/>
+    <value xml:lang="fr" val="RWANDA"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#RW"/>
+  </entry>
+  <entry>
+    <key val="EH"/>
+    <value xml:lang="fr" val="SAHARA OCCIDENTAL"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#EH"/>
+  </entry>
+  <entry>
+    <key val="BL"/>
+    <value xml:lang="fr" val="SAINT-BARTHÉLEMY"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#BL"/>
+  </entry>
+  <entry>
+    <key val="SH"/>
+    <value xml:lang="fr" val="SAINTE-HÉLÈNE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#SH"/>
+  </entry>
+  <entry>
+    <key val="LC"/>
+    <value xml:lang="fr" val="SAINTE-LUCIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#LC"/>
+  </entry>
+  <entry>
+    <key val="KN"/>
+    <value xml:lang="fr" val="SAINT-KITTS-ET-NEVIS"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#KN"/>
+  </entry>
+  <entry>
+    <key val="SM"/>
+    <value xml:lang="fr" val="SAINT-MARIN"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#SM"/>
+  </entry>
+  <entry>
+    <key val="MF"/>
+    <value xml:lang="fr" val="SAINT-MARTIN"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#MF"/>
+  </entry>
+  <entry>
+    <key val="PM"/>
+    <value xml:lang="fr" val="SAINT-PIERRE-ET-MIQUELON"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#PM"/>
+  </entry>
+  <entry>
+    <key val="VA"/>
+    <value xml:lang="fr" val="SAINT-SIÈGE (ÉTAT DE LA CITÉ DU VATICAN)"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#VA"/>
+  </entry>
+  <entry>
+    <key val="VC"/>
+    <value xml:lang="fr" val="SAINT-VINCENT-ET-LES GRENADINES"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#VC"/>
+  </entry>
+  <entry>
+    <key val="SB"/>
+    <value xml:lang="fr" val="SALOMON, ÎLES"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#SB"/>
+  </entry>
+  <entry>
+    <key val="WS"/>
+    <value xml:lang="fr" val="SAMOA"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#WS"/>
+  </entry>
+  <entry>
+    <key val="AS"/>
+    <value xml:lang="fr" val="SAMOA AMÉRICAINES"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#AS"/>
+  </entry>
+  <entry>
+    <key val="ST"/>
+    <value xml:lang="fr" val="SAO TOMÉ-ET-PRINCIPE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#ST"/>
+  </entry>
+  <entry>
+    <key val="SN"/>
+    <value xml:lang="fr" val="SÉNÉGAL"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#SN"/>
+  </entry>
+  <entry>
+    <key val="RS"/>
+    <value xml:lang="fr" val="SERBIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#RS"/>
+  </entry>
+  <entry>
+    <key val="SC"/>
+    <value xml:lang="fr" val="SEYCHELLES"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#SC"/>
+  </entry>
+  <entry>
+    <key val="SL"/>
+    <value xml:lang="fr" val="SIERRA LEONE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#SL"/>
+  </entry>
+  <entry>
+    <key val="SG"/>
+    <value xml:lang="fr" val="SINGAPOUR"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#SG"/>
+  </entry>
+  <entry>
+    <key val="SK"/>
+    <value xml:lang="fr" val="SLOVAQUIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#SK"/>
+  </entry>
+  <entry>
+    <key val="SI"/>
+    <value xml:lang="fr" val="SLOVÉNIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#SI"/>
+  </entry>
+  <entry>
+    <key val="SO"/>
+    <value xml:lang="fr" val="SOMALIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#SO"/>
+  </entry>
+  <entry>
+    <key val="SD"/>
+    <value xml:lang="fr" val="SOUDAN"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#SD"/>
+  </entry>
+  <entry>
+    <key val="LK"/>
+    <value xml:lang="fr" val="SRI LANKA"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#LK"/>
+  </entry>
+  <entry>
+    <key val="SE"/>
+    <value xml:lang="fr" val="SUÈDE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#SE"/>
+  </entry>
+  <entry>
+    <key val="CH"/>
+    <value xml:lang="fr" val="SUISSE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#CH"/>
+  </entry>
+  <entry>
+    <key val="SR"/>
+    <value xml:lang="fr" val="SURINAME"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#SR"/>
+  </entry>
+  <entry>
+    <key val="SJ"/>
+    <value xml:lang="fr" val="SVALBARD ET ÎLE JAN MAYEN"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#SJ"/>
+  </entry>
+  <entry>
+    <key val="SZ"/>
+    <value xml:lang="fr" val="SWAZILAND"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#SZ"/>
+  </entry>
+  <entry>
+    <key val="SY"/>
+    <value xml:lang="fr" val="SYRIENNE, RÉPUBLIQUE ARABE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#SY"/>
+  </entry>
+  <entry>
+    <key val="TJ"/>
+    <value xml:lang="fr" val="TADJIKISTAN"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#TJ"/>
+  </entry>
+  <entry>
+    <key val="TW"/>
+    <value xml:lang="fr" val="TAÏWAN, PROVINCE DE CHINE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#TW"/>
+  </entry>
+  <entry>
+    <key val="TZ"/>
+    <value xml:lang="fr" val="TANZANIE, RÉPUBLIQUE-UNIE DE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#TZ"/>
+  </entry>
+  <entry>
+    <key val="TD"/>
+    <value xml:lang="fr" val="TCHAD"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#TD"/>
+  </entry>
+  <entry>
+    <key val="CZ"/>
+    <value xml:lang="fr" val="TCHÈQUE, RÉPUBLIQUE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#CZ"/>
+  </entry>
+  <entry>
+    <key val="TF"/>
+    <value xml:lang="fr" val="TERRES AUSTRALES FRANÇAISES"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#TF"/>
+  </entry>
+  <entry>
+    <key val="TH"/>
+    <value xml:lang="fr" val="THAÏLANDE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#TH"/>
+  </entry>
+  <entry>
+    <key val="TL"/>
+    <value xml:lang="fr" val="TIMOR-LESTE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#TL"/>
+  </entry>
+  <entry>
+    <key val="TG"/>
+    <value xml:lang="fr" val="TOGO"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#TG"/>
+  </entry>
+  <entry>
+    <key val="TK"/>
+    <value xml:lang="fr" val="TOKELAU"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#TK"/>
+  </entry>
+  <entry>
+    <key val="TO"/>
+    <value xml:lang="fr" val="TONGA"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#TO"/>
+  </entry>
+  <entry>
+    <key val="TT"/>
+    <value xml:lang="fr" val="TRINITÉ-ET-TOBAGO"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#TT"/>
+  </entry>
+  <entry>
+    <key val="TN"/>
+    <value xml:lang="fr" val="TUNISIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#TN"/>
+  </entry>
+  <entry>
+    <key val="TM"/>
+    <value xml:lang="fr" val="TURKMÉNISTAN"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#TM"/>
+  </entry>
+  <entry>
+    <key val="TC"/>
+    <value xml:lang="fr" val="TURKS ET CAÏQUES, ÎLES"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#TC"/>
+  </entry>
+  <entry>
+    <key val="TR"/>
+    <value xml:lang="fr" val="TURQUIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#TR"/>
+  </entry>
+  <entry>
+    <key val="TV"/>
+    <value xml:lang="fr" val="TUVALU"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#TV"/>
+  </entry>
+  <entry>
+    <key val="UA"/>
+    <value xml:lang="fr" val="UKRAINE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#UA"/>
+  </entry>
+  <entry>
+    <key val="UY"/>
+    <value xml:lang="fr" val="URUGUAY"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#UY"/>
+  </entry>
+  <entry>
+    <key val="VU"/>
+    <value xml:lang="fr" val="VANUATU"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#VU"/>
+  </entry>
+  <entry>
+    <key val="VE"/>
+    <value xml:lang="fr" val="VENEZUELA"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#VE"/>
+  </entry>
+  <entry>
+    <key val="VN"/>
+    <value xml:lang="fr" val="VIET NAM"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#VN"/>
+  </entry>
+  <entry>
+    <key val="WF"/>
+    <value xml:lang="fr" val="WALLIS ET FUTUNA"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#WF"/>
+  </entry>
+  <entry>
+    <key val="YE"/>
+    <value xml:lang="fr" val="YÉMEN"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#YE"/>
+  </entry>
+  <entry>
+    <key val="ZM"/>
+    <value xml:lang="fr" val="ZAMBIE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#ZM"/>
+  </entry>
+  <entry>
+    <key val="ZW"/>
+    <value xml:lang="fr" val="ZIMBABWE"/>
+    <property name="lheo:url" value="http://fr.wikipedia.org/wiki/ISO_3166-1#ZW"/>
+  </entry>
+  <property name="version" value="2007"/>
+  <property name="wikipedia" value="http://fr.wikipedia.org/wiki/ISO_3166-1"/>
+  <property name="url" value="http://www.iso.org/iso/fr/country_codes.htm"/>
+</dict>

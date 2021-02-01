@@ -1,0 +1,15 @@
+<div>
+	<h2>Les services WEB de LHÉO</h2>
+	
+	<p>Afin de permettre la constitution de systèmes d'information
+	performants et distribués, le site <code>www.lheo.org</code>
+	fournit l'intégralité des <a href="tables.html">tables de
+	LHÉO</a> sous la forme de services WEB simplifiés. Ainsi, pour
+	chaque table, il existe un service associé avec une interface
+	qui a la forme suivante:</p>
+	
+	<code>http://www.lheo.org/1.2/services/<i>TTTTT</i>/entree.cgi?cle=<i>XXX</i></code>
+	
+	<p>et qui renvoie un fragment XML contenant l'entrée de la table <i>TTTTT</i> correspondant à la clé <i>XXX</i>.</p>
+  
+</div>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "gml.dtd">
+<dict xmlns="http://www.gelaba.org/gml/1.1" name="dict-regions-france">
+<fullname xml:lang="fr">Régions françaises (2007)</fullname>
+<doc xml:lang="fr">Régions françaises version 2007 (source : INSEE)</doc>
+<entry>
+  <key val="01" />
+  <value val="Guadeloupe" />
+  <property name="insee:cheflieu" value="97105" />
+</entry>
+<entry>
+  <key val="02" />
+  <value val="Martinique" />
+  <property name="insee:cheflieu" value="97209" />
+</entry>
+<entry>
+  <key val="03" />
+  <value val="Guyane" />
+  <property name="insee:cheflieu" value="97302" />
+</entry>
+<entry>
+  <key val="04" />
+  <value val="La Réunion" />
+  <property name="insee:cheflieu" value="97411" />
+</entry>
+<entry>
+  <key val="11" />
+  <value val="Île-de-France" />
+  <property name="insee:cheflieu" value="75056" />
+</entry>
+<entry>
+  <key val="21" />
+  <value val="Champagne-Ardenne" />
+  <property name="insee:cheflieu" value="51108" />
+</entry>
+<entry>
+  <key val="22" />
+  <value val="Picardie" />
+  <property name="insee:cheflieu" value="80021" />
+</entry>
+<entry>
+  <key val="23" />
+  <value val="Haute-Normandie" />
+  <property name="insee:cheflieu" value="76540" />
+</entry>
+<entry>
+  <key val="24" />
+  <value val="Centre" />
+  <property name="insee:cheflieu" value="45234" />
+</entry>
+<entry>
+  <key val="25" />
+  <value val="Basse-Normandie" />
+  <property name="insee:cheflieu" value="14118" />
+</entry>
+<entry>
+  <key val="26" />
+  <value val="Bourgogne" />
+  <property name="insee:cheflieu" value="21231" />
+</entry>
+<entry>
+  <key val="31" />
+  <value val="Nord-Pas-de-Calais" />
+  <property name="insee:cheflieu" value="59350" />
+</entry>
+<entry>
+  <key val="41" />
+  <value val="Lorraine" />
+  <property name="insee:cheflieu" value="57463" />
+</entry>
+<entry>
+  <key val="42" />
+  <value val="Alsace" />
+  <property name="insee:cheflieu" value="67482" />
+</entry>
+<entry>
+  <key val="43" />
+  <value val="Franche-Comté" />
+  <property name="insee:cheflieu" value="25056" />
+</entry>
+<entry>
+  <key val="52" />
+  <value val="Pays de la Loire" />
+  <property name="insee:cheflieu" value="44109" />
+</entry>
+<entry>
+  <key val="53" />
+  <value val="Bretagne" />
+  <property name="insee:cheflieu" value="35238" />
+</entry>
+<entry>
+  <key val="54" />
+  <value val="Poitou-Charentes" />
+  <property name="insee:cheflieu" value="86194" />
+</entry>
+<entry>
+  <key val="72" />
+  <value val="Aquitaine" />
+  <property name="insee:cheflieu" value="33063" />
+</entry>
+<entry>
+  <key val="73" />
+  <value val="Midi-Pyrénées" />
+  <property name="insee:cheflieu" value="31555" />
+</entry>
+<entry>
+  <key val="74" />
+  <value val="Limousin" />
+  <property name="insee:cheflieu" value="87085" />
+</entry>
+<entry>
+  <key val="82" />
+  <value val="Rhône-Alpes" />
+  <property name="insee:cheflieu" value="69123" />
+</entry>
+<entry>
+  <key val="83" />
+  <value val="Auvergne" />
+  <property name="insee:cheflieu" value="63113" />
+</entry>
+<entry>
+  <key val="91" />
+  <value val="Languedoc-Roussillon" />
+  <property name="insee:cheflieu" value="34172" />
+</entry>
+<entry>
+  <key val="93" />
+  <value val="Provence-Alpes-Côte d'Azur" />
+  <property name="insee:cheflieu" value="13055" />
+</entry>
+<entry>
+  <key val="94" />
+  <value val="Corse" />
+  <property name="insee:cheflieu" value="2A004" />
+</entry>
+<property name="version" value="2007" />
+</dict>

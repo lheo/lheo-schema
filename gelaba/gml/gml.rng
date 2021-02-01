@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  NOTE: this DTD has attributes with default values.
+  The generated DTD from the GML definition has not.
+  The implementation of tools using GML definitions should
+  not assume that the DTD is present and then, those values
+  are just defined for convenience. The normative version of the
+  GML definition is 'gml.xml'.
+-->
+<grammar xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" ns="http://www.gelaba.org/gml/1.1" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <define name="definitions">
+    <element name="definitions">
+      <ref name="attlist.definitions"/>
+      <zeroOrMore>
+        <ref name="namespace"/>
+      </zeroOrMore>
+      <zeroOrMore>
+        <ref name="definition"/>
+      </zeroOrMore>
+      <zeroOrMore>
+        <ref name="dict"/>
+      </zeroOrMore>
+      <zeroOrMore>
+        <ref name="property"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.definitions" combine="interleave">
+    <attribute name="language"/>
+    <optional>
+     <attribute name="default_ns_prefix"/>
+    </optional>
+    <optional>
+      <attribute name="version"/>
+    </optional>
+    <optional>
+      <attribute name="default_root"/>
+    </optional>
+    <optional>
+      <attribute name="xml:lang" a:defaultValue="en"/>
+    </optional>
+  </define>
+  <define name="namespace">
+    <element name="namespace">
+      <ref name="attlist.namespace"/>
+      <zeroOrMore>
+        <ref name="fullname"/>
+      </zeroOrMore>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.namespace" combine="interleave">
+    <attribute name="ns_prefix"/>
+    <attribute name="href"/>
+  </define>
+  <define name="definition">
+    <element name="definition">
+      <ref name="attlist.definition"/>
+      <zeroOrMore>
+        <ref name="fullname"/>
+      </zeroOrMore>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+      <ref name="element_type"/>
+      <zeroOrMore>
+        <ref name="attribute"/>
+      </zeroOrMore>
+      <zeroOrMore>
+        <ref name="property"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.definition" combine="interleave">
+    <attribute name="name">
+      <data type="NMTOKEN"/>
+    </attribute>
+    <optional>
+      <attribute name="namespace"/>
+    </optional>
+  </define>
+  <define name="element_type">
+    <element name="element_type">
+      <ref name="attlist.element_type"/>
+      <choice>
+        <ref name="sequence"/>
+        <ref name="choice"/>
+        <ref name="empty"/>
+        <ref name="basic_int"/>
+        <ref name="basic_float"/>
+        <ref name="basic_date"/>
+        <ref name="basic_text"/>
+        <ref name="basic_name"/>
+        <ref name="basic_key"/>
+        <ref name="basic_data"/>
+      </choice>
+    </element>
+  </define>
+  <define name="attlist.element_type" combine="interleave">
+    <empty/>
+  </define>
+  <define name="sequence">
+    <element name="sequence">
+      <ref name="attlist.sequence"/>
+      <oneOrMore>
+        <ref name="element"/>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="attlist.sequence" combine="interleave">
+    <empty/>
+  </define>
+  <define name="element">
+    <element name="element">
+      <ref name="attlist.element"/>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.element" combine="interleave">
+    <attribute name="name">
+      <data type="NMTOKEN"/>
+    </attribute>
+    <optional>
+      <attribute name="min" a:defaultValue="1"/>
+    </optional>
+    <optional>
+      <attribute name="max" a:defaultValue="1"/>
+    </optional>
+    <optional>
+      <attribute name="namespace"/>
+    </optional>
+  </define>
+  <define name="choice">
+    <element name="choice">
+      <ref name="attlist.choice"/>
+      <oneOrMore>
+        <ref name="choice_element"/>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="attlist.choice" combine="interleave">
+    <optional>
+      <attribute name="min" a:defaultValue="1"/>
+    </optional>
+    <optional>
+      <attribute name="max" a:defaultValue="1"/>
+    </optional>
+  </define>
+  <define name="choice_element">
+    <element name="choice_element">
+      <ref name="attlist.choice_element"/>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.choice_element" combine="interleave">
+    <attribute name="name">
+      <data type="NMTOKEN"/>
+    </attribute>
+    <optional>
+      <attribute name="namespace"/>
+    </optional>
+  </define>
+  <define name="empty">
+    <element name="empty">
+      <ref name="attlist.empty"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="attlist.empty" combine="interleave">
+    <empty/>
+  </define>
+  <define name="basic_int">
+    <element name="basic_int">
+      <ref name="attlist.basic_int"/>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.basic_int" combine="interleave">
+    <optional>
+      <attribute name="vmin"/>
+    </optional>
+    <optional>
+      <attribute name="vmax"/>
+    </optional>
+  </define>
+  <define name="basic_float">
+    <element name="basic_float">
+      <ref name="attlist.basic_float"/>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.basic_float" combine="interleave">
+    <optional>
+      <attribute name="vmin"/>
+    </optional>
+    <optional>
+      <attribute name="vmax"/>
+    </optional>
+  </define>
+  <define name="basic_date">
+    <element name="basic_date">
+      <ref name="attlist.basic_date"/>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.basic_date" combine="interleave">
+    <optional>
+      <attribute name="vmin"/>
+    </optional>
+    <optional>
+      <attribute name="vmax"/>
+    </optional>
+  </define>
+  <define name="basic_text">
+    <element name="basic_text">
+      <ref name="attlist.basic_text"/>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.basic_text" combine="interleave">
+    <optional>
+      <attribute name="lgmin" a:defaultValue="0"/>
+    </optional>
+    <optional>
+      <attribute name="lgmax" a:defaultValue="0"/>
+    </optional>
+    <optional>
+      <attribute name="regexp"/>
+    </optional>
+  </define>
+  <define name="basic_name">
+    <element name="basic_name">
+      <ref name="attlist.basic_name"/>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.basic_name" combine="interleave">
+    <optional>
+      <attribute name="lgmin" a:defaultValue="0"/>
+    </optional>
+    <optional>
+      <attribute name="lgmax" a:defaultValue="0"/>
+    </optional>
+  </define>
+  <define name="basic_key">
+    <element name="basic_key">
+      <ref name="attlist.basic_key"/>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.basic_key" combine="interleave">
+    <attribute name="ref">
+      <data type="NMTOKEN"/>
+    </attribute>
+  </define>
+  <define name="basic_data">
+    <element name="basic_data">
+      <ref name="attlist.basic_data"/>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.basic_data" combine="interleave">
+    <empty/>
+  </define>
+  <define name="attribute">
+    <element name="attribute">
+      <ref name="attlist.attribute"/>
+      <zeroOrMore>
+        <ref name="fullname"/>
+      </zeroOrMore>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+      <ref name="attribute_type"/>
+      <zeroOrMore>
+        <ref name="property"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.attribute" combine="interleave">
+    <attribute name="name">
+      <data type="NMTOKEN"/>
+    </attribute>
+    <attribute name="type">
+      <choice>
+        <value>default</value>
+        <value>fixed</value>
+        <value>optional</value>
+        <value>required</value>
+      </choice>
+    </attribute>
+    <optional>
+      <attribute name="value"/>
+    </optional>
+  </define>
+  <define name="attribute_type">
+    <element name="attribute_type">
+      <ref name="attlist.attribute_type"/>
+      <choice>
+        <ref name="attribute_int"/>
+        <ref name="attribute_float"/>
+        <ref name="attribute_date"/>
+        <ref name="attribute_text"/>
+        <ref name="attribute_name"/>
+        <ref name="attribute_key"/>
+        <ref name="attribute_embedded_key"/>
+        <ref name="attribute_id"/>
+        <ref name="attribute_idref"/>
+        <ref name="attribute_data"/>
+      </choice>
+    </element>
+  </define>
+  <define name="attlist.attribute_type" combine="interleave">
+    <empty/>
+  </define>
+  <define name="attribute_int">
+    <element name="attribute_int">
+      <ref name="attlist.attribute_int"/>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.attribute_int" combine="interleave">
+    <optional>
+      <attribute name="vmin"/>
+    </optional>
+    <optional>
+      <attribute name="vmax"/>
+    </optional>
+  </define>
+  <define name="attribute_float">
+    <element name="attribute_float">
+      <ref name="attlist.attribute_float"/>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.attribute_float" combine="interleave">
+    <optional>
+      <attribute name="vmin"/>
+    </optional>
+    <optional>
+      <attribute name="vmax"/>
+    </optional>
+  </define>
+  <define name="attribute_date">
+    <element name="attribute_date">
+      <ref name="attlist.attribute_date"/>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.attribute_date" combine="interleave">
+    <optional>
+      <attribute name="vmin"/>
+    </optional>
+    <optional>
+      <attribute name="vmax"/>
+    </optional>
+  </define>
+  <define name="attribute_text">
+    <element name="attribute_text">
+      <ref name="attlist.attribute_text"/>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.attribute_text" combine="interleave">
+    <optional>
+      <attribute name="lgmin" a:defaultValue="0"/>
+    </optional>
+    <optional>
+      <attribute name="lgmax" a:defaultValue="0"/>
+    </optional>
+    <optional>
+      <attribute name="regexp"/>
+    </optional>
+  </define>
+  <define name="attribute_name">
+    <element name="attribute_name">
+      <ref name="attlist.attribute_name"/>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.attribute_name" combine="interleave">
+    <optional>
+      <attribute name="lgmin" a:defaultValue="0"/>
+    </optional>
+    <optional>
+      <attribute name="lgmax" a:defaultValue="0"/>
+    </optional>
+  </define>
+  <define name="attribute_key">
+    <element name="attribute_key">
+      <ref name="attlist.attribute_key"/>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.attribute_key" combine="interleave">
+    <attribute name="ref">
+      <data type="NMTOKEN"/>
+    </attribute>
+  </define>
+  <define name="attribute_embedded_key">
+    <element name="attribute_embedded_key">
+      <ref name="attlist.attribute_embedded_key"/>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.attribute_embedded_key" combine="interleave">
+    <attribute name="ref">
+      <data type="NMTOKEN"/>
+    </attribute>
+  </define>
+  <define name="attribute_id">
+    <element name="attribute_id">
+      <ref name="attlist.attribute_id"/>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.attribute_id" combine="interleave">
+    <optional>
+      <attribute name="lgmin" a:defaultValue="0"/>
+    </optional>
+    <optional>
+      <attribute name="lgmax" a:defaultValue="0"/>
+    </optional>
+  </define>
+  <define name="attribute_idref">
+    <element name="attribute_idref">
+      <ref name="attlist.attribute_idref"/>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.attribute_idref" combine="interleave">
+    <optional>
+      <attribute name="lgmin" a:defaultValue="0"/>
+    </optional>
+    <optional>
+      <attribute name="lgmax" a:defaultValue="0"/>
+    </optional>
+  </define>
+  <define name="attribute_data">
+    <element name="attribute_data">
+      <ref name="attlist.attribute_data"/>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.attribute_data" combine="interleave">
+    <empty/>
+  </define>
+  <define name="fullname">
+    <element name="fullname">
+      <ref name="attlist.fullname"/>
+      <text/>
+    </element>
+  </define>
+  <define name="attlist.fullname" combine="interleave">
+    <attribute name="xml:lang"/>
+  </define>
+  <define name="doc">
+    <element name="doc">
+      <ref name="attlist.doc"/>
+      <text/>
+    </element>
+  </define>
+  <define name="attlist.doc" combine="interleave">
+    <attribute name="xml:lang"/>
+  </define>
+  <define name="property">
+    <element name="property">
+      <ref name="attlist.property"/>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+      <optional>
+        <ref name="data"/>
+      </optional>
+    </element>
+  </define>
+  <define name="attlist.property" combine="interleave">
+    <attribute name="name"/>
+    <optional>
+      <attribute name="value"/>
+    </optional>
+  </define>
+  <define name="data">
+    <element name="data">
+      <ref name="attlist.data"/>
+      <text/>
+    </element>
+  </define>
+  <define name="attlist.data" combine="interleave">
+    <empty/>
+  </define>
+  <define name="dict">
+    <element name="dict">
+      <ref name="attlist.dict"/>
+      <zeroOrMore>
+        <ref name="fullname"/>
+      </zeroOrMore>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+      <zeroOrMore>
+        <ref name="entry"/>
+      </zeroOrMore>
+      <zeroOrMore>
+        <ref name="property"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.dict" combine="interleave">
+    <attribute name="name">
+      <data type="NMTOKEN"/>
+    </attribute>
+    <optional>
+      <attribute name="namespace"/>
+    </optional>
+  </define>
+  <define name="entry">
+    <element name="entry">
+      <ref name="attlist.entry"/>
+      <oneOrMore>
+        <ref name="key"/>
+      </oneOrMore>
+      <zeroOrMore>
+        <ref name="value"/>
+      </zeroOrMore>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+      <zeroOrMore>
+        <ref name="property"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.entry" combine="interleave">
+    <empty/>
+  </define>
+  <define name="key">
+    <element name="key">
+      <ref name="attlist.key"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="attlist.key" combine="interleave">
+    <attribute name="val"/>
+  </define>
+  <define name="value">
+    <element name="value">
+      <ref name="attlist.value"/>
+      <optional>
+        <ref name="data"/>
+      </optional>
+    </element>
+  </define>
+  <define name="attlist.value" combine="interleave">
+    <optional>
+      <attribute name="xml:lang"/>
+    </optional>
+    <attribute name="val"/>
+  </define>
+  <define name="examples">
+    <element name="examples">
+      <ref name="attlist.examples"/>
+      <zeroOrMore>
+        <ref name="example"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.examples" combine="interleave">
+    <attribute name="xml:lang"/>
+  </define>
+  <define name="example">
+    <element name="example">
+      <ref name="attlist.example"/>
+      <zeroOrMore>
+        <ref name="doc"/>
+      </zeroOrMore>
+      <optional>
+        <ref name="example_content"/>
+      </optional>
+      <zeroOrMore>
+        <ref name="example_attribute"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.example" combine="interleave">
+    <attribute name="name">
+      <data type="NMTOKEN"/>
+    </attribute>
+    <attribute name="valid">
+      <choice>
+        <value>yes</value>
+        <value>no</value>
+      </choice>
+    </attribute>
+  </define>
+  <define name="example_content">
+    <element name="example_content">
+      <ref name="attlist.example_content"/>
+      <text/>
+    </element>
+  </define>
+  <define name="attlist.example_content" combine="interleave">
+    <empty/>
+  </define>
+  <define name="example_attribute">
+    <element name="example_attribute">
+      <ref name="attlist.example_attribute"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="attlist.example_attribute" combine="interleave">
+    <attribute name="name">
+      <data type="NMTOKEN"/>
+    </attribute>
+    <attribute name="value"/>
+  </define>
+  <start>
+    <choice>
+      <ref name="definitions"/>
+      <ref name="examples"/>
+    </choice>
+  </start>
+</grammar>

@@ -1,0 +1,34 @@
+<exemples>
+  <exemple>
+    <intitule-action>CAP Photographe</intitule-action>
+    <nom-organisme>Centre de formation d'apprentis académique (CFA)</nom-organisme>
+    <code-NSF>323</code-NSF>
+    <code-FORMACODE>46278</code-FORMACODE>
+    <code-ROME>21131</code-ROME>
+    <objectif-formation>
+      Effectuer des travaux de prises de vue (photos d'identité,
+      travaux de reportage, prises de vue d'un objet technique en 3
+      dimensions, prises de vue publicitaires de type
+      catalogue). Effectuer des travaux de laboratoire : tirage en
+      noir et blanc ou en couleur.
+    </objectif-formation>
+    <resultats-attendus>
+      Obtention d'un Certificat d'Aptitude Professionnelle de photographe.
+    </resultats-attendus>
+    <contenu-formation>
+      Prises de vues, Laboratoire argentique, Laboratoire numérique,
+      Équipements, Sensitométrie, Photométrie, Chimie, Optique,
+      Informatique appliquée, Communication, Arts appliqués.
+    </contenu-formation>
+    <code-public-vise>80056</code-public-vise>
+    <diplomante>1</diplomante>
+    <details-conditions-prise-en-charge>Homologation Assedic</details-conditions-prise-en-charge>
+    <conditions-specifiques>Savoir se servir d'un appareil photo.</conditions-specifiques>
+    <numero-activite>64194292762</numero-activite>
+    <raison-sociale>Centre de formation d'apprentis académique (CFA)</raison-sociale>
+    <modalites-recrutement>Entretien.</modalites-recrutement>
+    <raison-sociale-formateur>CFA ACADÉMIQUE</raison-sociale-formateur>
+    <infos-perimetre-recrutement>Canton de Bray.</infos-perimetre-recrutement>
+    <SIRET>63445123124916</SIRET>
+  </exemple>
+</exemples>

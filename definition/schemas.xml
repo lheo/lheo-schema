@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<locatingRules xmlns="http://thaiopensource.com/ns/locating-rules/1.0">
+  <uri resource="lheo-gml.xml" uri="../gelaba/gml/gml.rnc"/>
+  <uri resource="lheo-dict-ROME.xml" uri="../gelaba/gml/gml.rnc"/>
+  <uri resource="lheo-langage.xml" uri="../gelaba/gml/gml.rnc"/>
+</locatingRules>

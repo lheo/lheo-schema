@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//XML-DEV/DTD XHTML RDDL 1.0//EN" "http://www.rddl.org/rddl-xhtml.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rddl="http://www.rddl.org">
+  <head>
+    <title>LHEO/XML 2.2</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <h1>LHEO/XML 2.2</h1>
+    <rddl:resource xlink:type="simple" 
+      xlink:href="http://www.lheo.org/2.2" 
+      xlink:role="http://dublincore.org/documents/dcmi-type-vocabulary/#text" 
+      xlink:arcrole="http://www.rddl.org/purposes#normative-reference">
+      <p>
+        LHEO/XML version 2.2 est une application XML permettant de décrire
+        des offres de formation. LHÉO signifie Langage Harmonisé pour
+        l'Échange d'informations sur l'Offre de formation.
+      </p>
+
+      <p>
+        L'espace de noms de LHEO/XML 2.2 est
+        <code>http://www.lheo.org/2.2</code>
+      </p>
+    </rddl:resource>
+    
+    <h3>Changements</h3>
+    
+    <p>
+      Les changements dans le langage sont décrits dans <a
+      href="changements.html">ce document</a>.
+    </p>
+    
+    <h3>Documentation</h3>
+    <ul>
+      <li>
+        <rddl:resource xlink:type="simple" xlink:href="http://www.lheo.org/2.2/lheo.pdf" xlink:role="http://www.isi.edu/in-notes/iana/assignments/media-types/application/pdf" xlink:arcrole="http://www.rddl.org/purposes#documentation"><a href="lheo.pdf">lheo.pdf</a>, le manuel de référence du langage
+	  </rddl:resource>
+      </li>
+      
+      <!--
+      <li>
+        <rddl:resource xlink:type="simple" xlink:href="http://www.lheo.org/2.2/lheo-schema.pdf" xlink:role="http://www.isi.edu/in-notes/iana/assignments/media-types/application/pdf" xlink:arcrole="http://www.rddl.org/purposes#documentation"><a href="lheo-schema.pdf">lheo-schema.pdf</a>, un schéma expliquant le modèle de données sous-jacent. Ce document est une illustration et n'a pas valeur de référence.
+	  </rddl:resource>
+      </li>
+      -->
+      
+    </ul>
+    <h3>Fichiers composant l'application XML</h3>
+    <ul>
+      <li>
+        <rddl:resource xlink:type="simple" xlink:href="http://www.lheo.org/2.2/lheo.dtd" xlink:role="http://www.isi.edu/in-notes/iana/assignments/media-types/application/xml-dtd" xlink:arcrole="http://www.rddl.org/purposes#validation"><a href="lheo.dtd">lheo.dtd</a>, la DTD du langage
+	  </rddl:resource>
+      </li>
+      <li>
+        <rddl:resource xlink:type="simple" xlink:href="http://www.lheo.org/2.2/lheo.xsd" xlink:role="http://www.isi.edu/in-notes/iana/assignments/media-types/application/xml-dtd" xlink:arcrole="http://www.rddl.org/purposes#validation"><a href="lheo.xsd">lheo.xsd</a>, le Schéma XML du langage
+	  </rddl:resource>
+      </li>
+      <li>
+        <rddl:resource xlink:type="simple" xlink:href="http://www.lheo.org/2.2/lheo-glossaire.html" xlink:role="http://www.isi.edu/in-notes/iana/assignments/media-types/text/xml" xlink:arcrole="http://www.rddl.org/purposes#normative-reference"><a href="lheo-glossaire.html">lheo-glossaire.html</a>, le glossaire du langage
+	  </rddl:resource>
+      </li>
+      <li>
+        <rddl:resource xlink:type="simple" xlink:href="http://www.lheo.org/2.2/lheo-tables.xml" xlink:role="http://www.isi.edu/in-notes/iana/assignments/media-types/text/xml" xlink:arcrole="http://www.rddl.org/purposes#validation"><a href="lheo-tables.xml">lheo-tables.xml</a>, les tables du langage LHÉO
+	  </rddl:resource>
+      </li>
+    </ul>
+    
+    <h3>Autres tables</h3>
+    
+    <p>
+      Les tables présentées ci-dessous ne font pas partie de la norme LHÉO et
+      appartiennent à d'autres référentiels. Elles sont présentées ici à titre
+      d'information car elles peuvent être utilisées dans une représentation
+      d'offre au format LHÉO.
+    </p>
+
+    <ul>
+      <li>
+        <rddl:resource xlink:type="simple" xlink:href="http://www.lheo.org/2.2/dict-code-modalite-pedagogique-V10.xml" xlink:role="http://www.isi.edu/in-notes/iana/assignments/media-types/text/xml">
+          <a href="dict-code-modalite-pedagogique-V10.xml">dict-code-modalite-pedagogique-V10.xml</a>: la table des codes de modalités pédagogiques issue du FORMACODE V10. Un code de cette table est utilisable dans l'élément de LHÉO: <code>code-modalite-pedagogique</code>, en indiquant dans l'attribut <code>ref</code> la version du FORMACODE <code>V10</code>.
+	  </rddl:resource>
+      </li>
+      
+            <li>
+        <rddl:resource xlink:type="simple" xlink:href="http://www.lheo.org/2.2/dict-public-vise-formacode-V10.xml" xlink:role="http://www.isi.edu/in-notes/iana/assignments/media-types/text/xml"><a href="dict-public-vise-formacode-V10.xml">dict-public-vise-formacode-V10.xml</a>: la table des publics issue du FORMACODE V10. Un code de cette table est utilisable dans l'élément de LHÉO: <code>code-public-vise</code>, en indiquant dans l'attribut <code>ref</code> la version du FORMACODE <code>V10</code>.
+	  </rddl:resource>
+      </li>
+
+            <li>
+        <rddl:resource xlink:type="simple" xlink:href="http://www.lheo.org/2.2/dict-NSF-V1.xml" xlink:role="http://www.isi.edu/in-notes/iana/assignments/media-types/text/xml"><a href="dict-NSF-V1.xml">dict-NSF-V1.xml</a>: la table NSF.
+	  </rddl:resource>
+      </li>
+
+            <!--<li>
+        <rddl:resource xlink:type="simple" xlink:href="http://www.lheo.org/2.2/dict-etat-recrutement.xml" xlink:role="http://www.isi.edu/in-notes/iana/assignments/media-types/text/xml"><a href="dict-NSF-V1.xml">dict-etat-recrutement.xml</a>: la table etat recrutement.
+	  </rddl:resource>
+      </li>-->
+      </ul>
+      
+      <h3>Fichiers XML exemples respectant la structure LHÉO</h3>
+    <ul>
+      <li>
+        <rddl:resource xlink:type="simple" xlink:href="http://www.lheo.org/2.2/lheo-exemple.xml" xlink:role="http://www.isi.edu/in-notes/iana/assignments/media-types/text/xml"><a href="lheo-exemple.xml">lheo-exemple.xml</a>, une offre de
+	    formation fictive au format LHEO/XML.
+	  </rddl:resource>
+      </li>
+      <li>
+        <rddl:resource xlink:type="simple" xlink:href="http://www.lheo.org/2.2/lheo-leger-exemple.xml" xlink:role="http://www.isi.edu/in-notes/iana/assignments/media-types/text/xml"><a href="lheo-index-exemple.xml">lheo-index-exemple.xml</a>, un exemple de fichier d'index au format LHEO Index.
+	  </rddl:resource>
+      </li>
+    </ul>
+  </body>
+</html>

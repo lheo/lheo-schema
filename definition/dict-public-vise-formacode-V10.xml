@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "gml.dtd">
+<dict xmlns="http://www.gelaba.org/gml/1.1" name="dict-public-vise-formacode-V10">
+  <fullname xml:lang="fr">Public visé formacode V10</fullname>
+  <doc xml:lang="fr">
+  </doc>
+    <entry>
+      <key val="80001" />
+      <value xml:lang="fr" val="Public sans emploi" />
+    </entry>
+    <entry>
+      <key val="80003" />
+      <value xml:lang="fr" val="Demandeur d'emploi plus de 26 ans" />
+    </entry>
+    <entry>
+      <key val="80004" />
+      <value xml:lang="fr" val="Cadre demandeur d'emploi" />
+    </entry>
+    <entry>
+      <key val="80005" />
+      <value xml:lang="fr" val="Bénéficiaire du revenu de solidarité active" />
+    </entry>
+    <entry>
+      <key val="80006" />
+      <value xml:lang="fr" val="Demandeur d'emploi" />
+    </entry>
+    <entry>
+      <key val="80007" />
+      <value xml:lang="fr" val="Demandeur d'emploi longue durée" />
+    </entry>
+    <entry>
+      <key val="80008" />
+      <value xml:lang="fr" val="Licencié pour motif économique" />
+    </entry>
+    <entry>
+      <key val="80009" />
+      <value xml:lang="fr" val="Demandeur d'emploi moins de 26 ans" />
+    </entry>
+    <entry>
+      <key val="80010" />
+      <value xml:lang="fr" val="Militaire en reconversion" />
+    </entry>
+    <entry>
+      <key val="80015" />
+      <value xml:lang="fr" val="Bénéficiaire allocation solidarité spécifique" />
+    </entry>
+    <entry>
+      <key val="80019" />
+      <value xml:lang="fr" val="Bénéficiaire allocation retour à l'emploi" />
+    </entry>
+    <entry>
+      <key val="80023" />
+      <value xml:lang="fr" val="Demandeur d'emploi dans le cadre du CIF" />
+    </entry>
+    <entry>
+      <key val="80026" />
+      <value xml:lang="fr" val="Demandeur d'emploi dans le cadre du DIF" />
+    </entry>
+    <entry>
+      <key val="80098" />
+      <value xml:lang="fr" val="Jeune (dans le cadre du plan jeune)" />
+    </entry>
+    <entry>
+      <key val="81013" />
+      <value xml:lang="fr" val="Public sous main de justice" />
+    </entry>
+    <entry>
+      <key val="81014" />
+      <value xml:lang="fr" val="Élu" />
+    </entry>
+    <entry>
+      <key val="81018" />
+      <value xml:lang="fr" val="Femme" />
+    </entry>
+    <entry>
+      <key val="81019" />
+      <value xml:lang="fr" val="Public en situation d'illettrisme" />
+    </entry>
+    <entry>
+      <key val="81020" />
+      <value xml:lang="fr" val="Handicapé" />
+    </entry>
+    <entry>
+      <key val="81021" />
+      <value xml:lang="fr" val="Public analphabète" />
+    </entry>
+    <entry>
+      <key val="81022" />
+      <value xml:lang="fr" val="Immigré" />
+    </entry>
+    <entry>
+      <key val="81024" />
+      <value xml:lang="fr" val="Jeune" />
+    </entry>
+    <entry>
+      <key val="81042" />
+      <value xml:lang="fr" val="Réfugié" />
+    </entry>
+    <entry>
+      <key val="81050" />
+      <value xml:lang="fr" val="Particulier, individuel" />
+    </entry>
+    <entry>
+      <key val="81060" />
+      <value xml:lang="fr" val="Conjoint collaborateur d'artisan" />
+    </entry>
+    <entry>
+      <key val="81061" />
+      <value xml:lang="fr" val="Public de la formation initiale" />
+    </entry>
+    <entry>
+      <key val="81062" />
+      <value xml:lang="fr" val="Conjoint collaborateur d'exploitant agricole" />
+    </entry>
+    <entry>
+      <key val="81069" />
+      <value xml:lang="fr" val="Bénévole" />
+    </entry>
+    <entry>
+      <key val="81099" />
+      <value xml:lang="fr" val="Autre public" />
+    </entry>
+    <entry>
+      <key val="82004" />
+      <value xml:lang="fr" val="Artisan" />
+    </entry>
+    <entry>
+      <key val="82009" />
+      <value xml:lang="fr" val="Commerçant" />
+    </entry>
+    <entry>
+      <key val="82016" />
+      <value xml:lang="fr" val="Formateur, enseignant" />
+    </entry>
+    <entry>
+      <key val="82017" />
+      <value xml:lang="fr" val="Exploitant agricole, salarié agricole" />
+    </entry>
+    <entry>
+      <key val="82027" />
+      <value xml:lang="fr" val="Public dans le cadre du contrat d'apprentissage" />
+    </entry>
+    <entry>
+      <key val="82029" />
+      <value xml:lang="fr" val="Public dans le cadre du contrat de professionnalisation" />
+    </entry>
+    <entry>
+      <key val="82038" />
+      <value xml:lang="fr" val="Profession libérale" />
+    </entry>
+    <entry>
+      <key val="82043" />
+      <value xml:lang="fr" val="Représentant du personnel" />
+    </entry>
+    <entry>
+      <key val="82044" />
+      <value xml:lang="fr" val="Salarié" />
+    </entry>
+    <entry>
+      <key val="82045" />
+      <value xml:lang="fr" val="Salarié en reconversion" />
+    </entry>
+    <entry>
+      <key val="82046" />
+      <value xml:lang="fr" val="Salarié de l'artisanat" />
+    </entry>
+    <entry>
+      <key val="82047" />
+      <value xml:lang="fr" val="Salarié en contrat aidé" />
+    </entry>
+    <entry>
+      <key val="82055" />
+      <value xml:lang="fr" val="Agent de la fonction publique" />
+    </entry>
+    <entry>
+      <key val="82058" />
+      <value xml:lang="fr" val="Public en emploi" />
+    </entry>
+    <entry>
+      <key val="82065" />
+      <value xml:lang="fr" val="Salarié dans le cadre du plan de formation" />
+    </entry>
+    <entry>
+      <key val="82066" />
+      <value xml:lang="fr" val="Salarié dans le cadre du CIF" />
+    </entry>
+    <entry>
+      <key val="82067" />
+      <value xml:lang="fr" val="Membre du CHSCT" />
+    </entry>
+    <entry>
+      <key val="82068" />
+      <value xml:lang="fr" val="Membre du CE" />
+    </entry>
+    <entry>
+      <key val="82070" />
+      <value xml:lang="fr" val="Agent de la fonction publique d'Etat" />
+    </entry>
+    <entry>
+      <key val="82071" />
+      <value xml:lang="fr" val="Agent de la fonction publique hospitalière" />
+    </entry>
+    <entry>
+      <key val="82072" />
+      <value xml:lang="fr" val="Salarié dans le cadre du DIF" />
+    </entry>
+    <entry>
+      <key val="82073" />
+      <value xml:lang="fr" val="Salarié en période de professionnalisation" />
+    </entry>
+    <entry>
+      <key val="82074" />
+      <value xml:lang="fr" val="Agent de la fonction publique territoriale" />
+    </entry>
+    <entry>
+      <key val="83056" />
+      <value xml:lang="fr" val="Tout public" />
+    </entry>
+  <property name="version" value="V10" />
+  <property name="url" value="" />
+</dict>

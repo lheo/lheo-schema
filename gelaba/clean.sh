@@ -1,0 +1,1 @@
+[ -d /tmp/gelaba ] && rm -fr /tmp/gelaba

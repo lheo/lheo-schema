@@ -1,0 +1,63 @@
+<div>
+  <h2>La DTD de LHÉO</h2>
+	
+  <p>
+    Cette DTD est diponible sous la forme d'un fichier à l'URL suivante : <a
+    href="/1.2/lheo.dtd">http://www.lheo.org/1.2/lheo.dtd</a>.
+  </p>
+  
+  <h3>Inclure la DTD dans un fichier XML en LHÉO</h3>
+
+  <p>
+    L'inclusion de cette DTD dans un fichier XML au format LHÉO peut
+    se faire de la façon suivante en faisant référence à la DTD
+    distante <code>http://www.lheo.org/1.2/lheo.dtd</code>:
+  </p>
+
+  <pre>
+    &lt;?xml version="1.0" encoding="utf-8"?&gt;
+    &lt;!DOCTYPE lheo SYSTEM "http://www.lheo.org/1.2/lheo.dtd"&gt;    
+    &lt;lheo xmlns="http://www.lheo.org/1.2"&gt;
+      &lt;offres&gt;
+        ...
+      &lt;/offres&gt;
+    &lt;/lheo&gt;
+  </pre>
+
+  <p>
+    Si la DTD est présente en local, au même endroit que le fichier,
+    il est possible de remplacer l'URL distante par un nom de fichier
+    local:
+  </p>
+
+  <pre>
+    &lt;?xml version="1.0" encoding="utf-8"?&gt;
+    &lt;!DOCTYPE lheo SYSTEM "lheo.dtd"&gt;    
+    &lt;lheo xmlns="http://www.lheo.org/1.2"&gt;
+      &lt;offres&gt;
+        ...
+      &lt;/offres&gt;
+    &lt;/lheo&gt;
+  </pre>
+
+  <p>
+    Finalement, si vous avez un système qui permet de gérer les <a
+    href="http://www.oasis-open.org/committees/entity/spec-2001-08-06.html">catalogues
+    OASIS</a> de schémas, vous pouvez spécifier l'identifiant public
+    de la DTD de lhéo:
+  </p>
+
+  <pre>
+    &lt;?xml version="1.0" encoding="utf-8"?&gt;
+    &lt;!DOCTYPE lheo PUBLIC "-//LHEO//DTD LHEO 1.2 Standard//FR"
+                             "http://www.lheo.org/1.2/lheo.dtd"&gt;    
+    &lt;lheo xmlns="http://www.lheo.org/1.2"&gt;
+      &lt;offres&gt;
+        ...
+      &lt;/offres&gt;
+    &lt;/lheo&gt;
+  </pre>
+
+  <h3>Les éléments de la DTD</h3>
+
+</div>
