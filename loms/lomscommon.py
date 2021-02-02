@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import sys
-
+import re
 from collections import Counter
 import uuid
 
@@ -136,6 +136,16 @@ class LOMSTransformer(object):
 			action_id = action.identifier()
 			if action_id is None:
 				action_id = uuid.uuid4().hex
+
+			# duree-indicative -> duration
+			duration = None
+			duree_indicative = action.duree_indicative()
+			if duree_indicative is not None:
+				d_r = re.compile("(\d)+\sans?", re.IGNORECASE)
+				d_m = d_r.search(duree_indicative)
+				if d_m is not None:
+					duration = 'P' + d_m.group(1) + 'Y'
+
 			s_n = 1
 			for session in action.sessions():
 				self.counters['session'] += 1
@@ -164,6 +174,13 @@ class LOMSTransformer(object):
 					text.set('content-type', 'text/plain')  # TODO: check content
 					text.text = ofr.text_content('nom-organisme')
 					loms_organization.append(pref_label)
+					# homepage
+					wpages = ofr.xpath('lheo:coordonnees-organisme/lheo:coordonnees/lheo:web/lheo:urlweb')
+					if wpages:
+						for wpage in wpages:
+							homepage = LOMSElement.create_element('homepage')
+							homepage.set('uri', wpage.text)
+							loms_organization.append(homepage)
 					# Space location
 					location = LOMSElement.create_element('hasLocation')
 					r = ofr.xpath('lheo:coordonnees-organisme/lheo:coordonnees/lheo:adresse')
@@ -344,6 +361,11 @@ class LOMSTransformer(object):
 					hasisced_fcode = LOMSElement.create_element('hasISCED-FCode')
 					hasisced_fcode.set('uri', uri)
 					ls.append(hasisced_fcode)
+				# duration
+				if duration is not None:
+					duration_element = LOMSElement.create_element('duration')
+					duration_element.text = duration
+					ls.append(duration_element)
 				# learningOutcomes
 				learning_outcomes = LOMSElement.create_element('learningOutcomes')
 				learning_outcome = LOMSElement.create_element('learningOutcome')

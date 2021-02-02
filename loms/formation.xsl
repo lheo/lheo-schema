@@ -98,7 +98,7 @@
 				<br/>
 			</xsl:for-each>
 			<xsl:apply-templates select="lheo:adresse" mode="nostrong"/>
-			<xsl:apply-templates select="*[name(.) != adresse and name(.) != lheo:ligne]"/>
+			<xsl:apply-templates select="*[name(.) != 'adresse' and name(.) != 'ligne']"/>
 		</address>
 	</xsl:template>
 	<xsl:template match="lheo:adresse" mode="nostrong">

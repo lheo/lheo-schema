@@ -64,6 +64,9 @@ class LHEOAction(LHEOElement):
 		for session_el in self.element.xpath('lheo:session', namespaces=ns):
 			yield LHEOSession(session_el, self)
 
+	def duree_indicative(self):
+		return self.text_content('duree-indicative')
+
 
 class LHEOFormation(LHEOElement):
 
