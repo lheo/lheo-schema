@@ -10,7 +10,7 @@ BUILDDIR      = build
 GML2SPHINX ?= gml2sphinx.xsl
 LHEOGML ?= ../definition/lheo-gml.xml
 LHEOGLO ?= ../definition/lheo-glossaire.html
-PUBLISHDIR ?= www_onisep/languages/lheo/2.2/doc
+PUBLISHDIR ?= www_dev/languages/lheo/2.2/doc
 PUBLISHHOST ?= lheo@boreon.silbercafe.net
 
 # Generated: xsltproc --stringparam action list  gml2sphinx.xsl ../definition/lheo-gml.xml
@@ -155,6 +155,10 @@ TOCFILES = source/index.rst \
  source/types.rst \
  source/tables.rst \
  source/glossaire.rst
+
+# Put it first so that "make" without argument is like "make help".
+help:
+	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 # Generated: xsltproc --stringparam action makerules gml2sphinx.xsl ../definition/lheo-gml.xml 
 source/lheo/domaine-formation.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
@@ -437,10 +441,6 @@ source/tables.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page tables $(GML2SPHINX) $(LHEOGML)
 source/glossaire.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page glossaire $(GML2SPHINX) $(LHEOGML)
-
-# Put it first so that "make" without argument is like "make help".
-help:
-	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 .PHONY: help Makefile html clean
 
