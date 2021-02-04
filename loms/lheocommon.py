@@ -203,7 +203,7 @@ class LHEORoot(object):
 						f.write('\n')
 
 	def formations(self):
-		for formation_el in self.root.xpath('/lheo:lheo/lheo:offres/lheo:formation', namespaces=ns):
+		for formation_el in self.root.xpath('//lheo:formation', namespaces=ns):
 			yield LHEOFormation(formation_el)
 
 	@classmethod

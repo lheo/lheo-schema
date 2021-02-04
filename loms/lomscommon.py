@@ -130,6 +130,25 @@ class LOMSTransformer(object):
 		ofr_identifier = ofr.identifier()
 		if ofr_identifier is None:
 			ofr_identifier = uuid.uuid4().hex
+		# PARCOURS (ONISEP)
+		parcours_s = None
+		parcours = formation.xpath(
+			"lheo:extras[@info='PARCOURS ACTION ONISEP']/lheo:extra[@info='PARCOURS ACTION ONISEP']")
+		if parcours:
+			ls = []
+			for parcour in parcours:
+				ps = []
+				lib = parcour.xpath("lheo:extra[@info='LIBELLE PARCOURS ACTION ONISEP']", namespaces=lheocommon.ns)
+				if lib:
+					ps.append(lib[0].text.lstrip('.'))
+				sits = parcour.xpath("lheo:extra[@info='SITUATION PARCOURS ACTION ONISEP']", namespaces=lheocommon.ns)
+				if sits:
+					sl = []
+					for sit in sits:
+						sl.append(sit.text)
+					ps.append("[%s]" % ", ".join(sl))
+				ls.append(" ".join(ps))
+			parcours_s = "Parcours: " + "; ".join(ls) + "."
 		a_n = 1
 		for action in formation.actions():
 			self.counters['action'] += 1
@@ -253,7 +272,12 @@ class LOMSTransformer(object):
 				description.append(text)
 				text.set('lang', 'fr')
 				text.set('content-type', 'text/plain')  # TODO: check content
-				text.text = formation.objectif_formation()
+				objf_s = formation.objectif_formation()
+				objf_s = objf_s.replace('¿', '.')
+				if parcours_s:
+					objf_s = objf_s.lstrip('-')
+					objf_s += ' ' + parcours_s
+				text.text = objf_s
 				if session_id in content_hacks:
 					text.text = content_hacks.get(session_id)
 				subject = LOMSElement.create_element('subject')
