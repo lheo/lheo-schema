@@ -148,7 +148,7 @@ class LOMSTransformer(object):
 						sl.append(sit.text)
 					ps.append("[%s]" % ", ".join(sl))
 				ls.append(" ".join(ps))
-			parcours_s = "Parcours: " + "; ".join(ls) + "."
+			parcours_s = "Parcours : " + " ; ".join(ls) + "."
 		a_n = 1
 		for action in formation.actions():
 			self.counters['action'] += 1
