@@ -291,6 +291,8 @@ class LOMSTransformer(object):
 				if url_formation and 'www.adressrlr.cndp.fr' not in url_formation:
 					if not url_formation.startswith('http://') and not url_formation.startswith('https://'):
 						url_formation = 'http://' + url_formation
+					# Add ID as an anchor
+					url_formation += "#" + lo_id
 					homepage = LOMSElement.create_element('homepage')
 					homepage.set('uri', url_formation)
 					language = LOMSElement.create_element('language')
