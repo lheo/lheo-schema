@@ -12,6 +12,7 @@ from lxml import etree
 import formacode
 import lheocommon
 import lomscommon
+from ideo import url_generator
 
 alignement_formacode_fname = 'alignement_isced_formacode_final_20201201.xls'
 
@@ -53,7 +54,8 @@ def main():
 	#
 	# Transform LHEO data to LOMS
 	#
-	loms_transformer = lomscommon.LOMSTransformer(lheo_root, formacode_isced, args.provider, ids=lheo_root.ids)
+	loms_transformer = lomscommon.LOMSTransformer(lheo_root, formacode_isced, args.provider, ids=lheo_root.ids,
+		url_generator=url_generator)
 	loms_transformer.transform(limit=args.limit, after=args.after)
 	print(loms_transformer.counters)
 	with open(args.output, 'w') as f:

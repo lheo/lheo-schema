@@ -10,8 +10,10 @@ from lxml import etree
 import lheocommon
 import lomscommon
 import formacode
+from ideo import url_generator
 
 alignement_formacode_fname = 'alignement_isced_formacode_final_20201201.xls'
+
 
 def main():
 	parser = argparse.ArgumentParser(description='transform a lheo document into static website.')
@@ -86,7 +88,8 @@ def main():
 			loms_filename = None
 			loms_transformer = lomscommon.LOMSTransformer(lheo_root,
 														  formacode_isced, args.provider,
-														  ids=lheo_root.ids)
+														  ids=lheo_root.ids,
+														  url_generator=url_generator)
 			c = loms_transformer.transform_formation(f, i + 1)
 			if c > 0:
 				loms_filename = 'loms_' + filename

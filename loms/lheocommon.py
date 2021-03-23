@@ -186,14 +186,14 @@ class LHEORoot(object):
 			# Read or generate IDs
 			#
 			if os.path.exists(idfilename):
-				print("Read IDs")
+				#print("Read IDs")
 				with open(idfilename, 'r') as f:
 					for line in f:
 						line = line.strip()
 						f_n, a_n, s_n, f_id, a_id, s_id, o_id = line.split('|')
 						self.ids[(int(f_n), int(a_n), int(s_n))] = (f_id, a_id, s_id, o_id)
 			else:
-				print("Generate IDs")
+				#print("Generate IDs")
 				self.build_identifiers()
 				with open(idfilename, 'w') as f:
 					for k, v in self.ids.items():

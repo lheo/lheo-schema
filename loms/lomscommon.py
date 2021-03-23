@@ -92,7 +92,7 @@ class LOMSOrganization(LOMSElement):
 
 class LOMSTransformer(object):
 
-	def __init__(self, lheo_root, formacode_isced, provider, ids):
+	def __init__(self, lheo_root, formacode_isced, provider, ids, url_generator=None):
 		"""root: lheo XML document's root"""
 		#self.root = root
 		self.lheo_root = lheo_root
@@ -105,6 +105,7 @@ class LOMSTransformer(object):
 		self.provider = provider
 		self.ids = ids
 		self.counters = Counter()
+		self.url_generator = url_generator
 
 	def transform_formation(self, formation, f_n):
 		self.counters['formation'] += 1
@@ -288,11 +289,16 @@ class LOMSTransformer(object):
 				# formation/url-formation/urlweb[0] -> learningOpportunity/homepage
 				#
 				url_formation = formation.url_formation()
+				generated_url_formation = None
+				if self.url_generator:
+					generated_url_formation = self.url_generator(self, formation_id, action_id, session_id)
+					if generated_url_formation:
+						url_formation = generated_url_formation
 				if url_formation and 'www.adressrlr.cndp.fr' not in url_formation:
 					if not url_formation.startswith('http://') and not url_formation.startswith('https://'):
 						url_formation = 'http://' + url_formation
 					# Add ID as an anchor
-					url_formation += "#" + lo_id
+					# url_formation += "#" + lo_id  # Note: removed because not useful
 					homepage = LOMSElement.create_element('homepage')
 					homepage.set('uri', url_formation)
 					language = LOMSElement.create_element('language')
