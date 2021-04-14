@@ -1,7 +1,0 @@
-GELABA XSLT scripts
-
--- (gml2doc.xsl) Ajouter un champ "utilise dans" pour chaque element
-   de la doc.
-
--- (gml2doc.xsl) Verifier que les elements "doc", "fullname",
-   "property" et "data" sont bien pris en compte partout dans la doc.

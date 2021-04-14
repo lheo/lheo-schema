@@ -4,7 +4,7 @@
 
 import sys
 import re
-import StringIO
+import io
 import optparse
 
 from lxml import etree
@@ -30,14 +30,14 @@ def main(argv=None):
 
 	out = open(glossaire_mako_path, 'w')
 
-	with open(glossaire_def_path, 'r') as f:
+	with open(glossaire_def_path, 'rb') as f:
 		html = f.read()
 
 	with open(glossaire_tpl_path, 'r') as tpl:
 		mako = tpl.read()
 
 	parser = etree.HTMLParser(encoding='utf-8', recover=True, remove_comments=True)
-	tree = etree.parse(StringIO.StringIO(html), parser)
+	tree = etree.parse(io.BytesIO(html), parser)
 
 	'''
 		HTML TEMPLATE
@@ -88,19 +88,19 @@ def main(argv=None):
 						anchor = child.find('a')
 						content += '<a class="no-pointer" id="%s" name="%s">\n' % (attrib.get('id', ''), attrib.get('id', ''))
 						content += '<h3 class="text-left">\n'
-						content += anchor.text.encode('utf-8')
+						content += anchor.text
 						content += '</h3>\n'
 						content += '</a>\n'
 					if child.tag == 'div' and child.attrib.get('class') and child.attrib.get('class') == 'definition':
 						definitions = child.findall('p')
 						for p in definitions:
 							p_text = get_element_text(p, remove_html=False)
-							p_text = p_text.replace('<b>', '')
-							p_text = p_text.replace('</b>', '')
-							content += p_text
+							p_text = p_text.replace(b'<b>', b'')
+							p_text = p_text.replace(b'</b>', b'')
+							content += p_text.decode('utf-8')
 					if child.tag == 'div' and child.attrib.get('class') and child.attrib.get('class') == 'voir':
 						voir = child.find('p')
-						content += get_element_text(voir, remove_html=False)
+						content += get_element_text(voir, remove_html=False).decode('utf-8')
 
 				content += '</div>'
 
@@ -111,8 +111,9 @@ def main(argv=None):
 
 	out.write(mako.replace('~generated_content~', content))
 
-eu_p_open_re = re.compile(ur'<p[^>]*?>', re.U | re.I)
-eu_p_close_re = re.compile(ur'</p>', re.U | re.I)
+eu_p_open_re = re.compile(r'<p[^>]*?>', re.U | re.I)
+eu_p_close_re = re.compile(r'</p>', re.U | re.I)
+
 def remove_html_tags(html):
     html = eu_p_open_re.sub('', html)
     html = eu_p_close_re.sub('', html)
@@ -129,3 +130,4 @@ def get_element_text(element, remove_html=True):
 
 if __name__ == "__main__":
     sys.exit(main())
+

@@ -2,7 +2,7 @@
 # PATHS
 #
 CDIR=$(shell pwd)
-GELABA=${CDIR}/gelaba
+GELABA ?= ../../rec/gelaba/gelaba
 TARGET=${CDIR}/target
 DEFS=${CDIR}/definition
 MANUEL=${CDIR}/manuel
@@ -524,4 +524,5 @@ ${WEB_TABLES_ND}: ${TABLES_ND} ${GML_LHEO}
 
 ${LHEO_GLOSSAIRE_TARGET_ND}: ${LHEO_GLOSSAIRE_ND}
 	@${ECHO} "Copie $@"
+	@mkdir -p target-nd
 	@${CP} $^ $@

@@ -10,8 +10,8 @@ from setuptools import setup, find_packages
 
 requires = [
     'lxml',
-	'cssselect'
-    ]
+  	'cssselect'
+]
 
 setup(name='reference',
       version='0.0',

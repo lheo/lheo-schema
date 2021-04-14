@@ -4,7 +4,7 @@
 
 import sys
 import optparse
-import StringIO
+import io
 import json
 import re
 
@@ -112,10 +112,10 @@ ns = {
 
 def get_glossaire_def(tree, name):
 	glossaire_def = ''
-	a_tag_re = re.compile(ur'<a[^>]*?>(.+)</a>', re.U | re.I)
+	a_tag_re = re.compile(r'<a[^>]*?>(.+)</a>', re.U | re.I)
 
 	for elt in tree.cssselect('div.entree#%s div.definition > p' % name):
-		glossaire_def = etree.tostring(elt, encoding='utf8').strip()
+		glossaire_def = etree.tostring(elt, encoding='utf8').strip().decode('utf-8')
 		m = a_tag_re.search(glossaire_def)
 		if m and m.group(1):
 			glossaire_def = a_tag_re.sub(m.group(1), glossaire_def)
@@ -142,14 +142,13 @@ def main(argv=None):
 	print("Glossaire definition file: %s" % glossaire_def_path)
 	print("JSON data output file: %s" % json_data_path)
 
-	gml = ''
-	with open(gml_def_path, 'r') as f:
+	with open(gml_def_path, 'rb') as f:
 		gml = f.read()
 
 	gml_parser = etree.XMLParser(encoding='utf-8', remove_comments=True)
-	gml_tree = etree.parse(StringIO.StringIO(gml), gml_parser)
+	gml_tree = etree.parse(io.BytesIO(gml), gml_parser)
 
-	with open(glossaire_def_path, 'r') as f:
+	with open(glossaire_def_path, 'rb') as f:
 		glossaire_html = f.read()
 
 	tree = html.fromstring(glossaire_html)
@@ -192,7 +191,7 @@ def main(argv=None):
 			element.cercle = 2
 
 		doc = definition.find('gml:doc', ns)
-		doc_text = doc.text.encode('utf-8') if doc is not None else ''
+		doc_text = doc.text if doc is not None else ''
 		# on supprime la majuscule sur la première lettre
 		if doc_text != '':
 			doc_text = doc_text.strip()
