@@ -1,8 +1,8 @@
 #!/bin/bash
 
-PROD=gasilber@www.lheo.org:/var/www/lheo/www
-TEST=gasilber@www.lheo.org:/var/www/lheo/test/public_html
-LOCAL=$HOME/Sites/lheo.org
+PROD=lheo@lheo.gouv.fr:lheo-schema
+DEV=lheo@dev.lheo.org:www_dev
+LOCAL=$HOME/websites/lheo.org
 DELETE=--update
 RSYNC=rsync
 
@@ -14,50 +14,58 @@ if [ $# -lt 1 ]
 then
     echo "Usage: $0 [test|local|production|production-ok]"
     echo "   local - publish to ${LOCAL}"
-    echo "   test - fake publish to ${TEST}"
-    echo "   test-ok - publish to ${TEST}"
-    echo "   production - fake publish to ${PROD}"
-    echo "   production-ok - publish to ${PROD}"
+    echo "   dev - publish to ${DEV}"
+    echo "   prod - fake publish to ${PROD}"
+    echo "   prod-ok - publish to ${PROD}"
     exit 1
 fi
 
 if [ "$1" = "local" ]
 then
+    [ -d ${LOCAL} ] || mkdir -p ${LOCAL}
     ${RSYNC} --delete  --verbose --archive \
-	 --exclude 'CVS' --exclude '.svn' --exclude '*~' \
+	 --exclude '*~' \
 	 --exclude 'archives' --exclude 'niveaux.txt' \
 	 --exclude '2.0.*' \
+	 --exclude '2.2' \
 	 --exclude '2.1.*' \
 	 --exclude '1.*' \
-	$SRC/2.2.0 ${LOCAL}
+	 --exclude 'doc' \
+	$SRC/2.3 ${LOCAL}
 fi
-if [ "$1" = "production-ok" ]
+if [ "$1" = "dev" ]
 then
-    ${RSYNC} --delete --update --archive --verbose \
-	 --exclude 'CVS' --exclude '.svn' --exclude '*~' \
+    ${RSYNC} --delete --archive --update --verbose \
+	 --exclude '*~' \
 	 --exclude 'archives' --exclude 'niveaux.txt' \
 	 --exclude '2.0*' \
+	 --exclude '2.2' \
 	 --exclude '2.1.*' \
 	 --exclude '1.*' \
-	$SRC/. ${PROD}/.
+	 --exclude 'doc' \
+	$SRC/2.3 ${DEV}
 fi
-if [ "$1" = "production" ]
+if [ "$1" = "prod" ]
 then
     ${RSYNC} --dry-run --delete --archive --update --verbose \
-	 --exclude 'CVS' --exclude '.svn' --exclude '*~' \
+	 --exclude '*~' \
 	 --exclude 'archives' --exclude 'niveaux.txt' \
 	 --exclude '2.0*' \
+	 --exclude '2.2' \
 	 --exclude '2.1.*' \
 	 --exclude '1.*' \
-	$SRC/. ${PROD}/.
+	 --exclude 'doc' \
+	$SRC/2.3 ${PROD}
 fi
-if [ "$1" = "test" ]
+if [ "$1" = "prod-ok" ]
 then
-    ${RSYNC} --dry-run --archive --verbose \
-	$SRC/2.2 ${TEST}/.
-fi
-if [ "$1" = "test-ok" ]
-then
-    ${RSYNC} --archive --verbose \
-	$SRC/2.2 ${TEST}/.
+    ${RSYNC} --delete --archive --update --verbose \
+	 --exclude '*~' \
+	 --exclude 'archives' --exclude 'niveaux.txt' \
+	 --exclude '2.0*' \
+	 --exclude '2.2' \
+	 --exclude '2.1.*' \
+	 --exclude '1.*' \
+	 --exclude 'doc' \
+	$SRC/2.3 ${PROD}
 fi

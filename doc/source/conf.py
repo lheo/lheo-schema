@@ -18,12 +18,12 @@
 # -- Project information -----------------------------------------------------
 
 project = 'LHÉO'
-copyright = '2020, ONISEP'
+copyright = '2021, ONISEP'
 author = 'ONISEP'
 
 # The full version, including alpha/beta/rc tags
-version = '2.2'
-release = '2.2'
+version = '2.3'
+release = 'dev'
 
 
 # -- General configuration ---------------------------------------------------

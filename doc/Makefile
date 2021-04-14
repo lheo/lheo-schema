@@ -10,8 +10,10 @@ BUILDDIR      = build
 GML2SPHINX ?= gml2sphinx.xsl
 LHEOGML ?= ../definition/lheo-gml.xml
 LHEOGLO ?= ../definition/lheo-glossaire.html
-PUBLISHDIR ?= www_dev/languages/lheo/2.2/doc
+PUBLISHDIR ?= www_dev/languages/lheo/2.3/doc
 PUBLISHHOST ?= lheo@boreon.silbercafe.net
+PRODDIR ?= lheo-schema/2.3/doc
+PRODHOST ?= lheo@lheo.gouv.fr
 
 # Generated: xsltproc --stringparam action list  gml2sphinx.xsl ../definition/lheo-gml.xml
 LHEOFILES = source/lheo/domaine-formation.rst \
@@ -455,3 +457,6 @@ publish: html
 	ssh $(PUBLISHHOST) "mkdir -p $(PUBLISHDIR)"
 	rsync --archive --verbose build/html/. $(PUBLISHHOST):$(PUBLISHDIR)
 
+publish-prod: html
+	ssh $(PRODHOST) "mkdir -p $(PRODDIR)"
+	rsync --archive --verbose build/html/. $(PRODHOST):$(PRODDIR)

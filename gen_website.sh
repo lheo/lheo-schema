@@ -11,10 +11,10 @@ REFERENCE_BASE_DIR=`pwd`
 
 GLOSSAIRE_DEF=$REFERENCE_BASE_DIR/definition/lheo-glossaire.html
 GLOSSAIRE_TPL=$REFERENCE_BASE_DIR/website/glossaire_tpl.mako
-GLOSSAIRE_MAKO=$REFERENCE_BASE_DIR/target/2.2/glossaire.mako
+GLOSSAIRE_MAKO=$REFERENCE_BASE_DIR/target/2.3/glossaire.mako
 
 GML_DEF=$REFERENCE_BASE_DIR/definition/lheo-gml.xml
-D3JS_JSON=$REFERENCE_BASE_DIR/target/2.2/formation_tree.json
+D3JS_JSON=$REFERENCE_BASE_DIR/target/2.3/formation_tree.json
 
 echo $REFERENCE_BASE_DIR
 

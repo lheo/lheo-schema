@@ -4,7 +4,7 @@
 <!-- HEADER -->
 <div class="bs-docs-header dev-bloc" id="content" tabindex="-1">
     <div class="container">
-        <h1 class="titre-langage">Manuel Lhéo 2.2</h1>
+        <h1 class="titre-langage">Manuel Lhéo 2.3</h1>
 
         <p>
             Guide d'utilisation du format XML de Lhéo
@@ -119,10 +119,10 @@
             <h2 id="lheo-xml">Le format XML de Lhéo</h2>
 
             <p>La DTD complète de Lhéo est disponible à l'URL&nbsp;:
-                <a href="/2.2/lheo.dtd">http://www.lheo.org/2.2/lheo.dtd</a>.</p>
+                <a href="/2.3/lheo.dtd">http://www.lheo.org/2.3/lheo.dtd</a>.</p>
 
             <p>Le schéma XML W3C de Lhéo est disponible à l'URL&nbsp;:
-                <a href="/2.2/lheo.xsd">http://www.lheo.org/2.2/lheo.xsd</a>.</p>
+                <a href="/2.3/lheo.xsd">http://www.lheo.org/2.3/lheo.xsd</a>.</p>
 
             <p>Ces deux grammaires permettent d'avoir deux niveaux de
                 validation différents. La DTD ne procède qu'à une validation
@@ -141,7 +141,7 @@
                 Tous les éléments composant le langage XML LHÉO possèdent des attributs XML identiques.
                 Ces attributs sont les suivants, ici exprimés avec le formalisme DTD :
             </p>
-            <pre>xmlns CDATA #FIXED 'http://www.lheo.org/2.2'
+            <pre>xmlns CDATA #FIXED 'http://www.lheo.org/2.3'
 numero CDATA #IMPLIED
 info CDATA #IMPLIED
 ref CDATA #IMPLIED
@@ -183,7 +183,7 @@ tag CDATA #IMPLIED</pre>
 
             <p>
                 Le fichier XML complet contenant toutes les tables se trouve à l'adresse&nbsp;:
-                <a href="http://lheo.org/2.2/lheo-tables.xml">http://www.lheo.org/2.2/lheo-tables.xml</a>.
+                <a href="http://lheo.org/2.3/lheo-tables.xml">http://www.lheo.org/2.3/lheo-tables.xml</a>.
                 Voici la liste des tables&nbsp;:
             </p>
             ~tables~

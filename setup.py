@@ -10,7 +10,9 @@ from setuptools import setup, find_packages
 
 requires = [
     'lxml',
-  	'cssselect'
+  	'cssselect',
+    'sphinx',
+    'sphinx-rtd-theme'
 ]
 
 setup(name='reference',

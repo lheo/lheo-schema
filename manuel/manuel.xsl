@@ -60,7 +60,7 @@
     <!-- TODO: logos -->
     <xsl:text>Manuel d'utilisation}&#10;</xsl:text>
     <xsl:text>\author{Comité de pilotage LHÉO}&#10;</xsl:text>
-    <xsl:text>\date{Révision du manuel de mars 2016}&#10;</xsl:text>
+    <xsl:text>\date{avril 2021}&#10;</xsl:text>
     <xsl:text>\makeindex&#10;</xsl:text>
     <xsl:text>\begin{document}&#10;</xsl:text>
     <xsl:text>\maketitle&#10;</xsl:text>

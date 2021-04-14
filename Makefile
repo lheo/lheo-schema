@@ -2,7 +2,7 @@
 # PATHS
 #
 CDIR=$(shell pwd)
-GELABA ?= ../../rec/gelaba/gelaba
+GELABA ?= ../gelaba/gelaba
 TARGET=${CDIR}/target
 DEFS=${CDIR}/definition
 MANUEL=${CDIR}/manuel

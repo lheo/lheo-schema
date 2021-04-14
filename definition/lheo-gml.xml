@@ -2,12 +2,12 @@
 <!DOCTYPE definitions SYSTEM "gml.dtd">
 <definitions xmlns="http://www.gelaba.org/gml/1.1"
 	     language="LHEO"
-	     version="2.2"
+	     version="2.3"
 	     default_ns_prefix="lheo"
 	     xml:lang="fr"
 	     default_root="lheo">
 
-  <namespace ns_prefix="lheo" href="http://www.lheo.org/2.2" />
+  <namespace ns_prefix="lheo" href="http:/lheo.gouv.fr/2.3" />
 
   <!--
 
@@ -6981,10 +6981,7 @@
   </dict>
   -->
 
-  <property name="lheo:longversion" value="LHÉO 2.2" />
-  <property name="svn:Rev" value="$Rev$" />
-  <property name="svn:Author" value="$Author$" />
-  <property name="svn:Date" value="$Date$" />
-  <property name="glb:FPI" value="-//LHEO//DTD LHEO 2.2 Standard//FR" />
-	<property name="glb:baseurl" value="http://www.lheo.org" />
+  <property name="lheo:longversion" value="LHÉO 2.3" />
+  <property name="glb:FPI" value="-//LHEO//DTD LHEO 2.3 Standard//FR" />
+	<property name="glb:baseurl" value="http://dev.lheo.org" />
 </definitions>
