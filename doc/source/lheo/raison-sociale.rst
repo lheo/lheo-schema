@@ -8,7 +8,7 @@ Raison sociale de l'organisme
   <raison-sociale>Centre de formation d'apprentis académique (CFA)</raison-sociale>
 
 
-Cet élément permet de préciser la raison sociale de l'organisme responsable de l'offre.
+Cet élément permet de préciser la raison sociale de l'organisme responsable de l'offre. La raison sociale d'un organisme est son nom officiel tel que défini dans la base Sirene de l'INSEE.
 
 Type
 """"

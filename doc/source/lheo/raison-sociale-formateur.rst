@@ -8,7 +8,7 @@ Raison sociale de l'organisme formateur
   <raison-sociale-formateur>CFA académique</raison-sociale-formateur>
 
 
-Cet élément permet de préciser la raison sociale de l'organisme formateur, c'est-à-dire de l'organisme qui assure la formation.
+Cet élément permet de préciser la raison sociale de l'organisme formateur, c'est-à-dire de l'organisme qui assure la formation. La raison sociale d'un organisme est son nom officiel tel que défini dans la base Sirene de l'INSEE.
 
 Type
 """"
