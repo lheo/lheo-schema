@@ -2214,7 +2214,7 @@
 
   <definition name="raison-sociale">
     <fullname xml:lang="fr">Raison sociale de l'organisme</fullname>
-    <doc xml:lang="fr">Cet élément permet de préciser la raison sociale de l'organisme responsable de l'offre.</doc>
+    <doc xml:lang="fr">Cet élément permet de préciser la raison sociale de l'organisme responsable de l'offre. La raison sociale d'un organisme est son nom officiel tel que défini dans la base Sirene de l'INSEE.</doc>
     <element_type>
       <basic_text lgmin="1" lgmax="250"/>
     </element_type>
@@ -2705,7 +2705,7 @@
 
   <definition name="raison-sociale-formateur">
     <fullname xml:lang="fr">Raison sociale de l'organisme formateur</fullname>
-    <doc xml:lang="fr">Cet élément permet de préciser la raison sociale de l'organisme formateur, c'est-à-dire de l'organisme qui assure la formation.</doc>
+    <doc xml:lang="fr">Cet élément permet de préciser la raison sociale de l'organisme formateur, c'est-à-dire de l'organisme qui assure la formation. La raison sociale d'un organisme est son nom officiel tel que défini dans la base Sirene de l'INSEE.</doc>
     <element_type>
       <basic_text lgmin="0" lgmax="250"/>
     </element_type>
