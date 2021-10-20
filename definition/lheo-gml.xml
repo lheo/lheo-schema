@@ -6006,7 +6006,7 @@
       demande qui ont été enregistrées au RNCP.
     </doc>
     <element_type>
-      <basic_text lgmin="1" lgmax="6" />
+      <basic_text lgmin="1" lgmax="10" />
     </element_type>
     <attribute name="numero" type="optional">
       <attribute_type>
