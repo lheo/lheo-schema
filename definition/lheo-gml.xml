@@ -439,10 +439,10 @@
   -->
 
   <definition name="duree-indicative">
-    <fullname xml:lang="fr">Informations sur le nombre d'heures</fullname>
+    <fullname xml:lang="fr">Durée indicative</fullname>
     <doc xml:lang="fr">
       Cet élément donne la durée indicative moyenne de la formation pour le stagiaire.
-	  Elle peut être exprimée en année, semestre, mois, jour ou heure.
+	    Elle peut être exprimée en année, semestre, mois, jour ou heure. Elle indique un délai entre le début et la fin de la formation, à la différence de l'élément "Total du nombre d'heures" qui donne une charge en nombre d'heures s'inscrivant dans ce délai. 
     </doc>
     <element_type>
       <basic_text lgmin="0" lgmax="150"/>
@@ -3037,7 +3037,9 @@
 
   <definition name="nombre-heures-total">
     <fullname xml:lang="fr">Total du nombre d'heures</fullname>
-    <doc xml:lang="fr">Cet élément permet d'indiquer en heures la durée totale maximum de la formation, y compris période de formation à distance et en entreprise.</doc>
+    <doc xml:lang="fr">Cet élément permet d'indiquer en heures la durée totale maximum de la formation, y compris période de formation à distance et en entreprise.
+    À la différence de l'élément "Durée indicative" qui indique un délai entre le début et la fin de la formation, cette durée indique une charge s'inscrivant dans ce délai.
+    </doc>
     <element_type>
       <basic_int vmin="0" vmax="99999"/>
     </element_type>
@@ -3072,6 +3074,7 @@
       </attribute_type>
     </attribute>
     <property name="lheo:cercle" value="2"/>
+    <property name="lheo:glossaire" value="nombre-heures-total-max"/>
     <property name="glb:example" value="800"/>
   </definition>
 

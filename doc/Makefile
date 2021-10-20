@@ -426,6 +426,10 @@ source/lheo/dict-type-module.rst: $(GML2SPHINX) $(LHEOGML)
 source/lheo/dict-niveaux.rst: $(GML2SPHINX) $(LHEOGML)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam action table --stringparam page dict-niveaux $(GML2SPHINX) $(LHEOGML)
 
+# Generated
+source/glossaire.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
+	xsltproc -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page glossaire $(GML2SPHINX) $(LHEOGML)
+
 # Manually edited
 source/index.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page index $(GML2SPHINX) $(LHEOGML)
@@ -441,8 +445,6 @@ source/types.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page types $(GML2SPHINX) $(LHEOGML)
 source/tables.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page tables $(GML2SPHINX) $(LHEOGML)
-source/glossaire.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
-	xsltproc -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page glossaire $(GML2SPHINX) $(LHEOGML)
 
 .PHONY: help Makefile html clean
 
