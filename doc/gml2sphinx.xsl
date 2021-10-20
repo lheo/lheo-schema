@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
-		xmlns:gml="http://www.gelaba.org/gml/1.1"
+		xmlns:gml="http://www.gelaba.org/gml/1.2"
 		xmlns:html="http://www.w3.org/1999/xhtml"
 		version="1.0">
 	<xsl:param name="page" select="'index'"/>
@@ -673,6 +673,10 @@
       </xsl:otherwise>
     </xsl:choose>
     <xsl:text>)</xsl:text>
+  </xsl:template>
+
+  <xsl:template match="gml:attribute_datetime">
+    <xsl:text>DateTime</xsl:text>
   </xsl:template>
 
 	<xsl:template match="gml:basic_int" mode="long">

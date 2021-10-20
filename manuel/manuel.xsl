@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
-		xmlns:gml="http://www.gelaba.org/gml/1.1"
+		xmlns:gml="http://www.gelaba.org/gml/1.2"
 		xmlns:html="http://www.w3.org/1999/xhtml"
 		version="1.0">
   <!--
@@ -28,7 +28,7 @@
     <xsl:text>\usepackage{alltt}&#10;</xsl:text>
     <xsl:text>\usepackage{fullpage}&#10;</xsl:text>
     <xsl:text>\usepackage[francais]{babel}&#10;</xsl:text>
-    <xsl:text>\usepackage{palatino}&#10;</xsl:text>
+    <xsl:text>\usepackage{fourier}&#10;</xsl:text>
     <xsl:text>\usepackage{longtable}&#10;</xsl:text>
     <xsl:text>\usepackage{color}&#10;</xsl:text>
     <xsl:text>\usepackage{fancyvrb}&#10;</xsl:text>
@@ -60,7 +60,7 @@
     <!-- TODO: logos -->
     <xsl:text>Manuel d'utilisation}&#10;</xsl:text>
     <xsl:text>\author{Comité de pilotage LHÉO}&#10;</xsl:text>
-    <xsl:text>\date{avril 2021}&#10;</xsl:text>
+    <xsl:text>\date{Octobre 2021}&#10;</xsl:text>
     <xsl:text>\makeindex&#10;</xsl:text>
     <xsl:text>\begin{document}&#10;</xsl:text>
     <xsl:text>\maketitle&#10;</xsl:text>
@@ -734,6 +734,14 @@
       </xsl:otherwise>
     </xsl:choose>
     <xsl:text> caractère(s)</xsl:text>
+  </xsl:template>
+
+  <xsl:template match="gml:attribute_datetime" mode="long">
+    <xsl:text>dateTime (W3C/ISO8601)</xsl:text>
+  </xsl:template>
+
+  <xsl:template match="gml:attribute_datetime">
+    <xsl:text>dateTime (W3C/ISO8601)</xsl:text>
   </xsl:template>
 
   <xsl:template match="gml:attribute_id">

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
-		xmlns:gml="http://www.gelaba.org/gml/1.1"
+		xmlns:gml="http://www.gelaba.org/gml/1.2"
 		xmlns:html="http://www.w3.org/1999/xhtml"
-		xmlns:lheo="http://www.lheo.org/1.3.0"
+		xmlns:lheo="http://lheo.gouv.fr/2.3"
 		version="1.0">
 
   <xsl:output method="text" encoding="utf-8" />
