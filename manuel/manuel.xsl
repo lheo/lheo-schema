@@ -744,6 +744,10 @@
     <xsl:text>dateTime (W3C/ISO8601)</xsl:text>
   </xsl:template>
 
+  <xsl:template match="gml:attribute_uri">
+    <xsl:text>anyURI (W3C)</xsl:text>
+  </xsl:template>
+
   <xsl:template match="gml:attribute_id">
     <xsl:text>ID (</xsl:text>
     <xsl:choose>
