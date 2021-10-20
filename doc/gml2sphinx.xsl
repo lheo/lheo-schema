@@ -679,6 +679,10 @@
     <xsl:text>DateTime</xsl:text>
   </xsl:template>
 
+  <xsl:template match="gml:attribute_uri">
+    <xsl:text>URI</xsl:text>
+  </xsl:template>
+
 	<xsl:template match="gml:basic_int" mode="long">
 		<xsl:text>Entier [</xsl:text>
 		<xsl:choose>
