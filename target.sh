@@ -9,12 +9,6 @@ then
     exit 2
 fi
 
-if [ X = X$2 ]
-then
-    echo "NO NAME !"
-    exit 2
-fi
-
 if [ ! -d $TARGET ]
 then
     echo "Creation de '$TARGET'"
@@ -26,10 +20,3 @@ then
     echo "Creation de '$TARGET/$VERSION'"
     mkdir $TARGET/$VERSION
 fi
-
-if [ ! -d $TARGET/$VERSION/$NAME ]
-then
-    echo "Creation de '$TARGET/$VERSION/$NAME'"
-    mkdir $TARGET/$VERSION/$NAME
-fi
-

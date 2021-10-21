@@ -31,7 +31,7 @@ GML2XSD=${GELABA}/scripts/gml2xsd.xsl
 # LHEO definition
 #
 LHEO_CHANGES=${DEFS}/changements.html
-LHEO_SCHEMA=${DEFS}/lheo-2.0.0.pdf
+LHEO_SCHEMA=${DEFS}/lheo-2.2.pdf
 LHEO_RDDL=${DEFS}/version.html
 LHEO_LANGAGE=${DEFS}/lheo-gml.xml
 LHEO_GLOSSAIRE=${DEFS}/lheo-glossaire.html
@@ -41,88 +41,67 @@ LHEO_MANUEL=${MANUEL}/manuel.xsl
 LHEO_MANUEL_INTRO=${MANUEL}/manuel-introduction.tex
 LHEO_MANUEL_LEGER=${MANUEL}/manuel-lheo-index.tex
 LHEO_MANUEL_FIGURE=${MANUEL}/fonctionnement_recherche.pdf
-TABLE_MODALITE_V9_SOURCE=${DEFS}/dict-code-modalite-pedagogique-V9.xml
-TABLE_PUBLIC_V9_SOURCE=${DEFS}/dict-public-vise-formacode-V9.xml
-TABLE_NSF_SOURCE=${DEFS}/lheo-dict-NSF.xml
-TABLE_MODALITES_PEDAGOGIQUES_FORMACODES_SOURCE=${DEFS}/dict-modalites-pedagogiques-formacodes-V10.xml
-TABLE_FINANCEURS_FORMACODES_SOURCE=${DEFS}/dict-financeurs-formacodes-V10.xml
-TABLE_FOAD_SOURCE=${DEFS}/dict-FOAD.xml
-TABLE_PUBLIC_VISE_FORMACODE_SOURCE=${DEFS}/dict-public-vise-formacode-V10.xml
-TABLE_NIVEAUX_SOURCE=${DEFS}/dict-niveaux.xml
-TABLE_MODALITES_ES_SOURCE=${DEFS}/dict-modalites-es.xml
-TABLE_AIS_SOURCE=${DEFS}/dict-AIS.xml
-TABLE_PERIMETRE_RECRUTEMENT_SOURCE=${DEFS}/dict-perimetre-recrutement.xml
-TABLE_ETAT_RECRUTEMENT_SOURCE=${DEFS}/dict-etat-recrutement.xml
-DOC=doc
+#TABLE_MODALITE_V9_SOURCE=${DEFS}/dict-code-modalite-pedagogique-V9.xml
+#TABLE_PUBLIC_V9_SOURCE=${DEFS}/dict-public-vise-formacode-V9.xml
+#TABLE_NSF_SOURCE=${DEFS}/lheo-dict-NSF.xml
+#TABLE_MODALITES_PEDAGOGIQUES_FORMACODES_SOURCE=${DEFS}/dict-modalites-pedagogiques-formacodes-V10.xml
+#TABLE_FINANCEURS_FORMACODES_SOURCE=${DEFS}/dict-financeurs-formacodes-V10.xml
+#TABLE_FOAD_SOURCE=${DEFS}/dict-FOAD.xml
+#TABLE_PUBLIC_VISE_FORMACODE_SOURCE=${DEFS}/dict-public-vise-formacode-V10.xml
+#TABLE_NIVEAUX_SOURCE=${DEFS}/dict-niveaux.xml
+#TABLE_MODALITES_ES_SOURCE=${DEFS}/dict-modalites-es.xml
+#TABLE_AIS_SOURCE=${DEFS}/dict-AIS.xml
+#TABLE_PERIMETRE_RECRUTEMENT_SOURCE=${DEFS}/dict-perimetre-recrutement.xml
+#TABLE_ETAT_RECRUTEMENT_SOURCE=${DEFS}/dict-etat-recrutement.xml
+#DOC=doc
 
 #
 # CIBLE AVEC VERSION
 #
 VTARGET=${TARGET}/${VERSION}
-VTARGETDOC=${TARGET}/${VERSION}/${DOC}
+#VTARGETDOC=${TARGET}/${VERSION}/${DOC}
 RDDLTARGET=${TARGET}/${VERSION}/index.html
 
 #
 # TARGETS
 #
-GML_DTD_TARGET=${VTARGETDOC}/gml.dtd
-GML_LHEO=${VTARGETDOC}/lheo-gml.xml
+#GML_DTD_TARGET=${VTARGETDOC}/gml.dtd
+#GML_LHEO=${VTARGETDOC}/lheo-gml.xml
 DTD_LHEO=${VTARGET}/lheo.dtd
 XSD_LHEO=${VTARGET}/lheo.xsd
 CHANGES_LHEO=${VTARGET}/changements.html
 PDF_SCHEMA_LHEO=${VTARGET}/lheo-schema.pdf
-STRUCT_LHEO_FULL=${VTARGETDOC}/lheo-structure-full.xml
+#STRUCT_LHEO_FULL=${VTARGETDOC}/lheo-structure-full.xml
 STRUCT_LHEO_EXAMPLE=${VTARGET}/lheo-exemple.xml
 STRUCT_LHEO_LEGER_EXAMPLE=${VTARGET}/lheo-index-exemple.xml
-STRUCT_LHEO=${VTARGETDOC}/lheo-structure.xml
+#STRUCT_LHEO=${VTARGETDOC}/lheo-structure.xml
 MANUEL_LHEO=${VTARGET}/lheo.pdf
 LHEO_GLOSSAIRE_TARGET=${VTARGET}/lheo-glossaire.html
 TABLES_LHEO=${VTARGET}/lheo-tables.xml
-TABLE_MODALITE_V9=${VTARGET}/dict-code-modalite-pedagogique-V9.xml
-TABLE_PUBLIC_V9=${VTARGET}/dict-public-vise-formacode-V9.xml
-TABLE_NSF_V1=${VTARGET}/dict-NSF-V1.xml
-TABLE_MODALITES_PEDAGOGIQUES_FORMACODES_V10=${VTARGET}/dict-modalites-pedagogiques-formacodes-V10.xml
-TABLE_FINANCEURS_FORMACODES_V10=${VTARGET}/dict-financeurs-formacodes-V10.xml
-TABLE_FOAD=${VTARGET}/dict-FOAD.xml
-TABLE_PUBLIC_VISE_FORMACODE=${VTARGET}/dict-public-vise-formacode-V10.xml
-TABLE_NIVEAUX=${VTARGET}/dict-niveaux.xml
-TABLE_MODALITES_ES=${VTARGET}/dict-modalites-es.xml
-TABLE_AIS=${VTARGET}/dict-AIS.xml
-TABLE_PERIMETRE_RECRUTEMENT=${VTARGET}/dict-perimetre-recrutement.xml
-TABLE_ETAT_RECRUTEMENT=${VTARGET}/dict-etat-recrutement.xml
-GLOSSAIRE_BRUT=${VTARGET}/glossaire.txt
-LHEO_BRUT=${VTARGET}/lheo.txt
-TABLES_BRUT=${VTARGET}/tables.txt
+#TABLE_MODALITE_V9=${VTARGET}/dict-code-modalite-pedagogique-V9.xml
+#TABLE_PUBLIC_V9=${VTARGET}/dict-public-vise-formacode-V9.xml
+#TABLE_NSF_V1=${VTARGET}/dict-NSF-V1.xml
+#TABLE_MODALITES_PEDAGOGIQUES_FORMACODES_V10=${VTARGET}/dict-modalites-pedagogiques-formacodes-V10.xml
+#TABLE_FINANCEURS_FORMACODES_V10=${VTARGET}/dict-financeurs-formacodes-V10.xml
+#TABLE_FOAD=${VTARGET}/dict-FOAD.xml
+#TABLE_PUBLIC_VISE_FORMACODE=${VTARGET}/dict-public-vise-formacode-V10.xml
+#TABLE_NIVEAUX=${VTARGET}/dict-niveaux.xml
+#TABLE_MODALITES_ES=${VTARGET}/dict-modalites-es.xml
+#TABLE_AIS=${VTARGET}/dict-AIS.xml
+#TABLE_PERIMETRE_RECRUTEMENT=${VTARGET}/dict-perimetre-recrutement.xml
+#TABLE_ETAT_RECRUTEMENT=${VTARGET}/dict-etat-recrutement.xml
 FILES=\
  ${VTARGET}\
  ${CHANGES_LHEO}\
  ${PDF_SCHEMA_LHEO}\
- ${GML_LHEO}\
- ${GML_DTD_TARGET}\
  ${DTD_LHEO}\
- ${STRUCT_LHEO_FULL}\
+ ${TABLES_LHEO}\
  ${STRUCT_LHEO_EXAMPLE}\
  ${STRUCT_LHEO_LEGER_EXAMPLE}\
- ${STRUCT_LHEO}\
  ${LHEO_GLOSSAIRE_TARGET}\
  ${MANUEL_LHEO}\
- ${TABLE_MODALITE_V9}\
- ${TABLE_PUBLIC_V9}\
- ${TABLE_NSF_V1}\
- ${TABLE_MODALITES_PEDAGOGIQUES_FORMACODES_V10}\
- ${TABLE_FINANCEURS_FORMACODES_V10}\
- ${TABLE_FOAD}\
- ${TABLE_PUBLIC_VISE_FORMACODE}\
- ${TABLE_NIVEAUX}\
- ${TABLE_MODALITES_ES}\
- ${TABLE_AIS}\
- ${TABLE_PERIMETRE_RECRUTEMENT}\
- ${TABLE_ETAT_RECRUTEMENT}\
  ${RDDLTARGET}\
- ${XSD_LHEO}\
- ${GLOSSAIRE_BRUT}\
- ${TABLES_BRUT}\
- ${LHEO_BRUT}
+ ${XSD_LHEO}
 
 MANUEL_AUX=\
  ${MANUEL}/lheo.aux\
@@ -138,11 +117,10 @@ MANUEL_AUX=\
 all: ${FILES}
 
 ${VTARGET}:
-	@${SH} target.sh ${VERSION} ${DOC}
+	@${SH} target.sh ${VERSION}
 ${RDDLTARGET}: ${LHEO_RDDL} 
 	@${ECHO} "Generation ${RDDLTARGET}"
 	@${CP} $^ $@
-
 ${DTD_LHEO}: ${LHEO_LANGAGE} ${GML2DTD}
 	@${ECHO} "Generation ${DTD_LHEO}"
 	@${XSLTPROC} --stringparam withns 'yes' --stringparam mode prefixed -o $@ ${GML2DTD} ${LHEO_LANGAGE}
@@ -153,15 +131,6 @@ ${XSD_LHEO}: ${LHEO_LANGAGE} ${GML2XSD}
 ${TABLES_LHEO}: ${LHEO_LANGAGE} ${LHEO_TABLES} ${GML2DICT}
 	@${ECHO} "Generation $@"
 	@${XSLTPROC} -o $@ ${GML2DICT} ${LHEO_LANGAGE}
-${GML_LHEO}: ${LHEO_LANGAGE}
-	@${ECHO} "Copie $@"
-	@${CP} $^ $@
-${GML_DTD_TARGET}: ${GML_DTD}
-	@${ECHO} "Copie $@"
-	@${CP} $^ $@
-${GML2MICRO_TARGET}: ${GML2MICRO}
-	@${ECHO} "Copie $@"
-	@${CP} $^ $@
 ${LHEO_GLOSSAIRE_TARGET}: ${LHEO_GLOSSAIRE}
 	@${ECHO} "Copie $@"
 	@${CP} $^ $@
@@ -171,81 +140,52 @@ ${CHANGES_LHEO}: ${LHEO_CHANGES}
 ${PDF_SCHEMA_LHEO}: ${LHEO_SCHEMA}
 	@${ECHO} "Copie $@"
 	@${CP} $^ $@
-${TABLE_MODALITE_V9}: ${TABLE_MODALITE_V9_SOURCE}
-	@${ECHO} "Copie $@"
-	@${CP} $^ $@
-${TABLE_PUBLIC_V9}: ${TABLE_PUBLIC_V9_SOURCE}
-	@${ECHO} "Copie $@"
-	@${CP} $^ $@
-${TABLE_NSF_V1}: ${TABLE_NSF_SOURCE}
-	@${ECHO} "Copie $@"
-	@${CP} $^ $@
-${TABLE_MODALITES_PEDAGOGIQUES_FORMACODES_V10}: ${TABLE_MODALITES_PEDAGOGIQUES_FORMACODES_SOURCE}
-	@${ECHO} "Copie $@"
-	@${CP} $^ $@
-${TABLE_FINANCEURS_FORMACODES_V10}: ${TABLE_FINANCEURS_FORMACODES_SOURCE}
-	@${ECHO} "Copie $@"
-	@${CP} $^ $@
-${TABLE_FOAD}: ${TABLE_FOAD_SOURCE}
-	@${ECHO} "Copie $@"
-	@${CP} $^ $@
-${TABLE_PUBLIC_VISE_FORMACODE}: ${TABLE_PUBLIC_VISE_FORMACODE_SOURCE}
-	@${ECHO} "Copie $@"
-	@${CP} $^ $@
-${TABLE_NIVEAUX}: ${TABLE_NIVEAUX_SOURCE}
-	@${ECHO} "Copie $@"
-	@${CP} $^ $@
-${TABLE_MODALITES_ES}: ${TABLE_MODALITES_ES_SOURCE}
-	@${ECHO} "Copie $@"
-	@${CP} $^ $@
-${TABLE_AIS}: ${TABLE_AIS_SOURCE}
-	@${ECHO} "Copie $@"
-	@${CP} $^ $@
-${TABLE_PERIMETRE_RECRUTEMENT}: ${TABLE_PERIMETRE_RECRUTEMENT_SOURCE}
-	@${ECHO} "Copie $@"
-	@${CP} $^ $@
-${TABLE_ETAT_RECRUTEMENT}: ${TABLE_ETAT_RECRUTEMENT_SOURCE}
-	@${ECHO} "Copie $@"
-	@${CP} $^ $@
-
-${STRUCT_LHEO_FULL}: ${LHEO_LANGAGE} ${GML2EXAMPLE}
-	@${ECHO} "Generation $@"
-	@xsltproc --stringparam doctype-system "lheo.dtd" --stringparam complete yes --stringparam root lheo --stringparam indent ' ' -o $@ ${GML2EXAMPLE} ${LHEO_LANGAGE}
-
+#${TABLE_MODALITE_V9}: ${TABLE_MODALITE_V9_SOURCE}
+#	@${ECHO} "Copie $@"
+#	@${CP} $^ $@
+#${TABLE_PUBLIC_V9}: ${TABLE_PUBLIC_V9_SOURCE}
+#	@${ECHO} "Copie $@"
+#	@${CP} $^ $@
+#${TABLE_NSF_V1}: ${TABLE_NSF_SOURCE}
+#	@${ECHO} "Copie $@"
+#	@${CP} $^ $@
+#${TABLE_MODALITES_PEDAGOGIQUES_FORMACODES_V10}: ${TABLE_MODALITES_PEDAGOGIQUES_FORMACODES_SOURCE}
+#	@${ECHO} "Copie $@"
+#	@${CP} $^ $@
+#${TABLE_FINANCEURS_FORMACODES_V10}: ${TABLE_FINANCEURS_FORMACODES_SOURCE}
+#	@${ECHO} "Copie $@"
+#	@${CP} $^ $@
+#${TABLE_FOAD}: ${TABLE_FOAD_SOURCE}
+#	@${ECHO} "Copie $@"
+#	@${CP} $^ $@
+#${TABLE_PUBLIC_VISE_FORMACODE}: ${TABLE_PUBLIC_VISE_FORMACODE_SOURCE}
+#	@${ECHO} "Copie $@"
+#	@${CP} $^ $@
+#${TABLE_NIVEAUX}: ${TABLE_NIVEAUX_SOURCE}
+#	@${ECHO} "Copie $@"
+#	@${CP} $^ $@
+#${TABLE_MODALITES_ES}: ${TABLE_MODALITES_ES_SOURCE}
+#	@${ECHO} "Copie $@"
+#	@${CP} $^ $@
+#${TABLE_AIS}: ${TABLE_AIS_SOURCE}
+#	@${ECHO} "Copie $@"
+#	@${CP} $^ $@
+#${TABLE_PERIMETRE_RECRUTEMENT}: ${TABLE_PERIMETRE_RECRUTEMENT_SOURCE}
+#	@${ECHO} "Copie $@"
+#	@${CP} $^ $@
+#${TABLE_ETAT_RECRUTEMENT}: ${TABLE_ETAT_RECRUTEMENT_SOURCE}
+#	@${ECHO} "Copie $@"
+#	@${CP} $^ $@
+#
 ${STRUCT_LHEO_EXAMPLE}: ${LHEO_LANGAGE} ${GML2EXAMPLE}
 	@${ECHO} "Generation $@"
 	@xsltproc --stringparam outputnamespace yes --stringparam exampleproperty yes --stringparam doctype "no" --stringparam complete yes --stringparam root lheo --stringparam indent '  ' -o $@ ${GML2EXAMPLE} ${LHEO_LANGAGE}
-
 ${STRUCT_LHEO_LEGER_EXAMPLE}: ${LHEO_LANGAGE} ${GML2EXAMPLE}
 	@${ECHO} "Generation $@"
 	@xsltproc --stringparam outputnamespace yes --stringparam exampleproperty yes --stringparam doctype "no" --stringparam complete yes --stringparam root lheo-index --stringparam indent '  ' -o $@ ${GML2EXAMPLE} ${LHEO_LANGAGE}
-
-${STRUCT_LHEO}: ${LHEO_LANGAGE} ${GML2EXAMPLE}
-	@${ECHO} "Generation $@"
-	@xsltproc --stringparam doctype-system "lheo.dtd" --stringparam complete no --stringparam root lheo --stringparam indent ' ' -o $@ ${GML2EXAMPLE} ${LHEO_LANGAGE}
-
 ${MANUEL_LHEO}: ${LHEO_LANGAGE} ${STRUCT_LHEO_EXAMPLE} ${STRUCT_LHEO_LEGER_EXAMPLE} ${LHEO_GLOSSAIRE} ${LHEO_MANUEL} ${LHEO_MANUEL_INTRO} ${LHEO_MANUEL_LEGER} ${LHEO_MANUEL_FIGURE}
 	@${ECHO} "Generation $@"
 	@(cd ${MANUEL}; ${XSLTPROC} --stringparam glossaire ${LHEO_GLOSSAIRE} -o lheo.tex ${LHEO_MANUEL} ${LHEO_LANGAGE}; pdflatex lheo; pdflatex lheo; pdflatex lheo; makeindex lheo; pdflatex lheo; pdflatex lheo; cp lheo.pdf $@)
-
-${VTARGET}/lheo.txt: ${TARGET}/elements.xml
-	@${ECHO} "Generation de $@" 
-	@(echo "<html>" > $@)
-	@(sed 's/glossaire.html/glossaire/g' $^ >> $@)
-	@(sed 's/tables.html/tables/g' $^ >> $@)
-	@(echo "</html>" >> $@)
-
-${VTARGET}/glossaire.txt: ${TARGET}/glossaire.xml
-	@${ECHO} "Generation de $@" 
-	@(echo "<html>" > $@)
-	@(cat $^ >> $@)
-	@(echo "</html>" >> $@)
-
-${VTARGET}/tables.txt: ${TARGET}/tables.xml
-	@${ECHO} "Generation de $@"
-	@(echo "<html>" > $@)
-	@(cat $^ >> $@)
-	@(echo "</html>" >> $@)
 
 clean-target:
 	rm -fr ${TARGET}
