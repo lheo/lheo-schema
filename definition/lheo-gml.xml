@@ -935,12 +935,88 @@
   <definition name="certification">
     <fullname xml:lang="fr">Certification préparée</fullname>
     <doc xml:lang="fr">
-      Cet élément donne le code d'une certification dans le service Certifinfo et/ou dans le RNCP.
+      Cet élément permet de préciser le code d'une certification dans le service Certifinfo, dans les RNCP et RS de France Compétences, ou son code CPF fourni par la Caisse des dépôts.
     </doc>
     <element_type>
       <sequence>
           <element name="code-RNCP" min="0" max="1" />
           <element name="code-CERTIFINFO" min="0" max="1" />
+          <element name="code-RS" min="0" max="1" />
+          <element name="code-CPF" min="0" max="1" />
+          <element name="extras" min="0" max="0"/>
+      </sequence>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="lheo:cercle" value="2"/>
+  </definition>
+
+  <!--
+
+       code-type-formation
+
+  -->
+
+  <definition name="code-type-formation">
+    <fullname xml:lang="fr">Codes d'une formation non strictement certifiante</fullname>
+    <doc xml:lang="fr">
+      Cet élément permet de préciser le code CPF ou ELU d'une formation fourni par la Caisse des dépôts, pour une formation qui n'est pas strictement certifiante. Cet élément est donc à utiliser au lieu de l'élément "Certification préparée" pour ce type de formation.
+    </doc>
+    <element_type>
+      <sequence>
+          <element name="code-CPF" min="0" max="1" />
+          <element name="code-ELU" min="0" max="1" />
           <element name="extras" min="0" max="0"/>
       </sequence>
     </element_type>
@@ -1183,8 +1259,9 @@
         <element name="code-niveau-entree"/>
         <element name="objectif-general-formation" min="0" max="1"/>
         <element name="certification" min="0" max="5"/>
+        <element name="code-type-formation" min="0" max="5"/>
         <element name="code-niveau-sortie" min="0" max="1"/>
-		<element name="url-formation" min="0" max="1"/>
+        <element name="url-formation" min="0" max="1"/>
         <element name="action" min="1" max="0"/> <!-- se déroule -->
         <element name="organisme-formation-responsable"/> <!-- a comme organisme -->
         <!-- Organisation des modules -->
@@ -6010,10 +6087,10 @@
     <fullname xml:lang="fr">Code RNCP</fullname>
     <doc xml:lang="fr">
       Cet élément contient un code d'une certification dans le
-      Répertoire National des Certifications Professionnelles.
+      Répertoire National des Certifications Professionnelles, géré par France Compétences. Il est soit composé uniquement de chiffres, soit composé du préfixe RNCP suivi de chiffres.
     </doc>
     <element_type>
-      <basic_text lgmin="1" lgmax="6" />
+      <basic_text lgmin="1" lgmax="10" />
     </element_type>
     <attribute name="numero" type="optional">
       <attribute_type>
@@ -6069,7 +6146,7 @@
       </attribute_type>
     </attribute>
     <property name="dictService" value="RNCP" />
-    <property name="glb:example" value="653" />
+    <property name="glb:example" value="RNCP25266" />
   </definition>
 
   <definition name="code-CERTIFINFO">
@@ -6212,6 +6289,216 @@
     </attribute>
     <property name="glb:example" value="0681761V" />
     <property name="lheo:glossaire" value="uai"/>
+  </definition>
+
+  <!--
+
+     code-RS
+
+  -->
+
+  <definition name="code-RS">
+    <fullname xml:lang="fr">Code RS d'une certification</fullname>
+    <doc xml:lang="fr">
+    Cet élément contient le code d’une certification dans le Répertoire Spécifique, attribué par France Compétences. Il est composé du préfixe RS suivi de chiffres.
+    </doc>
+    <element_type>
+      <basic_text lgmin="3" lgmax="10" />
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="RS5080" />
+  </definition>
+
+  <!--
+
+     code-CPF
+
+  -->
+
+  <definition name="code-CPF">
+    <fullname xml:lang="fr">Code CPF d'une certification</fullname>
+    <doc xml:lang="fr">
+     Cet élément contient un code d’une certification éligible au CPF (Compte Personnel de Formation), attribué par la Caisse des dépôts. Il est composé du préfixe CPF suivi de chiffres.
+    </doc>
+    <element_type>
+      <basic_text lgmin="4" lgmax="10" />
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="CPF206" />
+  </definition>
+
+  <!--
+
+     code-ELU
+
+  -->
+
+  <definition name="code-ELU">
+    <fullname xml:lang="fr">Code ELU d'une formation réservée aux élus locaux</fullname>
+    <doc xml:lang="fr">
+     Cet élément contient un code d’un type de formation réservé aux élus locaux sur la plateforme du CPF (Compte Personnel de Formation), attribué par la Caisse des dépôts. Il est composé du préfixe ELU suivi de chiffres.
+    </doc>
+    <element_type>
+      <basic_text lgmin="4" lgmax="10" />
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="ELU1001" />
   </definition>
 
   <!--
