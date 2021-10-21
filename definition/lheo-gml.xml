@@ -2460,6 +2460,7 @@
     <doc xml:lang="fr">Cet élément permet de donner le lieu où se déroule la formation.</doc>
     <element_type>
       <sequence>
+        <element name="SIRET-lieu-formation" min="0" max="1"/>
         <element name="coordonnees" min="1" max="1"/>
         <element name="extras" min="0" max="0"/>
       </sequence>
@@ -3122,6 +3123,80 @@
       </attribute_type>
     </attribute>
     <property name="lheo:cercle" value="1"/>
+    <property name="lheo:glossaire" value="siren"/>
+  </definition>
+
+  <!--
+
+     SIRET-organisme-formation
+
+  -->
+
+  <definition name="SIRET-lieu-formation">
+    <fullname xml:lang="fr">Numéro SIRET du lieu de formation</fullname>
+    <doc xml:lang="fr">
+      Cet élément permet de préciser le numéro SIRET du lieu où se déroule la formation.
+    </doc>
+    <element_type>
+      <sequence>
+        <element name="SIRET" min="1" max="1"/>
+        <element name="extras" min="0" max="0"/>
+      </sequence>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="lheo:cercle" value="2"/>
     <property name="lheo:glossaire" value="siren"/>
   </definition>
 
