@@ -3061,11 +3061,12 @@
     <fullname xml:lang="fr">Numéro SIRET de l'organisme de formation</fullname>
     <doc xml:lang="fr">
       Cet élément permet de préciser le numéro SIRET de l'organisme
-      responsable de l'offre.
+      responsable de l'offre et éventuellement son code UAI.
     </doc>
     <element_type>
       <sequence>
         <element name="SIRET" min="1" max="1"/>
+        <element name="code-UAI" min="0" max="1"/>
         <element name="extras" min="0" max="0"/>
       </sequence>
     </element_type>
@@ -3135,11 +3136,12 @@
   <definition name="SIRET-lieu-formation">
     <fullname xml:lang="fr">Numéro SIRET du lieu de formation</fullname>
     <doc xml:lang="fr">
-      Cet élément permet de préciser le numéro SIRET du lieu où se déroule la formation.
+      Cet élément permet de préciser le numéro SIRET du lieu où se déroule la formation et éventuellement son code UAI.
     </doc>
     <element_type>
       <sequence>
         <element name="SIRET" min="1" max="1"/>
+        <element name="code-UAI" min="0" max="1"/>
         <element name="extras" min="0" max="0"/>
       </sequence>
     </element_type>
@@ -3856,11 +3858,12 @@
     <fullname xml:lang="fr">SIRET de l'organisme formateur</fullname>
     <doc xml:lang="fr">
       Cet élément permet de préciser le numéro SIRET de l'organisme
-      formateur, c'est-à-dire de l'organisme qui assure la formation.
+      formateur, c'est-à-dire de l'organisme qui assure la formation, et éventuellement son code UAI.
     </doc>
     <element_type>
       <sequence>
         <element name="SIRET" min="1" max="1"/>
+        <element name="code-UAI" min="0" max="1"/>
         <element name="extras" min="0" max="0"/>
       </sequence>
     </element_type>
@@ -6140,6 +6143,76 @@
     <property name="glb:example" value="52747" />
   </definition>
 
+  <!--
+
+     code-UAI
+
+  -->
+
+  <definition name="code-UAI">
+    <fullname xml:lang="fr">Code UAI d'un établissement</fullname>
+    <doc xml:lang="fr">
+    Chaque établissement scolaire (écoles, collèges, lycées, CFA, enseignement supérieur, public ou privé) possède un code unique inscrit dans le répertoire national des établissements (RNE), le code UAI (Unité Administrative Immatriculée). Il est composé de 7 chiffres et d’une lettre, où les 3 premiers chiffres correspondent au numéro de département de l’établissement.
+    </doc>
+    <element_type>
+      <basic_text lgmin="8" lgmax="8" />
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="0681761V" />
+    <property name="lheo:glossaire" value="uai"/>
+  </definition>
 
   <!--
 
