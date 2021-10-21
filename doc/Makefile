@@ -29,6 +29,7 @@ LHEOFILES = source/lheo/domaine-formation.rst \
  source/lheo/parcours-de-formation.rst \
  source/lheo/objectif-general-formation.rst \
  source/lheo/certification.rst \
+ source/lheo/code-type-formation.rst \
  source/lheo/lheo.rst \
  source/lheo/offres.rst \
  source/lheo/formation.rst \
@@ -56,6 +57,7 @@ LHEOFILES = source/lheo/domaine-formation.rst \
  source/lheo/url-action.rst \
  source/lheo/numero-activite.rst \
  source/lheo/SIRET-organisme-formation.rst \
+ source/lheo/SIRET-lieu-formation.rst \
  source/lheo/raison-sociale.rst \
  source/lheo/coordonnees-organisme.rst \
  source/lheo/contact-organisme.rst \
@@ -97,6 +99,10 @@ LHEOFILES = source/lheo/domaine-formation.rst \
  source/lheo/info-public-vise.rst \
  source/lheo/code-RNCP.rst \
  source/lheo/code-CERTIFINFO.rst \
+ source/lheo/code-UAI.rst \
+ source/lheo/code-RS.rst \
+ source/lheo/code-CPF.rst \
+ source/lheo/code-ELU.rst \
  source/lheo/coordonnees.rst \
  source/lheo/SIRET.rst \
  source/lheo/adresse.rst \
@@ -403,6 +409,18 @@ source/lheo/contact-formation-resume.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page contact-formation-resume $(GML2SPHINX) $(LHEOGML)
 source/lheo/lheo-plus.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page lheo-plus $(GML2SPHINX) $(LHEOGML)
+source/lheo/code-UAI.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
+	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page code-UAI $(GML2SPHINX) $(LHEOGML)
+source/lheo/code-RS.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
+	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page code-RS $(GML2SPHINX) $(LHEOGML)
+source/lheo/code-CPF.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
+	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page code-CPF $(GML2SPHINX) $(LHEOGML)
+source/lheo/code-ELU.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
+	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page code-ELU $(GML2SPHINX) $(LHEOGML)
+source/lheo/SIRET-lieu-formation.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
+	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page SIRET-lieu-formation $(GML2SPHINX) $(LHEOGML)
+source/lheo/code-type-formation.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
+	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page code-type-formation $(GML2SPHINX) $(LHEOGML)	
 source/lheo/dict-boolean.rst: $(GML2SPHINX) $(LHEOGML)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam action table --stringparam page dict-boolean $(GML2SPHINX) $(LHEOGML)
 source/lheo/dict-modalites-enseignement.rst: $(GML2SPHINX) $(LHEOGML)

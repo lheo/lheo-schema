@@ -9,6 +9,7 @@
    lheo/duree-indicative
    lheo/objectif-general-formation
    lheo/certification
+   lheo/code-type-formation
    lheo/potentiel
    lheo/code-niveau-sortie
    lheo/url-formation
@@ -18,6 +19,7 @@
    lheo/adresse-information
    lheo/date-information
    lheo/url-action
+   lheo/SIRET-lieu-formation
    lheo/contact-formateur
    lheo/renseignements-specifiques
    lheo/organisme-financeur

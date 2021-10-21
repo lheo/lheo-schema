@@ -14,6 +14,10 @@ Types de base
    lheo/code-ROME
    lheo/code-RNCP
    lheo/code-CERTIFINFO
+   lheo/code-UAI
+   lheo/code-RS
+   lheo/code-CPF
+   lheo/code-ELU
    lheo/SIRET
    lheo/ligne
    lheo/prenom
