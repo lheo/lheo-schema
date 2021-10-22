@@ -1452,7 +1452,7 @@
 
         <element name="prise-en-charge-frais-possible"/>
 
-        <element name="lieu-de-formation"/>
+        <element name="lieu-de-formation" min="0" max="0"/>
         <element name="modalites-entrees-sorties"/>
 
 		    <element name="url-action" min="0" max="1" />
@@ -1486,7 +1486,7 @@
         <element name="conventionnement" min="0" max="1"/>
         <element name="duree-conventionnee" min="0" max="1"/>
 
-        <element name="organisme-formateur" min="0" max="1"/> <!-- forme -->
+        <element name="organisme-formateur" min="0" max="0"/> <!-- forme -->
         <element name="organisme-financeur" min="0" max="8"/> <!-- finance -->
 
         <element name="extras" min="0" max="0"/>
