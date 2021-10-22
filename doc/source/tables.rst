@@ -13,6 +13,7 @@ Tables
    lheo/dict-AIS
    lheo/dict-perimetre-recrutement
    lheo/dict-financeurs
+   lheo/dict-type-contact
    lheo/dict-type-parcours
    lheo/dict-type-positionnement
    lheo/dict-type-module

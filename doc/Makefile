@@ -26,6 +26,7 @@ LHEOFILES = source/lheo/domaine-formation.rst \
  source/lheo/rythme-formation.rst \
  source/lheo/duree-indicative.rst \
  source/lheo/contact-formation.rst \
+ source/lheo/contact-session.rst \
  source/lheo/parcours-de-formation.rst \
  source/lheo/objectif-general-formation.rst \
  source/lheo/certification.rst \
@@ -60,6 +61,7 @@ LHEOFILES = source/lheo/domaine-formation.rst \
  source/lheo/SIRET-lieu-formation.rst \
  source/lheo/raison-sociale.rst \
  source/lheo/coordonnees-organisme.rst \
+ source/lheo/type-contact.rst \
  source/lheo/contact-organisme.rst \
  source/lheo/contact-formateur.rst \
  source/lheo/renseignements-specifiques.rst \
@@ -152,7 +154,8 @@ LHEOFILES = source/lheo/domaine-formation.rst \
  source/lheo/dict-type-parcours.rst \
  source/lheo/dict-type-positionnement.rst \
  source/lheo/dict-type-module.rst \
- source/lheo/dict-niveaux.rst
+ source/lheo/dict-niveaux.rst \
+ source/lheo/dict-type-contact.rst
 
 # manual
 TOCFILES = source/index.rst \
@@ -189,6 +192,8 @@ source/lheo/duree-indicative.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page duree-indicative $(GML2SPHINX) $(LHEOGML)
 source/lheo/contact-formation.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page contact-formation $(GML2SPHINX) $(LHEOGML)
+source/lheo/contact-session.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
+	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page contact-session $(GML2SPHINX) $(LHEOGML)
 source/lheo/parcours-de-formation.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page parcours-de-formation $(GML2SPHINX) $(LHEOGML)
 source/lheo/objectif-general-formation.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
@@ -253,6 +258,8 @@ source/lheo/raison-sociale.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page raison-sociale $(GML2SPHINX) $(LHEOGML)
 source/lheo/coordonnees-organisme.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page coordonnees-organisme $(GML2SPHINX) $(LHEOGML)
+source/lheo/type-contact.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
+	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page type-contact $(GML2SPHINX) $(LHEOGML)
 source/lheo/contact-organisme.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page contact-organisme $(GML2SPHINX) $(LHEOGML)
 source/lheo/contact-formateur.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
@@ -443,6 +450,8 @@ source/lheo/dict-type-module.rst: $(GML2SPHINX) $(LHEOGML)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam action table --stringparam page dict-type-module $(GML2SPHINX) $(LHEOGML)
 source/lheo/dict-niveaux.rst: $(GML2SPHINX) $(LHEOGML)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam action table --stringparam page dict-niveaux $(GML2SPHINX) $(LHEOGML)
+source/lheo/dict-type-contact.rst: $(GML2SPHINX) $(LHEOGML)
+	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam action table --stringparam page dict-type-contact $(GML2SPHINX) $(LHEOGML)
 
 # Generated
 source/glossaire.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)

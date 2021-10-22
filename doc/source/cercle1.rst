@@ -15,6 +15,7 @@
    lheo/certifiante
    lheo/rythme-formation
    lheo/contact-formation
+   lheo/contact-session
    lheo/parcours-de-formation
    lheo/niveau-entree-obligatoire
    lheo/code-niveau-entree

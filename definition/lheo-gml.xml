@@ -704,6 +704,86 @@
     </doc>
     <element_type>
       <sequence>
+        <element name="type-contact" min="0" max="1"/>
+        <element name="coordonnees" min="1" max="1"/>
+        <element name="extras" min="0" max="0"/>
+      </sequence>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="lheo:cercle" value="1"/>
+    <property name="lheo:glossaire" value="contact-offre"/>
+  </definition>
+
+  <!--
+
+       contact-session
+
+  -->
+
+  <definition name="contact-session">
+    <fullname xml:lang="fr">Contact de la session de formation</fullname>
+    <doc xml:lang="fr">
+      Cet élément contient les coordonnées (typiquement un nom, avec
+      une adresse ou un numéro de téléphone, une adresse de courrier
+      électronique, etc.) d'un contact pouvant donner des
+      renseignements sur la session de formation ou qui est référent
+      sur un sujet particulier.
+    </doc>
+    <element_type>
+      <sequence>
+        <element name="type-contact" min="0" max="1"/>
         <element name="coordonnees" min="1" max="1"/>
         <element name="extras" min="0" max="0"/>
       </sequence>
@@ -763,7 +843,6 @@
     </attribute>
     <property name="lheo:cercle" value="1"/>
     <property name="lheo:glossaire" value="contact-offre"/>
-    <!-- TODO: passer en contact-formation -->
   </definition>
 
   <!--
@@ -1254,7 +1333,7 @@
         <element name="resultats-attendus"/>
         <element name="contenu-formation"/>
         <element name="certifiante"/>
-        <element name="contact-formation"/>
+        <element name="contact-formation" min="1" max="0"/>
         <element name="parcours-de-formation"/>
         <element name="code-niveau-entree"/>
         <element name="objectif-general-formation" min="0" max="1"/>
@@ -1376,7 +1455,7 @@
         <element name="lieu-de-formation"/>
         <element name="modalites-entrees-sorties"/>
 
-		<element name="url-action" min="0" max="1" />
+		    <element name="url-action" min="0" max="1" />
 
         <element name="session" min="1" max="0"/> <!-- a lieu le -->
 
@@ -1497,7 +1576,7 @@
         <element name="nom-organisme" />
         <element name="raison-sociale" />
         <element name="coordonnees-organisme" />
-        <element name="contact-organisme" />
+        <element name="contact-organisme" min="1" max="0"/>
         <element name="renseignements-specifiques" min="0" max="1"/>
         <element name="potentiel" min="0" max="1"/>
         <element name="extras" min="0" max="0"/>
@@ -1657,7 +1736,7 @@
       <sequence>
         <element name="SIRET-formateur"/>
         <element name="raison-sociale-formateur"/>
-        <element name="contact-formateur" min="0" max="1"/>
+        <element name="contact-formateur" min="0" max="0"/>
         <element name="potentiel" min="0" max="1"/>
         <element name="extras" min="0" max="0"/>
       </sequence>
@@ -2688,6 +2767,7 @@
         <element name="modalites-inscription" min="0" max="1"/>
         <element name="periode-inscription" min="0" max="1"/>
         <element name="etat-recrutement" min="0" max="1"/>
+        <element name="contact-session" min="0" max="0"/>
         <element name="extras" min="0" max="0"/>
       </sequence>
     </element_type>
@@ -3424,6 +3504,76 @@
 
   <!--
 
+     type-contact
+
+  -->
+
+  <definition name="type-contact">
+    <fullname xml:lang="fr">Type de contact</fullname>
+    <doc xml:lang="fr">
+      Cet élément permet de caractériser le type de contact, notamment les référents obligatoires dans certains cas.
+    </doc>
+    <element_type>
+      <basic_key ref="dict-type-contact" />
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="1"/>
+  </definition>
+
+  <!--
+
       contact-organisme
 
   -->
@@ -3433,6 +3583,7 @@
     <doc xml:lang="fr">Cet élément permet de donner les coordonnées (typiquement un nom, avec une adresse ou un numéro de téléphone, une adresse de courrier électronique, etc.) d'une personne de l'organisme responsable de l'offre à contacter.</doc>
     <element_type>
       <sequence>
+        <element name="type-contact" min="0" max="1"/>
         <element name="coordonnees" min="1" max="1"/>
         <element name="extras" min="0" max="0"/>
       </sequence>
@@ -3505,6 +3656,7 @@
     <doc xml:lang="fr">Cet élément permet de donner les coordonnées (typiquement un nom, avec une adresse ou un numéro de téléphone, une adresse de courrier électronique, etc.) d'une personne de l'organisme formateur.</doc>
     <element_type>
       <sequence>
+        <element name="type-contact" min="0" max="1"/>
         <element name="coordonnees" min="1" max="1"/>
         <element name="extras" min="0" max="0"/>
       </sequence>
@@ -8970,7 +9122,7 @@
 	<element name="code-public-vise" min="1" max="10" />
 	<element name="nombre-heures-total" min="0" />
 	<element name="session" min="0" max="0" />
-	<element name="contact-formation-resume" min="0" />
+	<element name="contact-formation-resume" min="0" max="0" />
 	<element name="certification" min="0" max="5"/>
 	<element name="extras" min="0" max="0" />
       </sequence>
@@ -9152,10 +9304,11 @@
     <fullname xml:lang="fr">Contact pour une offre de formation</fullname>
     <element_type>
       <sequence>
-	<element name="nom" min="0" />
-	<element name="telfixe" min="0" />
-	<element name="courriel" min="0" />
-	<element name="extras" min="0" max="0"/>
+        <element name="type-contact" min="0" max="1"/>
+        <element name="nom" min="0" />
+        <element name="telfixe" min="0" />
+        <element name="courriel" min="0" />
+        <element name="extras" min="0" max="0"/>
       </sequence>
     </element_type>
     <attribute name="numero" type="optional">
@@ -9536,6 +9689,77 @@
     <entry>
       <key val="1"/>
       <value xml:lang="fr" val="Code(s) obsolète(s)"/>
+    </entry>
+    <property name="glb:service" value="financeurs" />
+  </dict>
+
+  <!--
+
+    dict-type-contact
+
+  -->
+
+  <dict name="dict-type-contact">
+    <fullname xml:lang="fr">Type de contact</fullname>
+    <entry>
+      <key val="0"/>
+      <value xml:lang="fr" val="Autre"/>
+    </entry>
+    <entry>
+      <key val="1"/>
+      <value xml:lang="fr" val="Référent handicap"/>
+    </entry>
+    <entry>
+      <key val="2"/>
+      <value xml:lang="fr" val="Référent mobilité internationale"/>
+    </entry>
+    <entry>
+      <key val="3"/>
+      <value xml:lang="fr" val="Référent pédagogique"/>
+    </entry>
+    <entry>
+      <key val="4"/>
+      <value xml:lang="fr" val="Accueil"/>
+    </entry>
+    <entry>
+      <key val="5"/>
+      <value xml:lang="fr" val="Direction"/>
+    </entry>
+    <entry>
+      <key val="6"/>
+      <value xml:lang="fr" val="Référent qualité"/>
+    </entry>
+    <entry>
+      <key val="7"/>
+      <value xml:lang="fr" val="Référent entreprise"/>
+    </entry>
+    <entry>
+      <key val="8"/>
+      <value xml:lang="fr" val="Référent commercial"/>
+    </entry>
+    <entry>
+      <key val="9"/>
+      <value xml:lang="fr" val="Gestionnaire financier"/>
+    </entry>
+    <entry>
+      <key val="10"/>
+      <value xml:lang="fr" val="Direction Déléguée aux Formations Professionnelles et Techniques (DDFPT)"/>
+    </entry>
+    <entry>
+      <key val="11"/>
+      <value xml:lang="fr" val="Communication"/>
+    </entry>
+    <entry>
+      <key val="12"/>
+      <value xml:lang="fr" val="Référent FOAD"/>
+    </entry>
+    <entry>
+      <key val="13"/>
+      <value xml:lang="fr" val="Référent VAE"/>
+    </entry>
+    <entry>
+      <key val="14"/>
+      <value xml:lang="fr" val="Référent Apprentissage"/>
     </entry>
     <property name="glb:service" value="financeurs" />
   </dict>

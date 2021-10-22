@@ -6,6 +6,7 @@ Types de base
    :hidden:
    :caption: Sommaire
 
+   lheo/type-contact
    lheo/code-financeur
    lheo/reference-module
    lheo/type-module
