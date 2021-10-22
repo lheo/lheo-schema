@@ -1,3 +1,5 @@
+.. _lheo-langage:
+
 Le langage LHÉO
 ===============
 

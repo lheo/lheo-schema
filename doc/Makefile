@@ -159,8 +159,7 @@ LHEOFILES = source/lheo/domaine-formation.rst \
  source/lheo/dict-type-contact.rst
 
 # manual
-TOCFILES = source/index.rst \
- source/structure.rst \
+TOCFILES = source/structure.rst \
  source/cercle1.rst \
  source/cercle2.rst \
  source/cercle3.rst \
@@ -461,8 +460,8 @@ source/glossaire.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page glossaire $(GML2SPHINX) $(LHEOGML)
 
 # Manually edited
-source/index.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
-	xsltproc -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page index $(GML2SPHINX) $(LHEOGML)
+#source/index.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
+#	xsltproc -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page index $(GML2SPHINX) $(LHEOGML)
 source/structure.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page structure $(GML2SPHINX) $(LHEOGML)
 source/cercle1.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
@@ -488,10 +487,3 @@ clean: Makefile
 	$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 	rm -f $(LHEOFILES) $(TOCFILES)
 
-publish: html
-	ssh $(PUBLISHHOST) "mkdir -p $(PUBLISHDIR)"
-	rsync --archive --verbose build/html/. $(PUBLISHHOST):$(PUBLISHDIR)
-
-publish-prod: html
-	ssh $(PRODHOST) "mkdir -p $(PRODDIR)"
-	rsync --archive --verbose build/html/. $(PRODHOST):$(PRODDIR)

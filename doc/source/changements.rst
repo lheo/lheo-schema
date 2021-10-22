@@ -1,3 +1,5 @@
+.. _changements:
+
 Changements dans cette version
 ------------------------------
 

@@ -200,6 +200,9 @@
 	</xsl:template> 
 
 	<xsl:template name="page-tables">
+		<xsl:text>.. _tables</xsl:text>
+		<xsl:text>:&#10;</xsl:text>
+		<xsl:text>&#10;</xsl:text>
 		<xsl:text>Tables&#10;</xsl:text>
 		<xsl:text>------&#10;</xsl:text>
 		<xsl:text>&#10;</xsl:text>
