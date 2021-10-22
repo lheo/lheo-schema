@@ -6,5 +6,8 @@ LHÉO
    :includehidden:
    :caption: Sommaire:
 
+   changements
    lheo_langage
+   tables
+   glossaire
 

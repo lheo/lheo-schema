@@ -476,10 +476,13 @@ source/types.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 source/tables.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page tables $(GML2SPHINX) $(LHEOGML)
 
-.PHONY: help Makefile html clean
+.PHONY: help Makefile html clean pdf
 
 html: Makefile $(LHEOFILES) $(TOCFILES)
 	$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+pdf: Makefile $(LHEOFILES) $(TOCFILES)
+	PAPER=a4 $(SPHINXBUILD) -M latexpdf "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 clean: Makefile
 	$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)

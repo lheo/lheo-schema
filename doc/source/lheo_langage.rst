@@ -12,7 +12,5 @@ Le langage LHÉO
    cercle2
    cercle3
    types
-   tables
-   glossaire
 
  

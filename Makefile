@@ -30,7 +30,6 @@ GML2XSD=${GELABA}/scripts/gml2xsd.xsl
 #
 # LHEO definition
 #
-LHEO_CHANGES=${DEFS}/changements.html
 LHEO_SCHEMA=${DEFS}/lheo-2.2.pdf
 LHEO_RDDL=${DEFS}/version.html
 LHEO_LANGAGE=${DEFS}/lheo-gml.xml
@@ -69,7 +68,6 @@ RDDLTARGET=${TARGET}/${VERSION}/index.html
 #GML_LHEO=${VTARGETDOC}/lheo-gml.xml
 DTD_LHEO=${VTARGET}/lheo.dtd
 XSD_LHEO=${VTARGET}/lheo.xsd
-CHANGES_LHEO=${VTARGET}/changements.html
 PDF_SCHEMA_LHEO=${VTARGET}/lheo-schema.pdf
 #STRUCT_LHEO_FULL=${VTARGETDOC}/lheo-structure-full.xml
 STRUCT_LHEO_EXAMPLE=${VTARGET}/lheo-exemple.xml
@@ -92,7 +90,6 @@ TABLES_LHEO=${VTARGET}/lheo-tables.xml
 #TABLE_ETAT_RECRUTEMENT=${VTARGET}/dict-etat-recrutement.xml
 FILES=\
  ${VTARGET}\
- ${CHANGES_LHEO}\
  ${PDF_SCHEMA_LHEO}\
  ${DTD_LHEO}\
  ${TABLES_LHEO}\
@@ -132,9 +129,6 @@ ${TABLES_LHEO}: ${LHEO_LANGAGE} ${LHEO_TABLES} ${GML2DICT}
 	@${ECHO} "Generation $@"
 	@${XSLTPROC} -o $@ ${GML2DICT} ${LHEO_LANGAGE}
 ${LHEO_GLOSSAIRE_TARGET}: ${LHEO_GLOSSAIRE}
-	@${ECHO} "Copie $@"
-	@${CP} $^ $@
-${CHANGES_LHEO}: ${LHEO_CHANGES}
 	@${ECHO} "Copie $@"
 	@${CP} $^ $@
 ${PDF_SCHEMA_LHEO}: ${LHEO_SCHEMA}

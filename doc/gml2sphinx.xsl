@@ -93,7 +93,10 @@
 		<xsl:text>   :includehidden:&#10;</xsl:text>
 		<xsl:text>   :caption: Sommaire:&#10;</xsl:text>
 		<xsl:text>&#10;</xsl:text>
+		<xsl:text>   changements&#10;</xsl:text>
 		<xsl:text>   lheo_langage&#10;</xsl:text>
+		<xsl:text>   tables&#10;</xsl:text>
+		<xsl:text>   glossaire&#10;</xsl:text>
 		<!--<xsl:text>   lheo_loms&#10;</xsl:text>-->
 		<xsl:text>&#10;</xsl:text>
 		<!--
