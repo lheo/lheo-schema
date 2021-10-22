@@ -109,6 +109,7 @@ LHEOFILES = source/lheo/domaine-formation.rst \
  source/lheo/SIRET.rst \
  source/lheo/adresse.rst \
  source/lheo/ligne.rst \
+ source/lheo/denomination.rst \
  source/lheo/prenom.rst \
  source/lheo/civilite.rst \
  source/lheo/nom.rst \
@@ -346,6 +347,8 @@ source/lheo/adresse.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page adresse $(GML2SPHINX) $(LHEOGML)
 source/lheo/ligne.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page ligne $(GML2SPHINX) $(LHEOGML)
+source/lheo/denomination.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
+	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page denomination $(GML2SPHINX) $(LHEOGML)
 source/lheo/prenom.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page prenom $(GML2SPHINX) $(LHEOGML)
 source/lheo/civilite.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)

@@ -6813,6 +6813,7 @@
     </doc>
     <element_type>
       <sequence>
+        <element name="denomination" min="0" max="1" />
         <element name="ligne" min="1" max="4" />
         <element name="codepostal" />
         <element name="ville" />
@@ -6926,19 +6927,19 @@
       </attribute_type>
     </attribute>
     <attribute name="horodatage-creation" type="optional">
-    	<doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
       <attribute_type>
         <attribute_datetime/>
       </attribute_type>
     </attribute>
     <attribute name="horodatage-modification" type="optional">
-    	<doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
       <attribute_type>
         <attribute_datetime/>
       </attribute_type>
     </attribute>
     <attribute name="horodatage-export" type="optional">
-    	<doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
       <attribute_type>
         <attribute_datetime/>
       </attribute_type>
@@ -6949,6 +6950,77 @@
       </attribute_type>
     </attribute>
     <property name="glb:example" value="23 rue Victor Hugo" />
+  </definition>
+
+
+  <!--
+
+      denomination
+
+  -->
+
+  <definition name="denomination">
+    <fullname xml:lang="fr">Dénomination</fullname>
+    <doc xml:lang="fr">
+      Le nom d'un lieu ou d'une structure.
+    </doc>
+    <element_type>
+      <basic_text lgmin="1" lgmax="255"/>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="CFA Alpha" />
   </definition>
 
   <!--

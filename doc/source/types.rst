@@ -21,6 +21,7 @@ Types de base
    lheo/code-ELU
    lheo/SIRET
    lheo/ligne
+   lheo/denomination
    lheo/prenom
    lheo/civilite
    lheo/nom
