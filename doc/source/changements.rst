@@ -88,3 +88,9 @@ Changements dans cette version
   - Nouvelle entrée de glossaire :ref:`alternant-terme`
   - Nouvelle entrée de glossaire :ref:`apprenti-terme`
   - Nouvelle entrée de glossaire :ref:`contrat-apprentissage-terme`
+
+- `PEL-4: Date prévisionnelle d'entrée en session <https://gitlab.com/lheo/lheo-schema/-/issues/7>`_
+
+  - Modification de la documentation de :ref:`session`
+  - Nouvelle entrée de glossaire :ref:`es-cadencees-terme`
+  - Modification de l'entrée de glossaire :ref:`dates-debut-fin-stage-terme`

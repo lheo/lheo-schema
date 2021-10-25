@@ -2759,7 +2759,9 @@
 
   <definition name="session">
     <fullname xml:lang="fr">Session de formation</fullname>
-    <doc xml:lang="fr">Cet élément permet de préciser une session de formation en format fixe.</doc>
+    <doc xml:lang="fr">
+      Cet élément permet de préciser une session de formation. Les date de début de session (Période) est une date prévisionnelle d'entrée en session.
+    </doc>
     <element_type>
       <sequence>
         <element name="periode" min="1" max="1"/>
