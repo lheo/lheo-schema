@@ -10,15 +10,15 @@ Schémas XML
 
 Actuellement implémenté en XML, il est matérialisé par les éléments techniques suivants:
 
-- une DTD: `lheo.dtd </2.3/lheo.dtd>`_
-- un schema XML: `lheo.xsd </2.3/lheo.xsd>`_
+- une DTD: `lheo.dtd <lheo.dtd>`_
+- un schema XML: `lheo.xsd <lheo.xsd>`_
 
-Ce langage est décrit dans le chapitre :ref:`lheo-langage`. La structure générale d'un fichier XML au format LHÉO est présentée dans le fichier exemple: `lheo-exemple.xml </2.3/lheo-exemple.xml>`_
+Ce langage est décrit dans le chapitre :ref:`lheo-langage`. La structure générale d'un fichier XML au format LHÉO est présentée dans le fichier exemple: `lheo-exemple.xml <lheo-exemple.xml>`_
 
 Tables de référence et référentiels externes
 --------------------------------------------
 
-Le langage utilise une série de tables de référence (:ref:`tables`), fournissant des listes fermées de valeurs normalisées pour certains concepts. Un fichier XML (`lheo-tables.xml </2.3/lheo-tables.xml>`_) contient une représentation structurée de ces tables.
+Le langage utilise une série de tables de référence (:ref:`tables`), fournissant des listes fermées de valeurs normalisées pour certains concepts. Un fichier XML (`lheo-tables.xml <lheo-tables.xml>`_) contient une représentation structurée de ces tables.
 
 Le langage utilise également plusieurs référentiels externes:
 
@@ -34,11 +34,11 @@ Le langage utilise également plusieurs référentiels externes:
 Glossaire
 ---------
 
-Le langage utilise également le :ref:`glossaire` destiné à expliciter les termes du champ de la formation. Ce glossaire est également disponible sous la forme d'une page unique au format HTML: `lheo-glossaire.html </2.3/lheo-glossaire.html>`_
+Le langage utilise également le :ref:`glossaire` destiné à expliciter les termes du champ de la formation. Ce glossaire est également disponible sous la forme d'une page unique au format HTML: `lheo-glossaire.html <lheo-glossaire.html>`_
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :includehidden:
    :caption: Sommaire:
 
