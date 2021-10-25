@@ -82,3 +82,9 @@ Changements dans cette version
 - `PEL-8: Valorisation d’une formation <https://gitlab.com/lheo/lheo-schema/-/issues/11>`_
 
   - Ajout d'une URL sur la session: :ref:`url-session` dans :ref:`session`
+
+- `PEL-42: Nouvelles entrées du glossaire sur l'apprentissage et l'alternance <https://gitlab.com/lheo/lheo-schema/-/issues/39>`_
+
+  - Nouvelle entrée de glossaire :ref:`alternant-terme`
+  - Nouvelle entrée de glossaire :ref:`apprenti-terme`
+  - Nouvelle entrée de glossaire :ref:`contrat-apprentissage-terme`
