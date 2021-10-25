@@ -1466,7 +1466,7 @@
         <element name="hebergement" min="0" max="1"/>
         <element name="transport" min="0" max="1"/>
         <element name="acces-handicapes" min="0" max="1"/>
-        <element name="langue-formation" min="0" max="1"/>
+        <element name="langue-formation" min="0" max="5"/>
 
         <element name="modalites-recrutement" min="0" max="1"/>
         <element name="modalites-pedagogiques" min="0" max="1"/>
