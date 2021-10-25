@@ -9752,11 +9752,23 @@
     </entry>
     <entry>
       <key val="16"/>
-      <value xml:lang="fr" val="OPCA" />
+      <value xml:lang="fr" val="OPCO" />
     </entry>
     <entry>
       <key val="17"/>
-      <value xml:lang="fr" val="OPACIF" />
+      <value xml:lang="fr" val="Transition Pro" />
+    </entry>
+    <entry>
+      <key val="18"/>
+      <value xml:lang="fr" val="LADOM" />
+    </entry>
+    <entry>
+      <key val="19"/>
+      <value xml:lang="fr" val="État - Ministère de l’intérieur" />
+    </entry>
+    <entry>
+      <key val="20"/>
+      <value xml:lang="fr" val="OFII - Office français de l’immigration et de l'intégration" />
     </entry>
     <entry>
       <key val="1"/>
