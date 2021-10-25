@@ -65,3 +65,5 @@ Changements dans cette version
 
   - Changement de cardinalité de :ref:`organisme-formateur` dans :ref:`action`: de 0,1 à 0,n
   - Changement de cardinalité de :ref:`lieu-de-formation` dans :ref:`action`: de 1,1 à 0,n
+
+- `PEL-37: Nouvelle table des niveaux <https://gitlab.com/lheo/lheo-schema/-/issues/37>`_
