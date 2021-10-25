@@ -2767,6 +2767,7 @@
         <element name="modalites-inscription" min="0" max="1"/>
         <element name="periode-inscription" min="0" max="1"/>
         <element name="etat-recrutement" min="0" max="1"/>
+        <element name="url-session" min="0" max="1"/>
         <element name="contact-session" min="0" max="0"/>
         <element name="extras" min="0" max="0"/>
       </sequence>
@@ -3126,6 +3127,77 @@
     </attribute>
     <attribute name="horodatage-export" type="optional">
     	<doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="lheo:cercle" value="2"/>
+  </definition>
+
+  <!--
+
+      url-session
+
+  -->
+
+  <definition name="url-session">
+    <fullname xml:lang="fr">URL de la session</fullname>
+    <doc xml:lang="fr">Cet élément contient une adresse de site web de la session de formation.</doc>
+    <element_type>
+      <sequence>
+        <element name="urlweb" min="1" max="3"/>
+        <element name="extras" min="0" max="0"/>
+      </sequence>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
       <attribute_type>
         <attribute_datetime/>
       </attribute_type>

@@ -19,6 +19,7 @@
    lheo/adresse-information
    lheo/date-information
    lheo/url-action
+   lheo/url-session
    lheo/SIRET-lieu-formation
    lheo/contact-formateur
    lheo/renseignements-specifiques

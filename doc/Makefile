@@ -56,6 +56,7 @@ LHEOFILES = source/lheo/domaine-formation.rst \
  source/lheo/adresse-information.rst \
  source/lheo/date-information.rst \
  source/lheo/url-action.rst \
+ source/lheo/url-session.rst \
  source/lheo/numero-activite.rst \
  source/lheo/SIRET-organisme-formation.rst \
  source/lheo/SIRET-lieu-formation.rst \
@@ -250,6 +251,8 @@ source/lheo/date-information.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page date-information $(GML2SPHINX) $(LHEOGML)
 source/lheo/url-action.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page url-action $(GML2SPHINX) $(LHEOGML)
+source/lheo/url-session.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
+	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page url-session $(GML2SPHINX) $(LHEOGML)
 source/lheo/numero-activite.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page numero-activite $(GML2SPHINX) $(LHEOGML)
 source/lheo/SIRET-organisme-formation.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
