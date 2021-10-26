@@ -50,6 +50,10 @@ LHEOFILES = source/lheo/domaine-formation.rst \
  source/lheo/frais-restants.rst \
  source/lheo/langue-formation.rst \
  source/lheo/lieu-de-formation.rst \
+ source/lheo/nb-places.rst \
+ source/lheo/recrutement.rst \
+ source/lheo/a-distance.rst \
+ source/lheo/modalite-recrutement.rst \
  source/lheo/modalites-entrees-sorties.rst \
  source/lheo/session.rst \
  source/lheo/adresse-inscription.rst \
@@ -127,6 +131,7 @@ LHEOFILES = source/lheo/domaine-formation.rst \
  source/lheo/courriel.rst \
  source/lheo/web.rst \
  source/lheo/urlweb.rst \
+ source/lheo/commentaire.rst \
  source/lheo/telfixe.rst \
  source/lheo/portable.rst \
  source/lheo/fax.rst \
@@ -136,6 +141,8 @@ LHEOFILES = source/lheo/domaine-formation.rst \
  source/lheo/periode-inscription.rst \
  source/lheo/debut.rst \
  source/lheo/fin.rst \
+ source/lheo/heure-debut.rst \
+ source/lheo/heure-fin.rst \
  source/lheo/date.rst \
  source/lheo/extras.rst \
  source/lheo/extra.rst \
@@ -150,6 +157,7 @@ LHEOFILES = source/lheo/domaine-formation.rst \
  source/lheo/dict-modalites-enseignement.rst \
  source/lheo/dict-modalites-es.rst \
  source/lheo/dict-etat-recrutement.rst \
+ source/lheo/dict-modalite-recrutement.rst \
  source/lheo/dict-AIS.rst \
  source/lheo/dict-perimetre-recrutement.rst \
  source/lheo/dict-financeurs.rst \
@@ -239,6 +247,14 @@ source/lheo/langue-formation.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page langue-formation $(GML2SPHINX) $(LHEOGML)
 source/lheo/lieu-de-formation.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page lieu-de-formation $(GML2SPHINX) $(LHEOGML)
+source/lheo/nb-places.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
+	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page nb-places $(GML2SPHINX) $(LHEOGML)
+source/lheo/recrutement.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
+	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page recrutement $(GML2SPHINX) $(LHEOGML)
+source/lheo/a-distance.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
+	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page a-distance $(GML2SPHINX) $(LHEOGML)
+source/lheo/modalite-recrutement.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
+	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page modalite-recrutement $(GML2SPHINX) $(LHEOGML)
 source/lheo/modalites-entrees-sorties.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page modalites-entrees-sorties $(GML2SPHINX) $(LHEOGML)
 source/lheo/session.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
@@ -383,6 +399,8 @@ source/lheo/web.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page web $(GML2SPHINX) $(LHEOGML)
 source/lheo/urlweb.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page urlweb $(GML2SPHINX) $(LHEOGML)
+source/lheo/commentaire.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
+	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page commentaire $(GML2SPHINX) $(LHEOGML)
 source/lheo/telfixe.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page telfixe $(GML2SPHINX) $(LHEOGML)
 source/lheo/portable.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
@@ -401,6 +419,10 @@ source/lheo/debut.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page debut $(GML2SPHINX) $(LHEOGML)
 source/lheo/fin.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page fin $(GML2SPHINX) $(LHEOGML)
+source/lheo/heure-debut.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
+	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page heure-debut $(GML2SPHINX) $(LHEOGML)
+source/lheo/heure-fin.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
+	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page heure-fin $(GML2SPHINX) $(LHEOGML)
 source/lheo/date.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam page date $(GML2SPHINX) $(LHEOGML)
 source/lheo/extras.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)
@@ -457,6 +479,8 @@ source/lheo/dict-niveaux.rst: $(GML2SPHINX) $(LHEOGML)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam action table --stringparam page dict-niveaux $(GML2SPHINX) $(LHEOGML)
 source/lheo/dict-type-contact.rst: $(GML2SPHINX) $(LHEOGML)
 	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam action table --stringparam page dict-type-contact $(GML2SPHINX) $(LHEOGML)
+source/lheo/dict-modalite-recrutement.rst: $(GML2SPHINX) $(LHEOGML)
+	xsltproc  -o $@ --stringparam glossaire $(LHEOGLO) --stringparam action table --stringparam page dict-modalite-recrutement $(GML2SPHINX) $(LHEOGML)
 
 # Generated
 source/glossaire.rst: $(GML2SPHINX) $(LHEOGML) $(LHEOGLO)

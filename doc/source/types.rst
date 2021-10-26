@@ -6,6 +6,9 @@ Types de base
    :hidden:
    :caption: Sommaire
 
+   lheo/nb-places
+   lheo/a-distance
+   lheo/modalite-recrutement
    lheo/type-contact
    lheo/code-financeur
    lheo/reference-module
@@ -36,8 +39,11 @@ Types de base
    lheo/longitude
    lheo/courriel
    lheo/urlweb
+   lheo/commentaire
    lheo/numtel
    lheo/debut
    lheo/fin
+   lheo/heure-debut
+   lheo/heure-fin
    lheo/date
 

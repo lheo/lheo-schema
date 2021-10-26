@@ -2680,6 +2680,296 @@
 
   <!--
 
+      nb-places
+
+  -->
+
+  <definition name="nb-places">
+    <fullname xml:lang="fr">Nombre de places</fullname>
+    <element_type>
+      <basic_int vmin="0" vmax="99999"/>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="12"/>
+  </definition>
+
+  <!--
+
+    recrutement
+
+  -->
+
+  <definition name="recrutement">
+    <fullname xml:lang="fr">Recrutement</fullname>
+    <doc xml:lang="fr">
+      Informations sur le recrutement. Les documents requis pour constituer un dossier, comme un CV ou une lettre de motivation, doivent être précisés en commentaire.
+    </doc>
+    <element_type>
+      <sequence>
+        <element name="modalite-recrutement" min="1" max="1"/>
+        <element name="code-perimetre-recrutement" min="0" max="1"/>
+        <element name="infos-perimetre-recrutement" min="0" max="1"/>
+        <element name="a-distance" min="0" max="1"/>
+        <element name="adresse" min="0" max="1"/>
+        <element name="urlweb" min="0" max="1"/>
+        <element name="nb-places" min="0" max="1"/>
+        <element name="periode" min="0" max="1"/>
+        <element name="heure-debut" min="0" max="1"/>
+        <element name="heure-fin" min="0" max="1"/>
+        <element name="extras" min="0" max="0"/>
+      </sequence>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="lheo:cercle" value="2"/>
+  </definition>
+
+  <!--
+
+    a-distance
+
+  -->
+
+  <definition name="a-distance">
+    <fullname xml:lang="fr">À distance</fullname>
+    <doc xml:lang="fr">
+      Cet élément indique si un évènement à lieu à distance ou non.
+    </doc>
+    <element_type>
+      <basic_key ref="dict-boolean"/>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="0"/>
+  </definition>
+
+  <!--
+
+    modalite-recrutement
+
+  -->
+
+  <definition name="modalite-recrutement">
+    <fullname xml:lang="fr">Modalité de recrutement</fullname>
+    <doc xml:lang="fr">
+      Cet élément indique le procédé mis en œuvre pour recruter.
+    </doc>
+    <element_type>
+      <basic_key ref="dict-modalite-recrutement"/>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="1"/>
+    <property name="lheo:glossaire" value="modalites-recrutement"/>
+  </definition>
+
+  <!--
+
        modalites-entrees-sorties
 
   -->
@@ -2769,6 +3059,7 @@
         <element name="modalites-inscription" min="0" max="1"/>
         <element name="periode-inscription" min="0" max="1"/>
         <element name="etat-recrutement" min="0" max="1"/>
+        <element name="recrutement" min="0" max="0"/>
         <element name="url-session" min="0" max="1"/>
         <element name="contact-session" min="0" max="0"/>
         <element name="extras" min="0" max="0"/>
@@ -8182,6 +8473,74 @@
 
   <!--
 
+      commentaire
+
+  -->
+
+  <definition name="commentaire">
+    <fullname xml:lang="fr">Commentaire</fullname>
+    <doc xml:lang="fr">Cet élément contient un commentaire permettant de préciser certaines informations concernant l'élément englobant.</doc>
+    <element_type>
+      <basic_text lgmin="1" lgmax="500"/>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="Ceci est un commentaire." />
+  </definition>
+
+  <!--
+
      telfixe
 
   -->
@@ -8819,6 +9178,146 @@
       </attribute_type>
     </attribute>
     <property name="glb:example" value="20060630" />
+  </definition>
+
+  <!--
+
+      heure-debut
+
+  -->
+
+  <definition name="heure-debut">
+    <fullname xml:lang="fr">Heure de début</fullname>
+    <doc xml:lang="fr">
+      Cet élément indique une heure au format HHhMM (14h15, 13h06), Hh (9h), HHh (12h).
+    </doc>
+    <element_type>
+      <basic_text lgmin="2" lgmax="5" />
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="14h15" />
+  </definition>
+
+  <!--
+
+      heure-fin
+
+  -->
+
+  <definition name="heure-fin">
+    <fullname xml:lang="fr">Heure de fin</fullname>
+    <doc xml:lang="fr">
+      Cet élément indique une heure au format HHhMM (14h15, 13h06), Hh (9h), HHh (12h).
+    </doc>
+    <element_type>
+      <basic_text lgmin="2" lgmax="5" />
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="14h15" />
   </definition>
 
   <!--
@@ -10101,6 +10600,56 @@
     </entry>
   </dict>
 
+  <!--
+
+      dict-modalite-recrutement
+
+  -->
+
+  <dict name="dict-modalite-recrutement">
+    <fullname xml:lang="fr">Modalité de recrutement</fullname>
+    <entry>
+      <key val="0"/>
+      <value xml:lang="fr" val="information inconnue"/>
+    </entry>
+    <entry>
+      <key val="1"/>
+      <value xml:lang="fr" val="méthode de recrutement par simulation"/>
+    </entry>
+    <entry>
+      <key val="2"/>
+      <value xml:lang="fr" val="concours"/>
+    </entry>
+    <entry>
+      <key val="3"/>
+      <value xml:lang="fr" val="dossier"/>
+    </entry>
+    <entry>
+      <key val="4"/>
+      <value xml:lang="fr" val="tests pratiques"/>
+    </entry>
+    <entry>
+      <key val="5"/>
+      <value xml:lang="fr" val="épreuves écrites"/>
+    </entry>
+    <entry>
+      <key val="6"/>
+      <value xml:lang="fr" val="épreuves orales"/>
+    </entry>
+    <entry>
+      <key val="7"/>
+      <value xml:lang="fr" val="inscription sur candidature"/>
+    </entry>
+    <entry>
+      <key val="8"/>
+      <value xml:lang="fr" val="entretien ou RDV individuel"/>
+    </entry>
+    <entry>
+      <key val="9"/>
+      <value xml:lang="fr" val="information collective"/>
+    </entry>
+
+  </dict>
 
   <!--
 

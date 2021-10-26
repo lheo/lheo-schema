@@ -94,3 +94,14 @@ Changements dans cette version
   - Modification de la documentation de :ref:`session`
   - Nouvelle entrée de glossaire :ref:`es-cadencees-terme`
   - Modification de l'entrée de glossaire :ref:`dates-debut-fin-stage-terme`
+
+- `PEL-11: Recrutement <https://gitlab.com/lheo/lheo-schema/-/issues/14>`_
+
+  - Nouvel élément :ref:`commentaire`
+  - Nouvelle table :ref:`dict-modalite-recrutement`
+  - Nouvel élément :ref:`modalite-recrutement`
+  - Nouvel élément :ref:`a-distance`
+  - Nouvel élément :ref:`nb-places`
+  - Nouvel élément :ref:`heure-debut`
+  - Nouvel élément :ref:`heure-fin`
+  - Nouvel élément :ref:`recrutement` dans :ref:`session`

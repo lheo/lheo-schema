@@ -16,6 +16,7 @@
    lheo/code-modalite-pedagogique
    lheo/frais-restants
    lheo/langue-formation
+   lheo/recrutement
    lheo/adresse-information
    lheo/date-information
    lheo/url-action
