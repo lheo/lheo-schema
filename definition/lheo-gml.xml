@@ -1472,6 +1472,7 @@
         <element name="modalites-pedagogiques" min="0" max="1"/>
         <element name="code-modalite-pedagogique" min="0" max="5"/>
 
+        <element name="equipement" min="0" max="0"/>
         <element name="frais-restants" min="0" max="1" />
 
         <element name="code-perimetre-recrutement" min="0" max="1"/>
@@ -2474,7 +2475,9 @@
 
   <definition name="frais-restants">
     <fullname xml:lang="fr">Frais restants à la charge du stagiaire</fullname>
-    <!-- TODO: doc -->
+    <doc xml:lang="fr">
+      Les frais d'équipement doivent être précisés dans des éléments "Équipements à la charge de l'apprenant".
+    </doc>
     <element_type>
       <basic_text lgmin="0" lgmax="200"/>
     </element_type>
@@ -2973,6 +2976,213 @@
       </attribute_type>
     </attribute>
     <property name="lheo:cercle" value="2"/>
+  </definition>
+
+  <!--
+
+    equipement
+
+  -->
+
+  <definition name="equipement">
+    <fullname xml:lang="fr">Équipement à la charge des apprenants</fullname>
+    <element_type>
+      <sequence>
+        <element name="type-equipement" min="1" max="1"/>
+        <element name="cout-indicatif-equipement" min="0" max="1"/>
+        <element name="commentaire" min="0" max="1"/>
+        <element name="extras" min="0" max="0"/>
+      </sequence>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="lheo:cercle" value="2"/>
+    <property name="lheo:glossaire" value="equipement-charge-apprenants"/>
+  </definition>
+
+  <!--
+
+    type-equipement
+
+  -->
+
+  <definition name="type-equipement">
+    <fullname xml:lang="fr">Type d'équipement</fullname>
+    <element_type>
+      <basic_key ref="dict-type-equipement"/>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="1"/>
+  </definition>
+
+  <!--
+
+    cout-indicatif-equipement
+
+  -->
+
+  <definition name="cout-indicatif-equipement">
+    <fullname xml:lang="fr">Coût indicatif de l'équipement</fullname>
+    <element_type>
+      <basic_int vmin="0" vmax="99999"/>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="1"/>
   </definition>
 
   <!--
@@ -10976,6 +11186,64 @@
     <entry>
       <key val="10"/>
       <value xml:lang="fr" val="enseignement professionnel"/>
+    </entry>
+  </dict>
+
+  <!--
+
+      dict-type-equipement
+
+  -->
+
+  <dict name="dict-type-equipement">
+    <fullname xml:lang="fr">Type d'équipement</fullname>
+    <entry>
+      <key val="0"/>
+      <value xml:lang="fr" val="Autre"/>
+    </entry>
+    <entry>
+      <key val="1"/>
+      <value xml:lang="fr" val="Protection de la tête"/>
+    </entry>
+    <entry>
+      <key val="2"/>
+      <value xml:lang="fr" val="Protection des yeux"/>
+    </entry>
+    <entry>
+      <key val="3"/>
+      <value xml:lang="fr" val="Protection des mains"/>
+    </entry>
+    <entry>
+      <key val="4"/>
+      <value xml:lang="fr" val="Protection de l'ouïe"/>
+    </entry>
+    <entry>
+      <key val="5"/>
+      <value xml:lang="fr" val="Protection du corps"/>
+    </entry>
+    <entry>
+      <key val="6"/>
+      <value xml:lang="fr" val="Protection des pieds"/>
+    </entry>
+    <entry>
+      <key val="7"/>
+      <value xml:lang="fr" val="Protection des voies respiratoires"/>
+    </entry>
+    <entry>
+      <key val="8"/>
+      <value xml:lang="fr" val="Protection chutes"/>
+    </entry>
+    <entry>
+      <key val="9"/>
+      <value xml:lang="fr" val="Outillage professionnel"/>
+    </entry>
+    <entry>
+      <key val="10"/>
+      <value xml:lang="fr" val="Tenue professionnelle"/>
+    </entry>
+    <entry>
+      <key val="11"/>
+      <value xml:lang="fr" val="Équipement numérique"/>
     </entry>
   </dict>
 

@@ -21,5 +21,6 @@ Tables
    lheo/dict-type-module
    lheo/dict-modalite-recrutement
    lheo/dict-type-enseignement
+   lheo/dict-type-equipement
    lheo/dict-niveaux
 

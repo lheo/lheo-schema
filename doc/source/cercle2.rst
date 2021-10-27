@@ -18,6 +18,7 @@
    lheo/langue-formation
    lheo/recrutement
    lheo/enseignement
+   lheo/equipement
    lheo/adresse-information
    lheo/date-information
    lheo/url-action

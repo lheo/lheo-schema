@@ -8,6 +8,8 @@ Types de base
 
    lheo/nb-places
    lheo/a-distance
+   lheo/type-equipement
+   lheo/cout-indicatif-equipement
    lheo/obligatoire
    lheo/modalite-recrutement
    lheo/libelle-enseignement

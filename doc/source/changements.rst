@@ -113,3 +113,11 @@ Changements dans cette version
   - Nouvel élément :ref:`type-enseignement`
   - Nouvel élément :ref:`libelle-enseignement`
   - Nouvel élément :ref:`enseignement` dans :ref:`action`
+
+- `PEL-9: Équipements à la charge des apprenants <https://gitlab.com/lheo/lheo-schema/-/issues/12>`_
+
+  - Nouvelle table :ref:`dict-type-equipement`
+  - Nouvel élément :ref:`type-equipement`
+  - Nouvel élément :ref:`equipement` dans :ref:`action`
+  - Nouvelle entrée de glossaire :ref:`equipement-charge-apprenants-terme`
+  - Modification de la document de :ref:`frais-restants`
