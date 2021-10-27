@@ -17,6 +17,7 @@
    lheo/frais-restants
    lheo/langue-formation
    lheo/recrutement
+   lheo/enseignement
    lheo/adresse-information
    lheo/date-information
    lheo/url-action

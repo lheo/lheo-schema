@@ -105,3 +105,11 @@ Changements dans cette version
   - Nouvel élément :ref:`heure-debut`
   - Nouvel élément :ref:`heure-fin`
   - Nouvel élément :ref:`recrutement` dans :ref:`session`
+
+- `PEL-35: Nouvel élément Enseignements <https://gitlab.com/lheo/lheo-schema/-/issues/35>`_
+
+  - Nouvel élément :ref:`obligatoire`
+  - Nouvelle table :ref:`dict-type-enseignement`
+  - Nouvel élément :ref:`type-enseignement`
+  - Nouvel élément :ref:`libelle-enseignement`
+  - Nouvel élément :ref:`enseignement` dans :ref:`action`

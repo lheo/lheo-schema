@@ -8,7 +8,10 @@ Types de base
 
    lheo/nb-places
    lheo/a-distance
+   lheo/obligatoire
    lheo/modalite-recrutement
+   lheo/libelle-enseignement
+   lheo/type-enseignement
    lheo/type-contact
    lheo/code-financeur
    lheo/reference-module

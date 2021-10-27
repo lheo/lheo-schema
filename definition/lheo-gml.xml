@@ -1489,6 +1489,8 @@
         <element name="organisme-formateur" min="0" max="0"/> <!-- forme -->
         <element name="organisme-financeur" min="0" max="8"/> <!-- finance -->
 
+        <element name="enseignement" min="0" max="0"/>
+
         <element name="extras" min="0" max="0"/>
       </sequence>
     </element_type>
@@ -2899,6 +2901,149 @@
 
   <!--
 
+    enseignement
+
+  -->
+
+  <definition name="enseignement">
+    <fullname xml:lang="fr">Enseignement</fullname>
+    <doc xml:lang="fr">
+      Matière enseignée en langue, art, sport ou enseignement dispensé au lycée (enseignement de spécialité et optionnel).
+    </doc>
+    <element_type>
+      <sequence>
+        <element name="libelle-enseignement" min="1" max="1"/>
+        <element name="type-enseignement" min="1" max="1"/>
+        <element name="obligatoire" min="1" max="1"/>
+        <element name="commentaire" min="0" max="1"/>
+        <element name="extras" min="0" max="0"/>
+      </sequence>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="lheo:cercle" value="2"/>
+  </definition>
+
+  <!--
+
+    obligatoire
+
+  -->
+
+  <definition name="obligatoire">
+    <fullname xml:lang="fr">Obligatoire</fullname>
+    <element_type>
+      <basic_key ref="dict-boolean"/>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="1"/>
+  </definition>
+
+  <!--
+
     modalite-recrutement
 
   -->
@@ -2966,6 +3111,140 @@
     </attribute>
     <property name="glb:example" value="1"/>
     <property name="lheo:glossaire" value="modalites-recrutement"/>
+  </definition>
+
+  <!--
+
+    libelle-enseignement
+
+  -->
+
+  <definition name="libelle-enseignement">
+    <fullname xml:lang="fr">Libellé de l'enseignement</fullname>
+    <element_type>
+      <basic_text lgmin="1" lgmax="255"/>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="Anglais"/>
+  </definition>
+
+  <!--
+
+    type-enseignement
+
+  -->
+
+  <definition name="type-enseignement">
+    <fullname xml:lang="fr">Type d'enseignement</fullname>
+    <element_type>
+      <basic_key ref="dict-type-enseignement"/>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="2"/>
   </definition>
 
   <!--
@@ -10648,7 +10927,56 @@
       <key val="9"/>
       <value xml:lang="fr" val="information collective"/>
     </entry>
+  </dict>
 
+  <!--
+
+      dict-type-enseignement
+
+  -->
+
+  <dict name="dict-type-enseignement">
+    <fullname xml:lang="fr">Type d'enseignement</fullname>
+    <entry>
+      <key val="1"/>
+      <value xml:lang="fr" val="art"/>
+    </entry>
+    <entry>
+      <key val="2"/>
+      <value xml:lang="fr" val="enseignement de spécialité"/>
+    </entry>
+    <entry>
+      <key val="3"/>
+      <value xml:lang="fr" val="enseignement optionnel"/>
+    </entry>
+    <entry>
+      <key val="4"/>
+      <value xml:lang="fr" val="langue"/>
+    </entry>
+    <entry>
+      <key val="5"/>
+      <value xml:lang="fr" val="langue vivante 1"/>
+    </entry>
+    <entry>
+      <key val="6"/>
+      <value xml:lang="fr" val="langue vivante 2"/>
+    </entry>
+    <entry>
+      <key val="7"/>
+      <value xml:lang="fr" val="langue vivante 3"/>
+    </entry>
+    <entry>
+      <key val="8"/>
+      <value xml:lang="fr" val="sport"/>
+    </entry>
+    <entry>
+      <key val="9"/>
+      <value xml:lang="fr" val="enseignement général"/>
+    </entry>
+    <entry>
+      <key val="10"/>
+      <value xml:lang="fr" val="enseignement professionnel"/>
+    </entry>
   </dict>
 
   <!--

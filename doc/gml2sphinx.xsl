@@ -49,19 +49,30 @@
 				<xsl:apply-templates select="//gml:dict[@name=$page]" mode="dict"/>
 			</xsl:when>
 			<xsl:when test="$action = 'list'">
+				<xsl:text># Generated: xsltproc --stringparam action list gml2sphinx.xsl ../definition/lheo-gml.xml&#10;</xsl:text>
 				<xsl:text>LHEOFILES =</xsl:text>
 				<xsl:for-each select="//gml:definition">
 					<xsl:text> source/lheo/</xsl:text>
 					<xsl:value-of select="@name"/>
-					<xsl:text>.rst \&#10;</xsl:text>
+					<xsl:text>.rst</xsl:text>
+					<xsl:if test="position() != last()">
+					<xsl:text> \</xsl:text>
+					</xsl:if>
+					<xsl:text>&#10;</xsl:text>
 				</xsl:for-each>
+				<xsl:text>LHEODICTS =</xsl:text>
 				<xsl:for-each select="//gml:dict">
 					<xsl:text> source/lheo/</xsl:text>
 					<xsl:value-of select="@name"/>
-					<xsl:text>.rst \&#10;</xsl:text>
+					<xsl:text>.rst</xsl:text>
+					<xsl:if test="position() != last()">
+					<xsl:text> \</xsl:text>
+					</xsl:if>
+					<xsl:text>&#10;</xsl:text>
 				</xsl:for-each>
 			</xsl:when>
 			<xsl:when test="$action = 'makerules'">
+				<xsl:text># Generated: xsltproc --stringparam action makerules gml2sphinx.xsl ../definition/lheo-gml.xml&#10;</xsl:text>
 				<xsl:for-each select="//gml:definition">
 					<xsl:text>source/lheo/</xsl:text>
 					<xsl:value-of select="@name"/>

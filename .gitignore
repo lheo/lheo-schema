@@ -1,5 +1,7 @@
 doc/source/lheo/
 doc/source/glossaire.rst
+doc/lheofiles.mk
+doc/lheobuild.mk
 gelaba/gml/gml-ns.dtd.generated
 gelaba/gml/gml.dictionaries
 gelaba/gml/gml.dtd.generated
