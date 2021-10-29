@@ -14,6 +14,10 @@ Types de base
    lheo/modalite-recrutement
    lheo/libelle-enseignement
    lheo/type-enseignement
+   lheo/effectif-minimal
+   lheo/capacite-simultanee
+   lheo/capacite-cumulee
+   lheo/type-alternance
    lheo/type-contact
    lheo/code-financeur
    lheo/reference-module

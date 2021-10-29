@@ -23,5 +23,6 @@ Tables
    lheo/dict-type-enseignement
    lheo/dict-type-equipement
    lheo/dict-type-validation-blocs
+   lheo/dict-type-alternance
    lheo/dict-niveaux
 

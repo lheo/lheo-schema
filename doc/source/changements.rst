@@ -143,3 +143,14 @@ Changements dans cette version
   - Nouvelle entrée de glossaire :ref:`bloc-competences-terme`
   - Nouvelle entrée de glossaire :ref:`validation-terme`
   - Modification de l'entrée de glossaire :ref:`module-formation-terme`
+
+- `PEL-2: Effectif minimal, Capacité d'accueil simultanée et Capacité d'accueil cumulée <https://gitlab.com/lheo/lheo-schema/-/issues/1>`_
+
+  - Nouvel élément :ref:`effectif-minimal`
+  - Nouvel élément :ref:`capacite-simultanee`
+  - Nouvel élément :ref:`capacite-cumulee`
+  - Nouvelle table :ref:`dict-type-alternance`
+  - Nouvel élément :ref:`type-alternance`
+  - Nouvel élément de glossaire :ref:`effectif-terme`
+  - Nouvel élément de glossaire :ref:`apprenant-terme`
+  - Nouvel élément de glossaire :ref:`stagiaire-terme`
