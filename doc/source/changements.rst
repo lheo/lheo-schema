@@ -121,3 +121,25 @@ Changements dans cette version
   - Nouvel élément :ref:`equipement` dans :ref:`action`
   - Nouvelle entrée de glossaire :ref:`equipement-charge-apprenants-terme`
   - Modification de la document de :ref:`frais-restants`
+
+- `PEL-13: Bloc de Compétences et multi-certification <https://gitlab.com/lheo/lheo-schema/-/issues/16>`_
+
+  - Nouvel élément :ref:`reference-code-FORMACODE`
+  - Nouvel élément :ref:`reference-code-CERTIFINFO`
+  - Nouvel élément :ref:`reference-code-RNCP`
+  - Nouvel élément :ref:`reference-code-RS`
+  - Nouvel élément :ref:`reference-certification` (dans :ref:`session`, :ref:`blocs-competences`, :ref:`organisme-formateur`)
+  - Nouvel élément :ref:`libelle-bloc`
+  - Nouvel élément :ref:`code-bloc`
+  - Nouvel élément :ref:`bloc-competences`
+  - Nouvelle table :ref:`dict-type-validation-blocs`
+  - Nouvel élément :ref:`validation-blocs`
+  - Nouvel élément :ref:`blocs-competences` dans :ref:`session`
+  - Modification de l'entrée de glossaire :ref:`attestation-stage-terme`
+  - Modification de l'entrée de glossaire :ref:`certification-terme`
+  - Nouvelle entrée de glossaire :ref:`certification-qualite-terme`
+  - Modification de l'entrée de glossaire :ref:`certification-acquis-terme`
+  - Modification de l'entrée de glossaire :ref:`certification-pro-terme`
+  - Nouvelle entrée de glossaire :ref:`bloc-competences-terme`
+  - Nouvelle entrée de glossaire :ref:`validation-terme`
+  - Modification de l'entrée de glossaire :ref:`module-formation-terme`

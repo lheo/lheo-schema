@@ -897,6 +897,12 @@
     	<xsl:text>* </xsl:text>
   	</xsl:template>
 
+  	<xsl:template match="html:i" mode="print">
+    	<xsl:text>*</xsl:text>
+    	<xsl:value-of select="text()" mode="print"/>
+    	<xsl:text>* </xsl:text>
+  	</xsl:template>
+
 	<xsl:template match="html:a[@href]" mode="print">
 		<xsl:choose>
 			<xsl:when test="substring(@href, 1, 1) = '#'">

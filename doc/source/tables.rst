@@ -22,5 +22,6 @@ Tables
    lheo/dict-modalite-recrutement
    lheo/dict-type-enseignement
    lheo/dict-type-equipement
+   lheo/dict-type-validation-blocs
    lheo/dict-niveaux
 

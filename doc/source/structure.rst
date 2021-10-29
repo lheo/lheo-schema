@@ -6,6 +6,7 @@ Structure générale
    :hidden:
    :caption: Sommaire
 
+   lheo/reference-certification
    lheo/lheo
    lheo/offres
    lheo/formation

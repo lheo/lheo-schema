@@ -17,6 +17,13 @@ Types de base
    lheo/type-contact
    lheo/code-financeur
    lheo/reference-module
+   lheo/reference-code-FORMACODE
+   lheo/reference-code-CERTIFINFO
+   lheo/reference-code-RNCP
+   lheo/reference-code-RS
+   lheo/libelle-bloc
+   lheo/code-bloc
+   lheo/validation-blocs
    lheo/type-module
    lheo/code-NSF
    lheo/code-FORMACODE

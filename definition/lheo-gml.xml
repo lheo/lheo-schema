@@ -1022,6 +1022,7 @@
           <element name="code-CERTIFINFO" min="0" max="1" />
           <element name="code-RS" min="0" max="1" />
           <element name="code-CPF" min="0" max="1" />
+          <element name="reference-code-FORMACODE" min="0" max="1"/>
           <element name="extras" min="0" max="0"/>
       </sequence>
     </element_type>
@@ -1079,6 +1080,80 @@
       </attribute_type>
     </attribute>
     <property name="lheo:cercle" value="2"/>
+  </definition>
+
+  <!--
+
+       certification
+
+  -->
+
+  <definition name="reference-certification">
+    <fullname xml:lang="fr">Référence à une certification</fullname>
+    <doc xml:lang="fr">
+      Cet élément permet de faire référence à une certification définie par ailleurs dans "Certification préparée".
+    </doc>
+    <element_type>
+      <sequence>
+          <element name="reference-code-RNCP" min="0" max="1" />
+          <element name="reference-code-CERTIFINFO" min="0" max="1" />
+          <element name="reference-code-RS" min="0" max="1" />
+          <element name="extras" min="0" max="0"/>
+      </sequence>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
   </definition>
 
   <!--
@@ -1741,6 +1816,7 @@
         <element name="raison-sociale-formateur"/>
         <element name="contact-formateur" min="0" max="0"/>
         <element name="potentiel" min="0" max="1"/>
+        <element name="reference-certification" min="0" max="5"/>
         <element name="extras" min="0" max="0"/>
       </sequence>
     </element_type>
@@ -3539,7 +3615,7 @@
   <definition name="session">
     <fullname xml:lang="fr">Session de formation</fullname>
     <doc xml:lang="fr">
-      Cet élément permet de préciser une session de formation. Les date de début de session (Période) est une date prévisionnelle d'entrée en session.
+      Cet élément permet de préciser une session de formation. Le  date de début de session (Période) est une date prévisionnelle d'entrée en session.
     </doc>
     <element_type>
       <sequence>
@@ -3551,6 +3627,8 @@
         <element name="recrutement" min="0" max="0"/>
         <element name="url-session" min="0" max="1"/>
         <element name="contact-session" min="0" max="0"/>
+        <element name="reference-certification" min="0" max="5"/>
+        <element name="blocs-competences" min="0" max="0"/>
         <element name="extras" min="0" max="0"/>
       </sequence>
     </element_type>
@@ -6443,6 +6521,632 @@
     </attribute>
     <!--<property name="lheo:cercle" value="2"/>-->
     <property name="glb:example" value="UV14"/>
+  </definition>
+
+  <!--
+
+      reference-code-FORMACODE
+
+  -->
+
+  <definition name="reference-code-FORMACODE">
+    <fullname xml:lang="fr">Référence d'un code FORMACODE</fullname>
+    <doc xml:lang="fr">Cet identifiant permet de référencer un code FORMACODE défini par ailleurs dans l'élément "Domaine de la formation".</doc>
+    <element_type>
+      <basic_text lgmin="5" lgmax="5"/>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="46278"/>
+  </definition>
+
+  <!--
+
+      reference-code-CERTIFINFO
+
+  -->
+
+  <definition name="reference-code-CERTIFINFO">
+    <fullname xml:lang="fr">Référence d'un code CERTIFINFO</fullname>
+    <doc xml:lang="fr">Cet identifiant permet de référencer un code CERTIFINFO défini par ailleurs dans l'élément "Certification".</doc>
+    <element_type>
+      <basic_text lgmin="1" lgmax="10"/>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="52747"/>
+  </definition>
+
+  <!--
+
+      reference-code-RNCP
+
+  -->
+
+  <definition name="reference-code-RNCP">
+    <fullname xml:lang="fr">Référence d'un code RNCP</fullname>
+    <doc xml:lang="fr">Cet identifiant permet de référencer un code RNCP défini par ailleurs dans l'élément "Certification".</doc>
+    <element_type>
+      <basic_text lgmin="1" lgmax="10"/>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="RNCP25266"/>
+  </definition>
+
+  <!--
+
+      reference-code-RS
+
+  -->
+
+  <definition name="reference-code-RS">
+    <fullname xml:lang="fr">Référence d'un code RS</fullname>
+    <doc xml:lang="fr">Cet identifiant permet de référencer un code RS défini par ailleurs dans l'élément "Certification".</doc>
+    <element_type>
+      <basic_text lgmin="1" lgmax="10"/>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="RS5080"/>
+  </definition>
+
+  <!--
+
+    libelle-bloc
+
+  -->
+
+  <definition name="libelle-bloc">
+    <fullname xml:lang="fr">Libellé du bloc de compétences</fullname>
+    <element_type>
+      <basic_text lgmin="1" lgmax="500"/>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="Usages numériques"/>
+  </definition>
+
+  <!--
+
+    code-bloc
+
+  -->
+
+  <definition name="code-bloc">
+    <fullname xml:lang="fr">Code du bloc de compétences</fullname>
+    <doc xml:lang="fr">Ce code est de la forme RNCPxBCy.</doc>
+    <element_type>
+      <basic_text lgmin="8" lgmax="40"/>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="RNCP29497BC01"/>
+  </definition>
+
+  <!--
+
+    bloc-competences
+
+  -->
+
+  <definition name="bloc-competences">
+    <fullname xml:lang="fr">Bloc de compétences</fullname>
+    <doc xml:lang="fr">
+      Ensembles homogènes et cohérents de compétences contribuant à l'exercice autonome d'une activité professionnelle et pouvant être évaluées et validées. Les données sources de cet élément peuvent être récupérées dans le RNCP maintenu par France Compétences.
+    </doc>
+    <element_type>
+      <sequence>
+        <element name="libelle-bloc" min="1" max="1"/>
+        <element name="code-bloc" min="1" max="1"/>
+        <element name="extras" min="0" max="0"/>
+      </sequence>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="lheo:cercle" value="2"/>
+    <property name="lheo:glossaire" value="bloc-competences"/>
+  </definition>
+
+  <!--
+
+    validation-blocs
+
+  -->
+
+  <definition name="validation-blocs">
+    <fullname xml:lang="fr">Type de validation des blocs de compétences</fullname>
+    <element_type>
+      <basic_key ref="dict-type-validation-blocs"/>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="1"/>
+    <property name="lheo:glossaire" value="validation"/>
+  </definition>
+
+  <!--
+
+    blocs-competences
+
+  -->
+
+  <definition name="blocs-competences">
+    <fullname xml:lang="fr">Blocs de compétences</fullname>
+    <doc xml:lang="fr">
+      Ensembles homogènes et cohérents de compétences contribuant à l'exercice autonome d'une activité professionnelle et pouvant être évaluées et validées. Les données sources de cet élément peuvent être récupérées dans le RNCP maintenu par France Compétences.
+    </doc>
+    <element_type>
+      <sequence>
+        <element name="validation-blocs" min="1" max="1"/>
+        <element name="reference-certification" min="1" max="1"/>
+        <element name="bloc-competences" min="1" max="0"/>
+        <element name="extras" min="0" max="0"/>
+      </sequence>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="lheo:cercle" value="2"/>
+    <property name="lheo:glossaire" value="bloc-competences"/>
   </definition>
 
   <!--
@@ -11249,6 +11953,29 @@
 
   <!--
 
+      dict-type-validation-blocs
+
+  -->
+
+  <dict name="dict-type-validation-blocs">
+    <fullname xml:lang="fr">Type de validation d'un bloc de compétences</fullname>
+    <entry>
+      <key val="0"/>
+      <value xml:lang="fr" val="Partielle: certains blocs mais pas la totalité de date à date"/>
+    </entry>
+    <entry>
+      <key val="1"/>
+      <value xml:lang="fr" val="Totale: tous les blocs"/>
+    </entry>
+    <entry>
+      <key val="2"/>
+      <value xml:lang="fr" val="Mixte: une validation totale mais proposée également en individualisation de parcours avec des blocs accessibles dans cette session"/>
+    </entry>
+    <property name="lheo:glossaire" value="validation"/>
+  </dict>
+
+  <!--
+
       dict-code-modalite-pedagogique
 
   -->
@@ -11343,7 +12070,6 @@
         val="Niveau 8. Capacité à identifier et résoudre des problèmes complexes et nouveaux impliquant une pluralité de domaines, en mobilisant les connaissances et les savoir-faire les plus avancés, à concevoir et piloter des projets et des processus de recherche et d'innovation. Exemple: diplôme national de doctorat" />
     </entry>
   </dict>
-
 
   <!--
 

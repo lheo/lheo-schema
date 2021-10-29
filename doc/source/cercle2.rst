@@ -49,6 +49,8 @@
    lheo/positionnement
    lheo/etat-recrutement
    lheo/identifiant-module
+   lheo/bloc-competences
+   lheo/blocs-competences
    lheo/sous-modules
    lheo/modules-prerequis
    lheo/info-public-vise
