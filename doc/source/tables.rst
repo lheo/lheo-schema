@@ -4,9 +4,7 @@ Tables
 ------
 
 .. toctree::
-   :maxdepth: 3
-   :hidden:
-   :caption: Sommaire
+   :maxdepth: 1
 
    lheo/dict-boolean
    lheo/dict-modalites-enseignement

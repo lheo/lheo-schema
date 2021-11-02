@@ -176,3 +176,8 @@ Changements dans cette version
   - Nouvel élément :ref:`annee-cycle`
   - Nouvel élément :ref:`alternance` (dans :ref:`cycle`)
   - Nouvel élément :ref:`cycle` (dans :ref:`session`)
+
+- `PEL-33: Meilleures pratiques : identifiants <https://gitlab.com/lheo/lheo-schema/-/issues/33>`_
+  
+  - Ajout d'un chapitre dans la documentation :ref:`identifiants`
+

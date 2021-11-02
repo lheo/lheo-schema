@@ -2,9 +2,7 @@ Structure générale
 ------------------
 
 .. toctree::
-   :maxdepth: 3
-   :hidden:
-   :caption: Sommaire
+   :maxdepth: 1
 
    lheo/reference-certification
    lheo/lheo

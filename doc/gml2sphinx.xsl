@@ -126,9 +126,11 @@
 		<xsl:text>------------------&#10;</xsl:text>
 		<xsl:text>&#10;</xsl:text>
 		<xsl:text>.. toctree::&#10;</xsl:text>
-		<xsl:text>   :maxdepth: 3&#10;</xsl:text>
+		<xsl:text>   :maxdepth: 1&#10;</xsl:text>
+		<!--
 		<xsl:text>   :hidden:&#10;</xsl:text>
 		<xsl:text>   :caption: Sommaire&#10;</xsl:text>		
+		-->
 		<xsl:text>&#10;</xsl:text>		
 		<xsl:for-each select="//gml:definition[not(gml:property[@name='lheo:cercle'])]">
 			<xsl:if test="gml:element_type/gml:sequence or gml:element_type/gml:choice">
@@ -145,9 +147,11 @@
 		<xsl:text>--------------------------------------&#10;</xsl:text>
 		<xsl:text>&#10;</xsl:text>
 		<xsl:text>.. toctree::&#10;</xsl:text>
-		<xsl:text>   :maxdepth: 3&#10;</xsl:text>
+		<xsl:text>   :maxdepth: 1&#10;</xsl:text>
+		<!--
 		<xsl:text>   :hidden:&#10;</xsl:text>
 		<xsl:text>   :caption: Sommaire&#10;</xsl:text>
+		-->
 		<xsl:text>&#10;</xsl:text>		
 		<xsl:for-each select="//gml:definition[gml:property[@name='lheo:cercle']/@value='1']">
 			<xsl:text>   lheo/</xsl:text>
@@ -162,9 +166,11 @@
 		<xsl:text>-------------------------------------&#10;</xsl:text>
 		<xsl:text>&#10;</xsl:text>
 		<xsl:text>.. toctree::&#10;</xsl:text>
-		<xsl:text>   :maxdepth: 3&#10;</xsl:text>
+		<xsl:text>   :maxdepth: 1&#10;</xsl:text>
+		<!--
 		<xsl:text>   :hidden:&#10;</xsl:text>
 		<xsl:text>   :caption: Sommaire&#10;</xsl:text>
+		-->
 		<xsl:text>&#10;</xsl:text>		
 		<xsl:for-each select="//gml:definition[gml:property[@name='lheo:cercle']/@value='2']">
 			<xsl:text>   lheo/</xsl:text>
@@ -179,9 +185,11 @@
 		<xsl:text>---------------------------------------&#10;</xsl:text>
 		<xsl:text>&#10;</xsl:text>
 		<xsl:text>.. toctree::&#10;</xsl:text>
-		<xsl:text>   :maxdepth: 3&#10;</xsl:text>
+		<xsl:text>   :maxdepth: 1&#10;</xsl:text>
+		<!--
 		<xsl:text>   :hidden:&#10;</xsl:text>
 		<xsl:text>   :caption: Sommaire&#10;</xsl:text>
+		-->
 		<xsl:text>&#10;</xsl:text>		
 		<xsl:for-each select="//gml:definition[gml:property[@name='lheo:cercle']/@value='3']">
 			<xsl:text>   lheo/</xsl:text>
@@ -196,9 +204,11 @@
 		<xsl:text>-------------&#10;</xsl:text>
 		<xsl:text>&#10;</xsl:text>
 		<xsl:text>.. toctree::&#10;</xsl:text>
-		<xsl:text>   :maxdepth: 3&#10;</xsl:text>
+		<xsl:text>   :maxdepth: 1&#10;</xsl:text>
+		<!--
 		<xsl:text>   :hidden:&#10;</xsl:text>
 		<xsl:text>   :caption: Sommaire&#10;</xsl:text>
+		-->
 		<xsl:text>&#10;</xsl:text>
 		<xsl:for-each select="//gml:definition[not(gml:property[@name='lheo:cercle'])]">
 			<xsl:if test="not(gml:element_type/gml:sequence or gml:element_type/gml:choice)">
@@ -218,9 +228,11 @@
 		<xsl:text>------&#10;</xsl:text>
 		<xsl:text>&#10;</xsl:text>
 		<xsl:text>.. toctree::&#10;</xsl:text>
-		<xsl:text>   :maxdepth: 3&#10;</xsl:text>
+		<xsl:text>   :maxdepth: 1&#10;</xsl:text>
+		<!--
 		<xsl:text>   :hidden:&#10;</xsl:text>
 		<xsl:text>   :caption: Sommaire&#10;</xsl:text>
+		-->
 		<xsl:text>&#10;</xsl:text>
 		<xsl:for-each select="//gml:dict">
 			<xsl:text>   lheo/</xsl:text>

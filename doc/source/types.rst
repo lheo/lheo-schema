@@ -2,9 +2,7 @@ Types de base
 -------------
 
 .. toctree::
-   :maxdepth: 3
-   :hidden:
-   :caption: Sommaire
+   :maxdepth: 1
 
    lheo/nb-places
    lheo/a-distance

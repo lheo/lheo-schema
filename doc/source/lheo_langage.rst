@@ -5,8 +5,6 @@ Le langage LHÉO
 
 .. toctree::
    :maxdepth: 1
-   :hidden:
-   :caption: Sommaire
 
    lheo_model
    structure

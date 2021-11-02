@@ -2,9 +2,7 @@
 --------------------------------------
 
 .. toctree::
-   :maxdepth: 3
-   :hidden:
-   :caption: Sommaire
+   :maxdepth: 1
 
    lheo/domaine-formation
    lheo/intitule-formation
