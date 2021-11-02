@@ -5,6 +5,8 @@ Cette documentation décrit le langage LHÉO, qui permet de décrire de manière
 
 Actuellement en version 2.3, les principaux changements de cette version sont décrits dans le chapitre :ref:`changements`.
 
+Une version `PDF <lheo.pdf>`_ de cette documentation est également disponible.
+
 Schémas XML
 -----------
 
