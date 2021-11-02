@@ -15,6 +15,8 @@ Actuellement implémenté en XML, il est matérialisé par les éléments techni
 
 Ce langage est décrit dans le chapitre :ref:`lheo-langage`. La structure générale d'un fichier XML au format LHÉO est présentée dans le fichier exemple: `lheo-exemple.xml <lheo-exemple.xml>`_
 
+.. _tables_reference_referentiels:
+
 Tables de référence et référentiels externes
 --------------------------------------------
 
@@ -30,6 +32,8 @@ Le langage utilise également plusieurs référentiels externes:
 - le `CPF <https://www.moncompteformation.gouv.fr/>`_ dans l'élément :ref:`code-CPF`
 - le code `ELU <https://www.moncompteformation.gouv.fr/>`_ dans l'élément :ref:`code-ELU`
 - la base `CertifInfo <https://www.certifinfo.org/>`_ dans l'élément :ref:`code-CERTIFINFO`
+
+Afin de garantir la qualité des adresses utilisées dans les offres de formation, l'utilisation de la `Base Adresse Nationale (BAN) <https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/>`_ est recommandée. La base `SIRENE de l'INSEE <https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/>`_ devrait également être utilisée pour les numéros SIREN/SIRET des entreprises et leurs dénominations officielles.
 
 Glossaire
 ---------
