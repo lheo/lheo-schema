@@ -20,6 +20,9 @@
    lheo/enseignement
    lheo/equipement
    lheo/rythme-alternance
+   lheo/duree-cycle
+   lheo/alternance
+   lheo/cycle
    lheo/adresse-information
    lheo/date-information
    lheo/url-action

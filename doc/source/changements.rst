@@ -166,3 +166,12 @@ Changements dans cette version
   - Nouvel élément :ref:`unites-entreprise`
   - Nouvel élément :ref:`unites-centre`
   - Nouvel élément :ref:`rythme-alternance`
+
+- `PEL-15: Multi Modalités FI/FA/CA/CP d’une session avec mixité des publics et cycles <https://gitlab.com/lheo/lheo-schema/-/issues/18>`_
+
+  - Nouvelle table :ref:`dict-type-cycle`
+  - Nouvel élément :ref:`type-cycle`
+  - Nouvel élément :ref:`duree-cycle` (dans :ref:`action`)
+  - Nouvel élément :ref:`annee-cycle`
+  - Nouvel élément :ref:`alternance` (dans :ref:`cycle`)
+  - Nouvel élément :ref:`cycle` (dans :ref:`session`)

@@ -21,6 +21,8 @@ Types de base
    lheo/unite-rythme-alternance
    lheo/unites-entreprise
    lheo/unites-centre
+   lheo/type-cycle
+   lheo/annee-cycle
    lheo/type-contact
    lheo/code-financeur
    lheo/reference-module
