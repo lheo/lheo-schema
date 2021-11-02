@@ -3878,6 +3878,285 @@
       </attribute_type>
     </attribute>
     <property name="glb:example" value="0"/>
+    <property name="lheo:glossaire" value="contrat-alternance"/>
+  </definition>
+
+  <!--
+
+    unite-rythme-alternance
+
+  -->
+
+  <definition name="unite-rythme-alternance">
+    <fullname xml:lang="fr">Unité du rythme de l'alternance</fullname>
+    <element_type>
+      <basic_key ref="dict-unite-rythme"/>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="3"/>
+    <property name="lheo:glossaire" value="alternance"/>
+  </definition>
+
+  <!--
+
+    unites-entreprise
+
+  -->
+
+  <definition name="unites-entreprise">
+    <fullname xml:lang="fr">Unités de temps en entreprise</fullname>
+    <element_type>
+      <basic_int vmin="0" vmax="99999"/>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="1"/>
+  </definition>
+
+  <!--
+
+    unites-centre
+
+  -->
+
+  <definition name="unites-centre">
+    <fullname xml:lang="fr">Unités de temps en centre</fullname>
+    <element_type>
+      <basic_int vmin="0" vmax="99999"/>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="glb:example" value="1"/>
+  </definition>
+
+  <!--
+
+    rythme-alternance
+
+  -->
+
+  <definition name="rythme-alternance">
+    <fullname xml:lang="fr">Rythme de l'alternance</fullname>
+    <doc xml:lang="fr">
+      Descriptif du rythme de l'alternance en utilisant trois informations: l'unité de temps du cycle, le temps passé en entreprise, le temps passé en centre. Par exemple: une alternance est organisée en apprentissage sur un rythme de 1 semaine en centre de formation et 2 semaines en entreprise. L'unité du rythme est donc la semaine, l'unité entreprise est 2 et l'unité centre est 1. Une alternance en contrat de professionnalisation est organisée sur un rythme à la demi journée, le matin en centre et l'après-midi en entreprise. L'unité du rythme est donc la demi-journée, l'unité entreprise est 1 et l'unité centre est 1.
+    </doc>
+    <element_type>
+      <sequence>
+        <element name="unite-rythme-alternance" min="1" max="1"/>
+        <element name="unites-entreprise" min="1" max="1"/>
+        <element name="unites-centre" min="1" max="1"/>
+        <element name="extras" min="0" max="0"/>
+      </sequence>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="lheo:cercle" value="2"/>
+    <property name="lheo:glossaire" value="alternance"/>
   </definition>
 
   <!--
@@ -12267,6 +12546,36 @@
     <entry>
       <key val="2"/>
       <value xml:lang="fr" val="Contrat de professionalisation (CP)"/>
+    </entry>
+  </dict>
+
+  <!--
+
+      dict-unite-rythme
+
+  -->
+
+  <dict name="dict-unite-rythme">
+    <fullname xml:lang="fr">Unité de rythme</fullname>
+    <entry>
+      <key val="0"/>
+      <value xml:lang="fr" val="Heure"/>
+    </entry>
+    <entry>
+      <key val="1"/>
+      <value xml:lang="fr" val="Demi-journée"/>
+    </entry>
+    <entry>
+      <key val="2"/>
+      <value xml:lang="fr" val="Journée"/>
+    </entry>
+    <entry>
+      <key val="3"/>
+      <value xml:lang="fr" val="Semaine"/>
+    </entry>
+    <entry>
+      <key val="4"/>
+      <value xml:lang="fr" val="Mois"/>
     </entry>
   </dict>
 

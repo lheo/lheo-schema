@@ -24,5 +24,6 @@ Tables
    lheo/dict-type-equipement
    lheo/dict-type-validation-blocs
    lheo/dict-type-alternance
+   lheo/dict-unite-rythme
    lheo/dict-niveaux
 

@@ -19,6 +19,7 @@
    lheo/recrutement
    lheo/enseignement
    lheo/equipement
+   lheo/rythme-alternance
    lheo/adresse-information
    lheo/date-information
    lheo/url-action

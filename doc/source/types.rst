@@ -18,6 +18,9 @@ Types de base
    lheo/capacite-simultanee
    lheo/capacite-cumulee
    lheo/type-alternance
+   lheo/unite-rythme-alternance
+   lheo/unites-entreprise
+   lheo/unites-centre
    lheo/type-contact
    lheo/code-financeur
    lheo/reference-module

@@ -154,3 +154,15 @@ Changements dans cette version
   - Nouvel élément de glossaire :ref:`effectif-terme`
   - Nouvel élément de glossaire :ref:`apprenant-terme`
   - Nouvel élément de glossaire :ref:`stagiaire-terme`
+
+- `PEL-5: Cycle de l'alternance <https://gitlab.com/lheo/lheo-schema/-/issues/8>`_
+
+  - Nouvel élément de glossaire :ref:`alternance-terme`
+  - Nouvel élément de glossaire :ref:`modalites-alternance-terme`
+  - Nouvel élément de glossaire :ref:`contrat-alternance-terme`
+  - Nouvel élément de glossaire :ref:`contrat-professionnalisation-terme`
+  - Nouvelle table :ref:`dict-unite-rythme`
+  - Nouvel élément :ref:`unite-rythme-alternance`
+  - Nouvel élément :ref:`unites-entreprise`
+  - Nouvel élément :ref:`unites-centre`
+  - Nouvel élément :ref:`rythme-alternance`
