@@ -21,7 +21,6 @@
    lheo/modalites-enseignement
    lheo/conditions-specifiques
    lheo/prise-en-charge-frais-possible
-   lheo/lieu-de-formation
    lheo/modalites-entrees-sorties
    lheo/session
    lheo/adresse-inscription

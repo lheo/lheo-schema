@@ -14,6 +14,7 @@
    lheo/code-modalite-pedagogique
    lheo/frais-restants
    lheo/langue-formation
+   lheo/lieu-de-formation
    lheo/recrutement
    lheo/enseignement
    lheo/equipement
@@ -25,7 +26,9 @@
    lheo/date-information
    lheo/url-action
    lheo/url-session
+   lheo/code-UAI-organisme-formation
    lheo/SIRET-lieu-formation
+   lheo/code-UAI-lieu-formation
    lheo/contact-formateur
    lheo/renseignements-specifiques
    lheo/organisme-financeur
@@ -33,6 +36,7 @@
    lheo/modalites-recrutement
    lheo/modalites-pedagogiques
    lheo/SIRET-formateur
+   lheo/code-UAI-formateur
    lheo/raison-sociale-formateur
    lheo/code-perimetre-recrutement
    lheo/infos-perimetre-recrutement

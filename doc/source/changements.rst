@@ -32,13 +32,15 @@ Changements dans cette version
 
 - `PEL-34: Nouvel élément SIRET <https://gitlab.com/lheo/lheo-schema/-/issues/34>`_
 
-  - Nouvel élément :ref:`SIRET-lieu-formation`
+  - Nouvel élément :ref:`SIRET-lieu-formation` en cercle 2
 
 - `PEL-38: Nouvel élément UAI <https://gitlab.com/lheo/lheo-schema/-/issues/38>`_
 
   - Nouvelle entrée de glossaire :ref:`uai-terme`
   - Nouveau type de base :ref:`code-UAI`
-  - Élément :ref:`code-UAI` optionnel dans :ref:`SIRET-formateur`, :ref:`SIRET-lieu-formation`, :ref:`SIRET-organisme-formation`
+  - Nouvel élément :ref:`code-UAI-organisme-formation` optionnel dans :ref:`organisme-formation-responsable`
+  - Nouvel élément :ref:`code-UAI-lieu-formation` optionnel dans :ref:`lieu-de-formation`
+  - Nouvel élément :ref:`code-UAI-formateur` optionnel dans :ref:`organisme-formateur`
 
 - `PEL-39: Nouveaux codes pour les types de référentiels utilisés par la Caisse des dépôts <https://gitlab.com/lheo/lheo-schema/-/issues/40>`_
 
@@ -65,7 +67,9 @@ Changements dans cette version
 
   - Changement de cardinalité de :ref:`organisme-formateur` dans :ref:`action`: de 0,1 à 0,n
   - Changement de cardinalité de :ref:`lieu-de-formation` dans :ref:`action`: de 1,1 à 0,n
-
+  - Changement dans les titres et documentations pour refléter la multiplicité
+  - :ref:`lieu-de-formation` devenant optionnel, il passe en cercle 2
+  
 - `PEL-37: Nouvelle table des niveaux <https://gitlab.com/lheo/lheo-schema/-/issues/37>`_
 
   - Ajout des niveaux de la nouvelle nomenclature dans :ref:`dict-niveaux`

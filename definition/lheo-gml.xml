@@ -1563,8 +1563,8 @@
         <element name="conventionnement" min="0" max="1"/>
         <element name="duree-conventionnee" min="0" max="1"/>
 
-        <element name="organisme-formateur" min="0" max="0"/> <!-- forme -->
-        <element name="organisme-financeur" min="0" max="8"/> <!-- finance -->
+        <element name="organisme-formateur" min="0" max="0"/>
+        <element name="organisme-financeur" min="0" max="8"/>
 
         <element name="enseignement" min="0" max="0"/>
 
@@ -1658,6 +1658,7 @@
         <element name="contact-organisme" min="1" max="0"/>
         <element name="renseignements-specifiques" min="0" max="1"/>
         <element name="potentiel" min="0" max="1"/>
+        <element name="code-UAI-organisme-formation" min="0" max="1"/>
         <element name="extras" min="0" max="0"/>
       </sequence>
     </element_type>
@@ -1810,13 +1811,14 @@
 
   <definition name="organisme-formateur">
     <fullname xml:lang="fr">Organisme formateur</fullname>
-    <doc xml:lang="fr">Cet élément décrit l'organisme formateur.</doc>
+    <doc xml:lang="fr">Cet élément décrit un organisme qui effectue tout ou partie de la formation.</doc>
     <element_type>
       <sequence>
         <element name="SIRET-formateur"/>
         <element name="raison-sociale-formateur"/>
         <element name="contact-formateur" min="0" max="0"/>
         <element name="potentiel" min="0" max="1"/>
+        <element name="code-UAI-formateur" min="0" max="1"/>
         <element name="reference-certification" min="0" max="5"/>
         <element name="extras" min="0" max="0"/>
       </sequence>
@@ -2624,7 +2626,7 @@
 
   <definition name="langue-formation">
     <fullname xml:lang="fr">Langue utilisée lors de la formation</fullname>
-    <doc xml:lang="fr">Code ISO 639-1</doc>
+    <doc xml:lang="fr">Code langue au format ISO 639-1</doc>
     <element_type>
       <basic_text lgmin="2" lgmax="2"/>
     </element_type>
@@ -2694,11 +2696,11 @@
   -->
 
   <definition name="lieu-de-formation">
-    <fullname xml:lang="fr">Lieu de la formation</fullname>
-    <doc xml:lang="fr">Cet élément permet de donner le lieu où se déroule la formation.</doc>
+    <fullname xml:lang="fr">Lieu de formation</fullname>
     <element_type>
       <sequence>
         <element name="SIRET-lieu-formation" min="0" max="1"/>
+        <element name="code-UAI-lieu-formation" min="0" max="1"/>
         <element name="coordonnees" min="1" max="1"/>
         <element name="extras" min="0" max="0"/>
       </sequence>
@@ -2756,7 +2758,7 @@
         <attribute_uri/>
       </attribute_type>
     </attribute>
-    <property name="lheo:cercle" value="1"/>
+    <property name="lheo:cercle" value="2"/>
     <property name="lheo:glossaire" value="lieu-formation"/>
   </definition>
 
@@ -2836,7 +2838,8 @@
   <definition name="recrutement">
     <fullname xml:lang="fr">Recrutement</fullname>
     <doc xml:lang="fr">
-      Informations sur le recrutement. Les documents requis pour constituer un dossier, comme un CV ou une lettre de motivation, doivent être précisés en commentaire.
+      Informations sur le recrutement. Les documents requis pour constituer un dossier, 
+      comme un CV ou une lettre de motivation, doivent être précisés en commentaire.
     </doc>
     <element_type>
       <sequence>
@@ -2850,6 +2853,7 @@
         <element name="periode" min="0" max="1"/>
         <element name="heure-debut" min="0" max="1"/>
         <element name="heure-fin" min="0" max="1"/>
+        <element name="commentaire" min="0" max="1"/>
         <element name="extras" min="0" max="0"/>
       </sequence>
     </element_type>
@@ -2988,7 +2992,8 @@
   <definition name="enseignement">
     <fullname xml:lang="fr">Enseignement</fullname>
     <doc xml:lang="fr">
-      Matière enseignée en langue, art, sport ou enseignement dispensé au lycée (enseignement de spécialité et optionnel).
+      Matière enseignée en langue, art, sport ou enseignement dispensé au lycée
+      ou au collège (enseignement de spécialité et optionnel).
     </doc>
     <element_type>
       <sequence>
@@ -5051,14 +5056,9 @@
 
   <definition name="SIRET-organisme-formation">
     <fullname xml:lang="fr">Numéro SIRET de l'organisme de formation</fullname>
-    <doc xml:lang="fr">
-      Cet élément permet de préciser le numéro SIRET de l'organisme
-      responsable de l'offre et éventuellement son code UAI.
-    </doc>
     <element_type>
       <sequence>
         <element name="SIRET" min="1" max="1"/>
-        <element name="code-UAI" min="0" max="1"/>
         <element name="extras" min="0" max="0"/>
       </sequence>
     </element_type>
@@ -5121,19 +5121,86 @@
 
   <!--
 
-     SIRET-organisme-formation
+     code-UAI-organisme-formation
+
+  -->
+
+  <definition name="code-UAI-organisme-formation">
+    <fullname xml:lang="fr">Code UAI de l'organisme de formation</fullname>
+    <element_type>
+      <sequence>
+        <element name="code-UAI" min="1" max="1"/>
+        <element name="extras" min="0" max="0"/>
+      </sequence>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+    	<doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+    	<doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+    	<doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="lheo:cercle" value="2"/>
+    <property name="lheo:glossaire" value="uai"/>
+  </definition>
+
+  <!--
+
+     SIRET-lieu-formation
 
   -->
 
   <definition name="SIRET-lieu-formation">
-    <fullname xml:lang="fr">Numéro SIRET du lieu de formation</fullname>
-    <doc xml:lang="fr">
-      Cet élément permet de préciser le numéro SIRET du lieu où se déroule la formation et éventuellement son code UAI.
-    </doc>
+    <fullname xml:lang="fr">Numéro SIRET d'un lieu de formation</fullname>
     <element_type>
       <sequence>
         <element name="SIRET" min="1" max="1"/>
-        <element name="code-UAI" min="0" max="1"/>
         <element name="extras" min="0" max="0"/>
       </sequence>
     </element_type>
@@ -5192,6 +5259,77 @@
     </attribute>
     <property name="lheo:cercle" value="2"/>
     <property name="lheo:glossaire" value="siren"/>
+  </definition>
+
+  <!--
+
+     code-UAI-lieu-formation
+
+  -->
+
+  <definition name="code-UAI-lieu-formation">
+    <fullname xml:lang="fr">Code UAI d'un lieu de formation</fullname>
+    <element_type>
+      <sequence>
+        <element name="code-UAI" min="1" max="1"/>
+        <element name="extras" min="0" max="0"/>
+      </sequence>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+      <doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+      <doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+      <doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="lheo:cercle" value="2"/>
+    <property name="lheo:glossaire" value="uai"/>
   </definition>
 
   <!--
@@ -5919,15 +6057,10 @@
   -->
 
   <definition name="SIRET-formateur">
-    <fullname xml:lang="fr">SIRET de l'organisme formateur</fullname>
-    <doc xml:lang="fr">
-      Cet élément permet de préciser le numéro SIRET de l'organisme
-      formateur, c'est-à-dire de l'organisme qui assure la formation, et éventuellement son code UAI.
-    </doc>
+    <fullname xml:lang="fr">SIRET d'un organisme formateur</fullname>
     <element_type>
       <sequence>
         <element name="SIRET" min="1" max="1"/>
-        <element name="code-UAI" min="0" max="1"/>
         <element name="extras" min="0" max="0"/>
       </sequence>
     </element_type>
@@ -5986,6 +6119,77 @@
     </attribute>
     <property name="lheo:cercle" value="2"/>
     <property name="lheo:glossaire" value="siren"/>
+  </definition>
+
+  <!--
+
+      code-UAI-formateur
+
+  -->
+
+  <definition name="code-UAI-formateur">
+    <fullname xml:lang="fr">Code UAI d'un organisme formateur</fullname>
+    <element_type>
+      <sequence>
+        <element name="code-UAI" min="1" max="1"/>
+        <element name="extras" min="0" max="0"/>
+      </sequence>
+    </element_type>
+    <attribute name="numero" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="info" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="ref" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="id" type="optional">
+      <attribute_type>
+        <attribute_id/>
+      </attribute_type>
+    </attribute>
+    <attribute name="idref" type="optional">
+      <attribute_type>
+        <attribute_idref/>
+      </attribute_type>
+    </attribute>
+    <attribute name="tag" type="optional">
+      <attribute_type>
+        <attribute_text/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-creation" type="optional">
+    	<doc xml:lang="fr">Horodatage de création des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-modification" type="optional">
+    	<doc xml:lang="fr">Horodatage de modification des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="horodatage-export" type="optional">
+    	<doc xml:lang="fr">Horodatage d'export des données au format ISO 8601.</doc>
+      <attribute_type>
+        <attribute_datetime/>
+      </attribute_type>
+    </attribute>
+    <attribute name="uri" type="optional">
+      <attribute_type>
+        <attribute_uri/>
+      </attribute_type>
+    </attribute>
+    <property name="lheo:cercle" value="2"/>
+    <property name="lheo:glossaire" value="uai"/>
   </definition>
 
   <!--
@@ -10575,7 +10779,7 @@
 
   <definition name="commentaire">
     <fullname xml:lang="fr">Commentaire</fullname>
-    <doc xml:lang="fr">Cet élément contient un commentaire permettant de préciser certaines informations concernant l'élément englobant.</doc>
+    <doc xml:lang="fr">Cet élément permet de préciser certaines informations concernant l'élément englobant.</doc>
     <element_type>
       <basic_text lgmin="1" lgmax="500"/>
     </element_type>

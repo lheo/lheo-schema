@@ -26,6 +26,7 @@ Le langage utilise une série de tables de référence (:ref:`tables`), fourniss
 
 Le langage utilise également plusieurs référentiels externes:
 
+- le `Code Officiel Géographique (COG) <https://www.insee.fr/fr/information/2560452>`_ de l'INSEE contenant la liste des communes (:ref:`code-INSEE-commune`, :ref:`ville`), cantons (:ref:`code-INSEE-canton`), départements (:ref:`departement`),  régions (:ref:`region`) et pays (:ref:`pays`, :ref:`langue-formation`),
 - le `Formacode <https://formacode.centre-inffo.fr>`_ dans l'élément :ref:`code-FORMACODE`
 - la `Nomenclature des spécialités de formation (NSF) <https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006526701>`_ dans l'élément :ref:`code-NSF`
 - le `Répertoire Opérationnel des Métiers et des Emplois (ROME) <https://www.pole-emploi.fr/employeur/vos-recrutements/le-rome-et-les-fiches-metiers.html>`_ dans l'élément :ref:`code-ROME`
