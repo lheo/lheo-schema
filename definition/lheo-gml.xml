@@ -7,7 +7,7 @@
 	     xml:lang="fr"
 	     default_root="lheo">
 
-  <namespace ns_prefix="lheo" href="http:/lheo.gouv.fr/2.3" />
+  <namespace ns_prefix="lheo" href="http://lheo.gouv.fr/2.3" />
 
   <!--
 

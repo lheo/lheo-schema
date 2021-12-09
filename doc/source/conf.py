@@ -22,8 +22,8 @@ copyright = '2021, COPIL LHÉO'
 author = 'Comité de pilotage LHÉO'
 
 # The full version, including alpha/beta/rc tags
-version = '2.3'
-release = '2.3b1'
+version = '2.3b2'
+release = '2.3'
 
 
 # -- General configuration ---------------------------------------------------
